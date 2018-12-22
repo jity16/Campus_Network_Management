@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<form action = "{% url 's1' %}", method = "post">
+    {% csrf_token %}
+    <input type = "submit" value = "IP搜索">
+</form>
+<form action = "{% url 's2' %}", method = "post">
+    {% csrf_token %}
+    <input type = "submit" value = "资源搜索">
+</form>
+</body>
+</html>

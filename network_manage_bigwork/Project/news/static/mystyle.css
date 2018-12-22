@@ -1,0 +1,95 @@
+body {
+  background-color: #e1ffff;
+  font-family: "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul em {
+  font-style:normal;
+  color:#ff0000;
+}
+
+/*
+ul, li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  width: 50%
+ 
+}
+*/
+
+
+
+/*
+li:hover a {
+  color: #fdfdfd;
+  background-color: #1d1f20;
+  border: solid 1px #1d1f20;
+}
+*/
+
+.container{
+	white-space: pre-wrap;
+    text-decoration: none;
+}
+
+/*控制搜索结果的标题*/
+.container a {
+  border-radius: 0rem;
+
+  font-size: 120%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0000ff;
+  width: 100%;
+
+
+}
+
+li:hover a{
+  color: #ff0000;
+  font-size: 130%;
+}
+
+ul,li {
+  list-style: none;
+}
+
+#pagemark{
+
+}
+
+
+#pagemark li{
+	/*
+  border: solid 1px #d6d6d6;
+  border-radius: 0.2rem;
+  
+  */
+  text-decoration: none;
+  text-transform: uppercase; 
+  color: #0000ff;
+  
+  text-decoration: none;  /*去掉前面的圆点*/
+  list-style: none;
+
+ 
+  /*
+  padding: 0.5rem 0.9rem;
+*/  
+}
+
+#pagemark li a{
+  float: left;
+  border: 10px solid transparent
+}
+
+ul li pre{
+  font-family: "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

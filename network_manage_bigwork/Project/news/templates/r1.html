@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'mystyle.css' %}">
+</head>
+<body>
+<ul>
+
+{% for port in host.portlist %}
+    服务: {{ port.name }}<br>
+    端口号: {{ port.id }}<br>
+    端口状态：{{ port.state }}<br>
+    <br><br>
+{% endfor %}
+</ul>
+
+</body>
+</html>
+

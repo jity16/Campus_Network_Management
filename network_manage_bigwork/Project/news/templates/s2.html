@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<img src="{% static "resources.png" %}" width="824" height="734" alt="Planets" usemap="#planetmap"/>
+<map name="planetmap">
+  <area shape="circle" coords="164, 226, 5" alt="ssh" href="?rc=ssh">
+  <area shape="circle" coords="136, 291, 5" alt="ssh" href="?rc=http">
+  <area shape="circle" coords="140, 279, 5" alt="ssh" href="?rc=https">
+  <area shape="circle" coords="129, 314, 5" alt="ssh" href="?rc=snmp">
+</map>
+</body>
+</html>

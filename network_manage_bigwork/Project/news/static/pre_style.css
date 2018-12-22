@@ -1,0 +1,53 @@
+body {
+  background-color: #e1ffff;
+  font-family: "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table{
+  margin:0px auto;
+  text-align:center;
+  width: 50%;
+  height: 1000%;
+}
+
+
+td a{
+	font-weight: bold;
+	color: #0000ff;
+}
+
+
+#pagemark{
+
+}
+
+
+#pagemark li{
+	/*
+  border: solid 1px #d6d6d6;
+  border-radius: 0.2rem;
+  
+  */
+  text-decoration: none;
+  text-transform: uppercase; 
+  color: #0000ff;
+  
+  text-decoration: none;  /*去掉前面的圆点*/
+  list-style: none;
+
+ 
+  /*
+  padding: 0.5rem 0.9rem;
+*/  
+}
+
+#pagemark li a{
+  float: left;
+  border: 10px solid transparent
+}

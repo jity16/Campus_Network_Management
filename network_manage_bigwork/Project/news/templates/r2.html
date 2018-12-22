@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'mystyle.css' %}">
+</head>
+<body>
+<ul>
+
+{% for h in hosts %}
+    ip地址: <a href="?ip={{ h.ip }}">{{ h.ip }}</a><br>
+    端口数量： {{ h.portnum }}<br>
+    <br><br>
+{% endfor %}
+</ul>
+
+</body>
+</html>

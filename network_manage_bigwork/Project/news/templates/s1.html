@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<form action="{% url 'r1' %}" method="post" class="container">
+	{% csrf_token %}
+	IP &nbsp <input type = "text" name = "IP">
+    <input type = "submit" value = "search">
+</form>
+</body>
+</html>

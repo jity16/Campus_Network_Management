@@ -1,0 +1,3337 @@
+59.66.3.1 21 open ftp 22 open ssh 23 open telnet 111 open rpcbind 
+59.66.3.25 22 open ssh 50300 filtered unknown 50500 filtered unknown 50636 filtered unknown 50800 filtered unknown 51103 filtered unknown 52673 filtered unknown 52822 filtered unknown 52848 filtered unknown 52869 filtered unknown 54045 filtered unknown 54328 filtered unknown 55055 filtered unknown 55056 filtered unknown 55555 filtered unknown 55600 filtered unknown 
+59.66.3.33 22 open ssh 23 open telnet 
+59.66.3.35 23 open telnet 80 open http 6666 open irc 
+59.66.3.40 
+59.66.3.105 
+59.66.3.106 22 open ssh 23 open telnet 79 open finger 
+59.66.3.253 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.4.41 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.42 22 open ssh 23 open telnet 80 open http 443 open https 
+59.66.4.49 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.50 
+59.66.4.57 
+59.66.4.58 22 open ssh 23 open telnet 80 open http 443 open https 
+59.66.4.101 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.102 23 open telnet 80 open http 
+59.66.4.105 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.106 23 open telnet 80 open http 
+59.66.4.121 
+59.66.4.122 23 open telnet 79 open finger 
+59.66.4.133 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.134 
+59.66.4.141 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.142 23 open telnet 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.4.153 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.4.154 23 open telnet 80 open http 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 50636 filtered unknown 50800 filtered unknown 
+59.66.4.157 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.4.158 23 open telnet 80 open http 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 50636 filtered unknown 50800 filtered unknown 
+59.66.4.177 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.4.178 23 open telnet 
+59.66.4.181 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.4.182 23 open telnet 
+59.66.8.69 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.8.70 23 open telnet 
+59.66.8.73 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.8.74 23 open telnet 
+59.66.8.121 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.8.122 22 open ssh 41511 filtered unknown 
+59.66.8.145 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.8.146 22 filtered ssh 23 open telnet 80 filtered http 179 filtered bgp 646 filtered ldp 
+59.66.8.209 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.8.210 23 open telnet 50300 filtered unknown 
+59.66.9.121 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.9.122 22 open ssh 40911 filtered unknown 41511 filtered unknown 
+59.66.9.209 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.9.210 23 open telnet 50300 filtered unknown 
+59.66.12.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.12.3 80 open http 1801 open msmq 2100 open amiganetfs 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 6112 open dtspc 
+59.66.12.8 23 filtered telnet 161 filtered snmp 5900 open vnc 
+59.66.12.10 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.12.14 23 filtered telnet 135 filtered msrpc 139 filtered netbios-ssn 161 filtered snmp 445 filtered microsoft-ds 1110 filtered nfsd-status 2869 filtered icslap 3389 filtered ms-wbt-server 19780 filtered unknown 
+59.66.12.15 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49158 open unknown 49160 open unknown 
+59.66.12.26 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 843 open unknown 902 open iss-realsecure 912 open apex-mesh 3389 open ms-wbt-server 3580 open nati-svrloc 7000 open afs3-fileserver 8000 open http-alt 8080 open http-proxy 8084 open unknown 15000 open hydap 
+59.66.12.32 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1034 open zincite-a 1037 open ams 1048 open neod2 
+59.66.12.38 80 open http 15000 open hydap 
+59.66.12.40 22 open ssh 23 filtered telnet 80 open http 88 open kerberos-sec 161 filtered snmp 4000 open remoteanything 5900 open vnc 
+59.66.12.41 23 filtered telnet 161 filtered snmp 
+59.66.12.43 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 
+59.66.12.44 23 filtered telnet 161 filtered snmp 3389 filtered ms-wbt-server 4000 filtered remoteanything 
+59.66.12.49 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 
+59.66.12.55 23 filtered telnet 161 filtered snmp 
+59.66.12.56 23 filtered telnet 161 filtered snmp 
+59.66.12.74 23 filtered telnet 161 filtered snmp 
+59.66.12.84 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 6001 open X11:1 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 
+59.66.12.104 23 filtered telnet 161 filtered snmp 
+59.66.12.108 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 3389 open ms-wbt-server 5357 open wsdapi 7070 open realserver 
+59.66.12.126 
+59.66.14.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.14.6 23 filtered telnet 161 filtered snmp 
+59.66.16.0 
+59.66.16.111 21 open ftp 22 open ssh 80 open http 111 open rpcbind 443 open https 6100 open synchronet-db 8082 open blackice-alerts 16113 open unknown 
+59.66.16.254 
+59.66.17.0 80 closed http 
+59.66.17.1 22 open ssh 23 open telnet 79 open finger 
+59.66.17.2 23 open telnet 80 open http 
+59.66.17.3 80 closed http 
+59.66.17.5 23 open telnet 80 open http 
+59.66.17.6 
+59.66.17.8 
+59.66.17.9 
+59.66.17.10 
+59.66.17.11 
+59.66.17.41 23 open telnet 80 open http 
+59.66.17.42 17 open qotd 21 open ftp 22 open ssh 23 filtered telnet 80 open http 443 open https 1723 open pptp 3306 filtered mysql 4343 open unicall 8080 filtered http-proxy 8081 filtered blackice-icecap 8082 filtered blackice-alerts 8083 filtered us-srv 8088 filtered radan-http 8888 open sun-answerbook 
+59.66.17.45 17 open qotd 21 open ftp 22 open ssh 23 filtered telnet 80 open http 443 open https 1723 open pptp 3306 filtered mysql 4343 open unicall 8080 filtered http-proxy 8081 filtered blackice-icecap 8082 filtered blackice-alerts 8083 filtered us-srv 8088 filtered radan-http 8888 open sun-answerbook 
+59.66.17.61 
+59.66.17.77 
+59.66.17.84 80 closed http 
+59.66.17.85 
+59.66.17.86 22 open ssh 23 open telnet 80 open http 
+59.66.17.87 80 closed http 
+59.66.17.104 
+59.66.17.105 22 open ssh 23 open telnet 80 open http 
+59.66.18.1 23 open telnet 80 open http 
+59.66.18.2 
+59.66.18.11 
+59.66.18.12 
+59.66.18.13 
+59.66.18.14 
+59.66.18.23 
+59.66.18.24 
+59.66.18.25 
+59.66.18.26 
+59.66.18.27 
+59.66.18.30 
+59.66.18.72 
+59.66.18.73 
+59.66.18.74 
+59.66.18.75 
+59.66.18.76 
+59.66.18.81 
+59.66.18.84 
+59.66.18.86 
+59.66.18.88 
+59.66.18.95 
+59.66.18.111 
+59.66.18.112 22 open ssh 23 open telnet 80 open http 
+59.66.18.113 22 open ssh 23 open telnet 80 open http 
+59.66.18.124 17 open qotd 21 open ftp 22 open ssh 23 open telnet 80 open http 389 closed ldap 443 open https 636 closed ldapssl 1723 open pptp 2323 closed 3d-nfsd 4343 open unicall 5080 closed onscreen 8080 open http-proxy 8081 open blackice-icecap 8082 closed blackice-alerts 8083 closed us-srv 8088 open radan-http 8888 open sun-answerbook 
+59.66.18.125 17 open qotd 21 open ftp 22 open ssh 23 filtered telnet 80 open http 443 open https 1723 open pptp 3306 filtered mysql 4343 open unicall 8080 filtered http-proxy 8081 filtered blackice-icecap 8082 filtered blackice-alerts 8083 filtered us-srv 8088 filtered radan-http 8888 open sun-answerbook 
+59.66.18.126 17 open qotd 21 open ftp 22 open ssh 23 open telnet 80 open http 389 closed ldap 443 open https 636 closed ldapssl 1723 open pptp 2323 closed 3d-nfsd 4343 open unicall 5080 closed onscreen 8080 open http-proxy 8081 open blackice-icecap 8082 closed blackice-alerts 8083 closed us-srv 8088 open radan-http 8888 open sun-answerbook 
+59.66.19.254 
+59.66.21.0 
+59.66.21.1 22 open ssh 23 open telnet 80 open http 
+59.66.21.3 22 open ssh 23 open telnet 80 open http 443 open https 
+59.66.24.1 23 open telnet 80 open http 
+59.66.24.2 
+59.66.24.252 
+59.66.24.253 17 open qotd 21 open ftp 22 open ssh 23 open telnet 80 open http 389 closed ldap 443 open https 636 closed ldapssl 1723 open pptp 2323 closed 3d-nfsd 4343 open unicall 5080 closed onscreen 8080 open http-proxy 8081 open blackice-icecap 8082 closed blackice-alerts 8083 closed us-srv 8088 open radan-http 8888 open sun-answerbook 
+59.66.24.254 17 open qotd 21 open ftp 22 open ssh 23 open telnet 80 open http 389 closed ldap 443 open https 636 closed ldapssl 1723 open pptp 2323 closed 3d-nfsd 4343 open unicall 5080 closed onscreen 8080 open http-proxy 8081 open blackice-icecap 8082 closed blackice-alerts 8083 closed us-srv 8088 open radan-http 8888 open sun-answerbook 
+59.66.32.1 
+59.66.32.3 
+59.66.32.9 
+59.66.32.34 
+59.66.32.43 
+59.66.32.46 
+59.66.32.47 
+59.66.32.57 
+59.66.32.68 
+59.66.32.88 
+59.66.32.89 
+59.66.32.105 
+59.66.32.113 
+59.66.32.119 
+59.66.32.123 
+59.66.32.124 
+59.66.32.141 
+59.66.32.154 
+59.66.32.155 
+59.66.32.162 
+59.66.32.170 
+59.66.32.181 
+59.66.32.182 
+59.66.32.185 
+59.66.32.190 
+59.66.32.200 
+59.66.32.201 
+59.66.32.204 
+59.66.32.221 
+59.66.32.225 
+59.66.32.231 
+59.66.32.238 
+59.66.32.246 
+59.66.33.3 
+59.66.33.4 
+59.66.33.5 
+59.66.33.21 
+59.66.33.33 
+59.66.33.50 
+59.66.33.51 
+59.66.33.56 
+59.66.33.60 
+59.66.33.65 
+59.66.33.68 
+59.66.33.72 
+59.66.33.79 23 filtered telnet 161 filtered snmp 5500 open hotline 
+59.66.33.80 
+59.66.33.89 
+59.66.33.104 
+59.66.33.143 
+59.66.33.144 
+59.66.33.145 
+59.66.33.160 
+59.66.33.162 
+59.66.33.164 
+59.66.33.165 
+59.66.33.183 
+59.66.33.193 
+59.66.33.196 
+59.66.33.197 
+59.66.33.199 
+59.66.33.206 
+59.66.33.212 
+59.66.33.214 
+59.66.33.216 
+59.66.33.217 
+59.66.33.223 
+59.66.33.228 
+59.66.33.230 
+59.66.33.240 
+59.66.33.245 
+59.66.33.246 
+59.66.34.7 
+59.66.34.13 
+59.66.34.17 
+59.66.34.18 
+59.66.34.23 
+59.66.34.24 
+59.66.34.30 
+59.66.34.36 
+59.66.34.41 
+59.66.34.49 
+59.66.34.54 
+59.66.34.55 
+59.66.34.67 
+59.66.34.82 
+59.66.34.86 
+59.66.34.89 
+59.66.34.109 
+59.66.34.116 
+59.66.34.121 
+59.66.34.126 
+59.66.34.129 
+59.66.34.134 
+59.66.34.142 
+59.66.34.151 
+59.66.34.156 
+59.66.34.178 
+59.66.34.183 
+59.66.34.187 
+59.66.34.189 
+59.66.34.190 
+59.66.34.192 
+59.66.34.203 
+59.66.34.205 
+59.66.34.207 
+59.66.34.211 
+59.66.34.214 
+59.66.34.219 
+59.66.34.249 
+59.66.35.1 
+59.66.35.2 
+59.66.35.7 
+59.66.35.18 
+59.66.35.19 
+59.66.35.21 
+59.66.35.28 
+59.66.35.33 
+59.66.35.59 
+59.66.35.202 
+59.66.35.224 
+59.66.35.233 
+59.66.36.1 
+59.66.36.10 
+59.66.36.15 
+59.66.36.23 
+59.66.36.25 
+59.66.36.27 
+59.66.36.31 
+59.66.36.50 
+59.66.36.52 
+59.66.36.56 
+59.66.36.57 
+59.66.36.59 
+59.66.36.72 
+59.66.36.75 
+59.66.36.88 
+59.66.36.93 
+59.66.36.101 
+59.66.36.103 
+59.66.36.108 
+59.66.36.116 
+59.66.36.120 
+59.66.36.126 
+59.66.36.130 
+59.66.36.134 
+59.66.36.141 
+59.66.36.142 
+59.66.36.145 
+59.66.36.150 
+59.66.36.151 
+59.66.36.176 
+59.66.36.186 
+59.66.36.200 
+59.66.36.203 
+59.66.36.208 
+59.66.36.213 
+59.66.36.222 
+59.66.36.230 
+59.66.36.235 
+59.66.36.238 
+59.66.36.243 
+59.66.36.246 
+59.66.37.7 
+59.66.37.15 
+59.66.37.18 
+59.66.37.23 
+59.66.37.24 
+59.66.37.30 
+59.66.37.31 
+59.66.37.43 
+59.66.37.46 
+59.66.37.47 
+59.66.37.48 
+59.66.37.50 
+59.66.37.53 
+59.66.37.57 
+59.66.37.58 
+59.66.37.66 
+59.66.37.77 
+59.66.37.101 
+59.66.37.114 
+59.66.37.124 
+59.66.37.135 
+59.66.37.145 
+59.66.37.146 
+59.66.37.160 
+59.66.37.186 
+59.66.37.191 
+59.66.37.227 
+59.66.37.231 
+59.66.38.85 
+59.66.38.157 
+59.66.38.162 
+59.66.41.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.41.2 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.41.3 23 filtered telnet 161 filtered snmp 
+59.66.41.4 23 filtered telnet 161 filtered snmp 
+59.66.41.5 23 filtered telnet 161 filtered snmp 
+59.66.41.6 
+59.66.41.7 23 filtered telnet 161 filtered snmp 
+59.66.41.8 23 filtered telnet 161 filtered snmp 
+59.66.41.9 23 filtered telnet 161 filtered snmp 
+59.66.41.10 23 filtered telnet 161 filtered snmp 
+59.66.41.11 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.41.12 23 filtered telnet 161 filtered snmp 
+59.66.41.13 23 filtered telnet 161 filtered snmp 
+59.66.41.14 23 filtered telnet 161 filtered snmp 
+59.66.41.15 23 filtered telnet 161 filtered snmp 
+59.66.41.16 23 filtered telnet 161 filtered snmp 
+59.66.41.17 23 filtered telnet 161 filtered snmp 
+59.66.41.18 23 filtered telnet 161 filtered snmp 
+59.66.41.19 
+59.66.41.20 23 filtered telnet 161 filtered snmp 
+59.66.41.21 
+59.66.41.22 23 filtered telnet 161 filtered snmp 
+59.66.41.23 23 filtered telnet 161 filtered snmp 
+59.66.41.24 23 filtered telnet 161 filtered snmp 
+59.66.41.27 
+59.66.41.29 
+59.66.41.30 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.41.35 
+59.66.41.39 
+59.66.41.40 23 filtered telnet 161 filtered snmp 
+59.66.41.42 
+59.66.41.61 
+59.66.41.68 
+59.66.41.78 23 filtered telnet 161 filtered snmp 
+59.66.41.79 
+59.66.41.82 23 filtered telnet 161 filtered snmp 
+59.66.41.94 
+59.66.41.95 
+59.66.41.98 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 6001 open X11:1 15000 open hydap 
+59.66.41.99 
+59.66.41.107 
+59.66.41.109 
+59.66.41.110 
+59.66.41.111 
+59.66.41.113 
+59.66.41.116 
+59.66.41.124 
+59.66.41.125 
+59.66.41.126 
+59.66.41.127 
+59.66.41.129 
+59.66.41.131 
+59.66.41.133 
+59.66.41.134 
+59.66.41.139 
+59.66.41.152 
+59.66.41.156 
+59.66.41.165 
+59.66.41.186 
+59.66.41.189 
+59.66.41.197 
+59.66.41.205 22 open ssh 23 filtered telnet 161 filtered snmp 
+59.66.41.206 
+59.66.41.207 
+59.66.41.209 23 filtered telnet 161 filtered snmp 
+59.66.41.212 
+59.66.41.226 23 filtered telnet 161 filtered snmp 9000 filtered cslistener 10004 filtered emcrmirccd 
+59.66.41.252 23 filtered telnet 161 filtered snmp 
+59.66.42.1 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.42.2 23 filtered telnet 161 filtered snmp 
+59.66.42.3 23 filtered telnet 161 filtered snmp 
+59.66.42.4 23 filtered telnet 161 filtered snmp 
+59.66.42.5 23 filtered telnet 161 filtered snmp 
+59.66.42.6 23 filtered telnet 161 filtered snmp 
+59.66.42.7 23 filtered telnet 161 filtered snmp 
+59.66.42.8 23 filtered telnet 161 filtered snmp 
+59.66.42.9 23 filtered telnet 161 filtered snmp 
+59.66.42.10 23 filtered telnet 161 filtered snmp 
+59.66.42.11 23 filtered telnet 161 filtered snmp 
+59.66.42.12 23 filtered telnet 161 filtered snmp 
+59.66.42.13 
+59.66.42.14 23 filtered telnet 161 filtered snmp 
+59.66.42.15 23 filtered telnet 161 filtered snmp 
+59.66.42.16 
+59.66.42.83 
+59.66.42.88 
+59.66.42.110 23 filtered telnet 161 filtered snmp 
+59.66.42.114 23 filtered telnet 161 filtered snmp 
+59.66.42.116 
+59.66.42.117 
+59.66.42.128 23 filtered telnet 161 filtered snmp 
+59.66.42.133 23 filtered telnet 161 filtered snmp 
+59.66.42.136 
+59.66.42.145 23 filtered telnet 161 filtered snmp 
+59.66.42.149 23 filtered telnet 161 filtered snmp 
+59.66.42.150 
+59.66.42.153 
+59.66.42.161 
+59.66.42.162 23 filtered telnet 161 filtered snmp 
+59.66.42.166 
+59.66.42.171 23 filtered telnet 161 filtered snmp 
+59.66.42.174 23 filtered telnet 161 filtered snmp 
+59.66.42.182 23 filtered telnet 161 filtered snmp 
+59.66.42.186 23 filtered telnet 161 filtered snmp 
+59.66.42.193 
+59.66.42.196 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.42.207 
+59.66.42.208 
+59.66.42.210 
+59.66.42.219 23 filtered telnet 161 filtered snmp 
+59.66.42.220 
+59.66.42.223 
+59.66.42.242 
+59.66.42.254 
+59.66.43.1 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.43.17 23 filtered telnet 161 filtered snmp 
+59.66.43.18 23 filtered telnet 161 filtered snmp 
+59.66.43.19 23 filtered telnet 161 filtered snmp 
+59.66.43.20 23 filtered telnet 161 filtered snmp 
+59.66.43.21 
+59.66.43.22 23 filtered telnet 161 filtered snmp 
+59.66.43.23 23 filtered telnet 161 filtered snmp 
+59.66.43.24 23 filtered telnet 161 filtered snmp 
+59.66.43.25 
+59.66.43.26 
+59.66.43.36 
+59.66.43.40 
+59.66.43.41 
+59.66.43.46 
+59.66.43.50 
+59.66.43.63 
+59.66.43.64 
+59.66.43.73 
+59.66.43.82 
+59.66.43.83 
+59.66.43.113 
+59.66.43.118 
+59.66.43.122 
+59.66.43.124 
+59.66.43.143 
+59.66.43.187 
+59.66.43.197 
+59.66.43.199 
+59.66.43.204 
+59.66.44.1 
+59.66.44.4 
+59.66.44.6 
+59.66.44.7 
+59.66.44.12 
+59.66.44.17 
+59.66.44.20 
+59.66.44.25 
+59.66.44.34 
+59.66.44.56 
+59.66.44.58 
+59.66.44.61 
+59.66.44.71 
+59.66.44.73 
+59.66.44.89 
+59.66.44.93 
+59.66.44.97 
+59.66.44.99 
+59.66.44.108 
+59.66.44.109 
+59.66.44.110 
+59.66.44.111 
+59.66.44.120 
+59.66.44.130 
+59.66.44.134 
+59.66.44.140 
+59.66.44.144 
+59.66.44.148 
+59.66.44.149 
+59.66.44.154 
+59.66.44.161 
+59.66.44.162 
+59.66.44.163 
+59.66.44.167 
+59.66.44.169 
+59.66.44.173 
+59.66.44.174 
+59.66.44.179 
+59.66.44.189 
+59.66.44.191 
+59.66.44.193 
+59.66.44.196 
+59.66.44.199 
+59.66.44.200 
+59.66.44.202 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 5678 open rrac 10000 open snet-sensor-mgmt 49152 open unknown 49153 open unknown 49154 open unknown 49158 open unknown 
+59.66.44.219 
+59.66.44.223 80 open http 
+59.66.44.228 
+59.66.44.230 
+59.66.44.238 
+59.66.44.244 
+59.66.44.246 
+59.66.45.8 
+59.66.45.18 80 open http 
+59.66.45.20 
+59.66.45.26 
+59.66.45.31 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 49152 open unknown 49155 open unknown 49156 open unknown 49157 open unknown 
+59.66.45.39 
+59.66.45.42 
+59.66.45.52 23 filtered telnet 80 open http 1900 open upnp 
+59.66.45.72 
+59.66.45.74 
+59.66.45.76 
+59.66.45.79 
+59.66.45.85 
+59.66.45.106 
+59.66.45.135 
+59.66.45.241 
+59.66.46.10 
+59.66.46.50 
+59.66.46.82 
+59.66.46.89 
+59.66.46.91 
+59.66.46.102 
+59.66.46.130 
+59.66.46.140 
+59.66.46.160 
+59.66.46.174 
+59.66.46.177 
+59.66.46.178 
+59.66.46.227 
+59.66.48.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.48.10 
+59.66.48.11 
+59.66.48.12 8080 open http-proxy 
+59.66.48.14 
+59.66.48.15 
+59.66.48.20 
+59.66.48.22 
+59.66.48.25 53 open domain 88 open kerberos-sec 445 open microsoft-ds 
+59.66.48.27 62078 open iphone-sync 
+59.66.48.30 
+59.66.48.37 
+59.66.48.38 6000 filtered X11 
+59.66.48.48 
+59.66.48.61 
+59.66.48.66 
+59.66.48.69 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 5357 open wsdapi 5678 open rrac 10000 open snet-sensor-mgmt 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 49157 open unknown 
+59.66.48.75 
+59.66.48.76 
+59.66.48.81 1080 open socks 4662 open edonkey 
+59.66.48.95 8193 filtered sophos 
+59.66.48.101 23 open telnet 80 open http 1900 open upnp 
+59.66.48.110 53 open domain 
+59.66.48.113 25 open smtp 80 open http 110 open pop3 139 open netbios-ssn 443 open https 445 open microsoft-ds 3261 open winshadow 4662 open edonkey 5000 open upnp 5001 open commplex-link 
+59.66.48.120 
+59.66.48.130 
+59.66.48.131 
+59.66.48.141 
+59.66.48.143 
+59.66.48.144 
+59.66.48.150 5500 open hotline 
+59.66.48.152 
+59.66.48.163 
+59.66.48.166 113 filtered ident 
+59.66.48.169 
+59.66.48.177 
+59.66.48.185 
+59.66.48.188 
+59.66.48.200 
+59.66.48.206 
+59.66.48.210 
+59.66.48.214 139 open netbios-ssn 445 open microsoft-ds 548 open afp 
+59.66.48.218 
+59.66.48.219 
+59.66.48.220 
+59.66.48.222 
+59.66.48.233 23 open telnet 80 open http 1900 open upnp 
+59.66.48.240 631 open ipp 
+59.66.48.243 
+59.66.48.251 
+59.66.49.3 
+59.66.49.10 21 open ftp 22 open ssh 23 open telnet 53 open domain 80 open http 139 open netbios-ssn 445 open microsoft-ds 
+59.66.49.12 
+59.66.49.19 
+59.66.49.31 
+59.66.49.48 1080 open socks 4662 open edonkey 
+59.66.49.51 
+59.66.49.54 
+59.66.49.64 113 filtered ident 
+59.66.49.81 
+59.66.49.85 
+59.66.49.106 1080 open socks 1117 filtered ardus-mtrns 1500 filtered vlsi-lm 2003 filtered finger 3546 filtered unknown 4003 filtered pxc-splr-ft 4662 open edonkey 5432 filtered postgresql 16016 filtered unknown 21571 filtered unknown 25734 filtered unknown 32772 filtered sometimes-rpc7 56738 filtered unknown 
+59.66.49.117 
+59.66.49.121 
+59.66.49.131 
+59.66.49.142 23 filtered telnet 80 open http 1900 open upnp 
+59.66.49.208 
+59.66.49.238 1723 filtered pptp 
+59.66.49.245 
+59.66.50.15 
+59.66.50.30 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 
+59.66.50.33 
+59.66.50.81 
+59.66.50.101 
+59.66.50.171 21 filtered ftp 23 filtered telnet 53 open domain 80 filtered http 
+59.66.50.172 
+59.66.50.174 
+59.66.50.200 
+59.66.50.219 
+59.66.50.234 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 843 open unknown 5357 open wsdapi 16000 open fmsas 
+59.66.51.174 5001 open commplex-link 8080 open http-proxy 8087 open simplifymedia 8090 open opsmessaging 
+59.66.52.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.52.14 
+59.66.52.23 23 filtered telnet 80 open http 1900 filtered upnp 
+59.66.52.24 
+59.66.52.25 
+59.66.52.28 6000 filtered X11 
+59.66.52.30 23 open telnet 
+59.66.52.31 
+59.66.52.36 
+59.66.52.39 
+59.66.52.41 
+59.66.52.52 
+59.66.52.54 
+59.66.52.58 
+59.66.52.60 
+59.66.52.63 
+59.66.52.76 
+59.66.52.80 
+59.66.52.86 
+59.66.52.97 
+59.66.52.105 
+59.66.52.111 
+59.66.52.122 
+59.66.52.127 
+59.66.52.130 
+59.66.52.135 
+59.66.52.137 
+59.66.52.140 
+59.66.52.150 
+59.66.52.153 
+59.66.52.169 
+59.66.52.173 
+59.66.52.192 
+59.66.52.198 
+59.66.52.208 
+59.66.52.226 
+59.66.52.230 
+59.66.52.232 
+59.66.52.237 
+59.66.52.238 
+59.66.52.241 
+59.66.52.242 
+59.66.52.251 
+59.66.53.3 
+59.66.53.8 
+59.66.53.14 
+59.66.53.19 
+59.66.53.20 
+59.66.53.23 
+59.66.53.28 
+59.66.53.40 
+59.66.53.48 
+59.66.53.53 
+59.66.53.57 
+59.66.53.81 
+59.66.53.89 
+59.66.53.91 
+59.66.53.95 
+59.66.53.96 
+59.66.53.99 
+59.66.53.115 
+59.66.53.124 
+59.66.53.131 
+59.66.53.137 
+59.66.53.142 
+59.66.53.143 
+59.66.53.148 
+59.66.53.150 
+59.66.53.157 
+59.66.53.163 
+59.66.53.170 
+59.66.53.175 
+59.66.53.184 
+59.66.53.185 
+59.66.53.189 
+59.66.53.194 
+59.66.53.210 
+59.66.54.44 80 filtered http 
+59.66.54.47 
+59.66.54.50 
+59.66.54.77 
+59.66.54.101 23 open telnet 80 open http 1900 open upnp 
+59.66.54.112 
+59.66.54.141 
+59.66.54.174 
+59.66.54.212 
+59.66.54.214 85 filtered mit-ml-dev 3077 filtered orbix-loc-ssl 3878 filtered fotogcad 20221 filtered unknown 22939 filtered unknown 
+59.66.54.218 
+59.66.54.230 
+59.66.55.69 
+59.66.55.77 
+59.66.55.86 1080 open socks 4662 open edonkey 9876 filtered sd 
+59.66.56.1 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.56.9 23 filtered telnet 161 filtered snmp 
+59.66.56.11 23 filtered telnet 161 filtered snmp 
+59.66.56.20 23 filtered telnet 161 filtered snmp 
+59.66.56.40 23 filtered telnet 161 filtered snmp 
+59.66.56.60 
+59.66.56.61 
+59.66.56.64 23 filtered telnet 161 filtered snmp 
+59.66.56.65 23 filtered telnet 161 filtered snmp 625 filtered apple-xsrvr-admin 
+59.66.56.76 23 filtered telnet 161 filtered snmp 
+59.66.56.77 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.56.82 23 filtered telnet 161 filtered snmp 
+59.66.56.87 23 filtered telnet 161 filtered snmp 
+59.66.56.92 23 filtered telnet 161 filtered snmp 
+59.66.56.94 23 filtered telnet 161 filtered snmp 
+59.66.56.105 23 filtered telnet 161 filtered snmp 843 filtered unknown 
+59.66.56.106 23 filtered telnet 161 filtered snmp 
+59.66.56.108 23 filtered telnet 161 filtered snmp 
+59.66.56.131 23 filtered telnet 161 filtered snmp 
+59.66.56.134 23 filtered telnet 161 filtered snmp 
+59.66.56.137 23 filtered telnet 161 filtered snmp 
+59.66.56.159 
+59.66.56.165 23 filtered telnet 161 filtered snmp 
+59.66.56.176 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.56.182 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.56.185 23 filtered telnet 161 filtered snmp 
+59.66.56.195 23 filtered telnet 161 filtered snmp 
+59.66.56.200 
+59.66.56.207 
+59.66.56.209 23 filtered telnet 161 filtered snmp 
+59.66.56.215 
+59.66.56.235 23 filtered telnet 161 filtered snmp 
+59.66.56.238 23 filtered telnet 161 filtered snmp 
+59.66.56.254 
+59.66.57.7 
+59.66.57.11 23 filtered telnet 161 filtered snmp 
+59.66.57.30 23 filtered telnet 161 filtered snmp 
+59.66.57.51 23 filtered telnet 161 filtered snmp 
+59.66.57.64 23 filtered telnet 161 filtered snmp 1723 filtered pptp 
+59.66.57.67 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.57.69 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49159 open unknown 
+59.66.57.79 23 filtered telnet 161 filtered snmp 
+59.66.57.92 
+59.66.57.100 23 filtered telnet 161 filtered snmp 
+59.66.57.104 23 filtered telnet 161 filtered snmp 
+59.66.57.113 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.57.117 23 filtered telnet 161 filtered snmp 
+59.66.57.121 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 
+59.66.57.194 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.57.200 23 filtered telnet 161 filtered snmp 
+59.66.57.247 23 filtered telnet 161 filtered snmp 
+59.66.58.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 111 open rpcbind 161 filtered snmp 
+59.66.58.4 
+59.66.58.7 
+59.66.58.21 
+59.66.58.28 113 filtered ident 
+59.66.58.33 
+59.66.58.36 23 open telnet 
+59.66.58.37 1080 open socks 4662 open edonkey 
+59.66.58.38 
+59.66.58.43 80 filtered http 
+59.66.58.44 
+59.66.58.49 5009 open airport-admin 
+59.66.58.56 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.58.59 
+59.66.58.71 
+59.66.58.74 
+59.66.58.87 
+59.66.58.126 
+59.66.58.148 23 open telnet 80 open http 1900 open upnp 
+59.66.58.162 
+59.66.58.201 50001 open unknown 
+59.66.58.224 
+59.66.58.225 
+59.66.60.1 23 filtered telnet 80 open http 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 50636 filtered unknown 50800 filtered unknown 51103 filtered unknown 51493 filtered unknown 
+59.66.60.4 23 filtered telnet 161 filtered snmp 
+59.66.60.11 23 filtered telnet 161 filtered snmp 
+59.66.60.13 23 filtered telnet 53 open domain 80 open http 161 filtered snmp 
+59.66.60.16 23 filtered telnet 161 filtered snmp 
+59.66.60.18 23 filtered telnet 161 filtered snmp 
+59.66.60.22 23 filtered telnet 161 filtered snmp 
+59.66.60.28 23 filtered telnet 161 filtered snmp 
+59.66.60.35 21 open ftp 23 filtered telnet 80 open http 139 filtered netbios-ssn 161 filtered snmp 445 filtered microsoft-ds 1723 filtered pptp 6881 filtered bittorrent-tracker 9000 open cslistener 12345 open netbus 
+59.66.60.39 23 filtered telnet 161 filtered snmp 1166 open qsm-remote 
+59.66.60.48 23 filtered telnet 161 filtered snmp 
+59.66.60.56 23 filtered telnet 161 filtered snmp 
+59.66.60.68 23 filtered telnet 161 filtered snmp 
+59.66.60.70 
+59.66.60.72 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.60.80 
+59.66.60.81 
+59.66.60.94 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.60.96 23 filtered telnet 161 filtered snmp 
+59.66.60.112 23 filtered telnet 161 filtered snmp 
+59.66.60.123 23 filtered telnet 161 filtered snmp 
+59.66.60.134 23 filtered telnet 161 filtered snmp 8000 filtered http-alt 
+59.66.60.135 23 filtered telnet 161 filtered snmp 
+59.66.60.149 
+59.66.60.155 23 filtered telnet 161 filtered snmp 
+59.66.60.160 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 
+59.66.60.164 
+59.66.60.185 23 filtered telnet 161 filtered snmp 
+59.66.60.186 23 filtered telnet 161 filtered snmp 
+59.66.60.193 
+59.66.60.194 23 filtered telnet 161 filtered snmp 
+59.66.60.197 
+59.66.60.205 23 filtered telnet 161 filtered snmp 
+59.66.60.208 
+59.66.60.209 
+59.66.60.217 23 filtered telnet 161 filtered snmp 1723 filtered pptp 1900 open upnp 5000 open upnp 
+59.66.60.233 23 filtered telnet 161 filtered snmp 
+59.66.60.240 
+59.66.60.249 23 filtered telnet 161 filtered snmp 
+59.66.60.251 23 filtered telnet 161 filtered snmp 
+59.66.61.26 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.61.31 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.61.33 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.61.52 23 filtered telnet 161 filtered snmp 
+59.66.61.54 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 42510 filtered caerpc 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 
+59.66.61.55 23 filtered telnet 161 filtered snmp 
+59.66.61.69 23 filtered telnet 26 filtered rsftp 161 filtered snmp 179 filtered bgp 687 filtered asipregistry 787 filtered qsc 900 filtered omginitialrefs 1998 filtered x25-svc-port 2035 filtered imsldoc 2800 filtered acc-raid 3324 filtered active-net 5998 filtered ncd-diag 8002 filtered teradataordbms 8031 filtered unknown 10626 filtered unknown 27715 filtered unknown 32770 filtered sometimes-rpc3 50636 filtered unknown 
+59.66.61.76 23 filtered telnet 161 filtered snmp 
+59.66.61.83 23 filtered telnet 161 filtered snmp 15002 open onep-tls 
+59.66.61.85 23 filtered telnet 161 filtered snmp 
+59.66.61.86 23 filtered telnet 161 filtered snmp 
+59.66.61.90 
+59.66.61.96 23 filtered telnet 161 filtered snmp 
+59.66.61.113 
+59.66.61.128 23 filtered telnet 161 filtered snmp 
+59.66.61.134 23 filtered telnet 161 filtered snmp 
+59.66.61.135 23 filtered telnet 161 filtered snmp 
+59.66.61.141 23 filtered telnet 161 filtered snmp 
+59.66.61.147 23 filtered telnet 161 filtered snmp 
+59.66.61.148 23 filtered telnet 161 filtered snmp 
+59.66.61.168 
+59.66.61.169 23 filtered telnet 161 filtered snmp 
+59.66.61.184 23 filtered telnet 161 filtered snmp 
+59.66.61.185 23 filtered telnet 161 filtered snmp 
+59.66.61.199 23 filtered telnet 161 filtered snmp 
+59.66.61.202 23 filtered telnet 161 filtered snmp 
+59.66.61.211 23 filtered telnet 161 filtered snmp 
+59.66.61.215 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.61.250 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.62.8 23 filtered telnet 53 open domain 80 filtered http 161 filtered snmp 
+59.66.62.19 23 filtered telnet 161 filtered snmp 
+59.66.62.61 23 filtered telnet 161 filtered snmp 
+59.66.62.162 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.62.200 
+59.66.62.205 23 filtered telnet 161 filtered snmp 12265 filtered unknown 
+59.66.62.235 23 filtered telnet 161 filtered snmp 
+59.66.63.12 
+59.66.63.26 80 open http 113 closed ident 443 open https 60443 open unknown 
+59.66.63.37 
+59.66.63.46 23 filtered telnet 161 filtered snmp 3389 filtered ms-wbt-server 
+59.66.63.67 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 15000 open hydap 
+59.66.63.79 23 filtered telnet 161 filtered snmp 15002 open onep-tls 
+59.66.63.143 23 filtered telnet 161 filtered snmp 
+59.66.63.149 23 filtered telnet 161 filtered snmp 
+59.66.63.153 23 filtered telnet 161 filtered snmp 15002 open onep-tls 
+59.66.68.1 23 open telnet 
+59.66.68.8 
+59.66.68.12 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 9943 open unknown 9944 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 49157 open unknown 
+59.66.68.17 
+59.66.68.18 
+59.66.68.27 
+59.66.68.29 
+59.66.68.34 
+59.66.68.45 
+59.66.68.51 
+59.66.68.52 
+59.66.68.53 
+59.66.68.55 
+59.66.68.63 
+59.66.68.105 
+59.66.70.1 
+59.66.70.12 
+59.66.70.16 
+59.66.70.27 
+59.66.70.40 
+59.66.72.1 
+59.66.72.10 
+59.66.72.12 
+59.66.72.13 
+59.66.72.16 
+59.66.72.22 
+59.66.72.24 
+59.66.72.29 
+59.66.72.31 
+59.66.72.40 
+59.66.72.47 
+59.66.72.63 
+59.66.72.66 
+59.66.72.68 
+59.66.72.75 
+59.66.72.82 
+59.66.72.114 
+59.66.72.120 
+59.66.74.1 
+59.66.74.8 
+59.66.74.9 
+59.66.74.10 
+59.66.74.14 
+59.66.74.16 
+59.66.74.21 
+59.66.74.25 
+59.66.74.29 
+59.66.74.32 
+59.66.74.35 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 548 open afp 
+59.66.74.39 
+59.66.74.40 
+59.66.74.58 
+59.66.74.77 
+59.66.74.83 
+59.66.74.88 
+59.66.74.93 
+59.66.74.98 
+59.66.74.111 
+59.66.79.1 
+59.66.80.1 
+59.66.80.2 
+59.66.80.3 
+59.66.80.4 
+59.66.80.5 
+59.66.80.6 
+59.66.80.7 
+59.66.80.8 
+59.66.80.9 
+59.66.80.10 
+59.66.80.11 
+59.66.80.12 23 filtered telnet 161 filtered snmp 
+59.66.80.13 
+59.66.80.14 
+59.66.80.15 
+59.66.80.16 
+59.66.80.132 
+59.66.80.138 
+59.66.80.139 
+59.66.80.144 
+59.66.80.145 
+59.66.80.151 22 open ssh 23 filtered telnet 161 filtered snmp 3306 open mysql 
+59.66.80.160 23 filtered telnet 161 filtered snmp 
+59.66.80.162 23 filtered telnet 161 filtered snmp 5500 open hotline 
+59.66.80.169 22 open ssh 23 filtered telnet 161 filtered snmp 9999 open abyss 
+59.66.80.184 23 filtered telnet 161 filtered snmp 
+59.66.80.246 80 open http 8000 open http-alt 
+59.66.81.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.81.129 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.81.133 
+59.66.81.134 
+59.66.81.137 
+59.66.81.140 23 filtered telnet 80 open http 161 filtered snmp 515 open printer 9100 open jetdirect 
+59.66.81.151 23 filtered telnet 161 filtered snmp 62078 open iphone-sync 
+59.66.81.152 23 filtered telnet 113 filtered ident 161 filtered snmp 
+59.66.81.153 21 open ftp 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 2121 open ccproxy-ftp 3389 open ms-wbt-server 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49158 open unknown 49167 open unknown 
+59.66.81.155 23 filtered telnet 161 filtered snmp 
+59.66.81.172 
+59.66.81.173 23 filtered telnet 80 open http 161 filtered snmp 1900 filtered upnp 
+59.66.81.175 23 filtered telnet 161 filtered snmp 
+59.66.81.178 23 filtered telnet 161 filtered snmp 
+59.66.81.185 23 filtered telnet 161 filtered snmp 
+59.66.81.200 23 filtered telnet 161 filtered snmp 
+59.66.82.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.82.2 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.82.3 23 filtered telnet 161 filtered snmp 
+59.66.82.4 23 filtered telnet 161 filtered snmp 
+59.66.82.5 23 filtered telnet 161 filtered snmp 
+59.66.82.6 23 filtered telnet 161 filtered snmp 
+59.66.82.7 23 filtered telnet 161 filtered snmp 
+59.66.82.8 23 filtered telnet 161 filtered snmp 
+59.66.82.9 23 filtered telnet 161 filtered snmp 
+59.66.82.10 23 filtered telnet 161 filtered snmp 
+59.66.82.11 23 filtered telnet 161 filtered snmp 
+59.66.82.12 23 filtered telnet 161 filtered snmp 
+59.66.82.13 23 filtered telnet 161 filtered snmp 
+59.66.82.14 23 filtered telnet 161 filtered snmp 
+59.66.82.15 
+59.66.82.16 
+59.66.82.17 
+59.66.83.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.83.2 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.83.3 23 filtered telnet 161 filtered snmp 
+59.66.83.4 
+59.66.83.5 23 filtered telnet 161 filtered snmp 
+59.66.83.6 23 filtered telnet 161 filtered snmp 
+59.66.83.7 23 filtered telnet 161 filtered snmp 
+59.66.83.8 23 filtered telnet 161 filtered snmp 
+59.66.83.9 23 filtered telnet 161 filtered snmp 
+59.66.83.10 23 filtered telnet 161 filtered snmp 
+59.66.83.11 23 filtered telnet 161 filtered snmp 
+59.66.83.14 23 filtered telnet 80 open http 161 filtered snmp 900 open omginitialrefs 
+59.66.83.24 23 filtered telnet 161 filtered snmp 
+59.66.83.25 23 filtered telnet 161 filtered snmp 
+59.66.83.28 23 filtered telnet 161 filtered snmp 
+59.66.83.31 23 filtered telnet 161 filtered snmp 
+59.66.83.34 
+59.66.83.40 23 filtered telnet 161 filtered snmp 
+59.66.83.47 23 filtered telnet 161 filtered snmp 
+59.66.83.68 23 filtered telnet 161 filtered snmp 
+59.66.83.77 
+59.66.83.78 
+59.66.83.80 23 filtered telnet 161 filtered snmp 
+59.66.83.129 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.83.135 
+59.66.83.143 
+59.66.83.144 
+59.66.83.147 
+59.66.83.149 
+59.66.83.151 
+59.66.83.154 
+59.66.83.155 
+59.66.83.158 
+59.66.83.159 
+59.66.83.161 
+59.66.83.165 
+59.66.83.166 
+59.66.83.168 
+59.66.83.178 
+59.66.83.180 
+59.66.83.181 
+59.66.83.185 
+59.66.83.188 
+59.66.83.189 
+59.66.83.190 
+59.66.83.191 
+59.66.83.194 
+59.66.83.201 
+59.66.83.202 
+59.66.83.203 
+59.66.83.205 
+59.66.83.207 
+59.66.83.210 
+59.66.83.211 
+59.66.83.213 
+59.66.83.224 
+59.66.83.236 
+59.66.83.241 
+59.66.83.243 
+59.66.83.246 
+59.66.83.249 
+59.66.83.250 
+59.66.83.254 
+59.66.84.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.84.2 
+59.66.84.3 
+59.66.84.4 
+59.66.84.5 
+59.66.84.6 
+59.66.84.7 
+59.66.84.8 
+59.66.84.9 
+59.66.84.10 
+59.66.84.11 
+59.66.84.12 
+59.66.84.13 
+59.66.84.14 
+59.66.84.15 
+59.66.84.16 
+59.66.84.17 
+59.66.84.18 
+59.66.84.19 
+59.66.84.20 
+59.66.84.21 
+59.66.84.22 
+59.66.84.23 
+59.66.84.24 
+59.66.84.25 
+59.66.84.26 
+59.66.84.27 
+59.66.84.28 
+59.66.84.29 
+59.66.84.30 
+59.66.84.31 
+59.66.84.32 
+59.66.84.33 
+59.66.84.34 
+59.66.84.35 
+59.66.84.46 
+59.66.84.50 
+59.66.84.51 
+59.66.84.55 
+59.66.84.67 
+59.66.84.69 
+59.66.84.78 
+59.66.84.79 
+59.66.84.86 
+59.66.84.87 
+59.66.84.91 
+59.66.84.92 
+59.66.84.97 
+59.66.84.101 
+59.66.84.114 
+59.66.84.115 
+59.66.84.117 
+59.66.84.121 
+59.66.84.124 
+59.66.84.130 
+59.66.84.139 
+59.66.84.170 
+59.66.84.186 
+59.66.84.191 
+59.66.85.1 
+59.66.85.2 
+59.66.85.3 
+59.66.85.4 
+59.66.85.5 
+59.66.85.6 
+59.66.85.7 
+59.66.85.9 
+59.66.85.17 
+59.66.85.21 
+59.66.85.33 
+59.66.85.34 
+59.66.85.35 
+59.66.85.44 
+59.66.85.46 
+59.66.85.47 
+59.66.85.51 
+59.66.85.57 
+59.66.85.58 
+59.66.85.59 
+59.66.85.73 
+59.66.86.129 
+59.66.86.132 
+59.66.86.133 
+59.66.86.135 
+59.66.86.136 
+59.66.86.137 
+59.66.86.138 
+59.66.86.139 
+59.66.86.140 
+59.66.86.141 22 open ssh 23 open telnet 443 open https 16113 open unknown 
+59.66.86.142 23 open telnet 
+59.66.86.143 23 open telnet 
+59.66.86.144 
+59.66.86.145 23 open telnet 
+59.66.86.146 23 open telnet 
+59.66.86.147 23 open telnet 
+59.66.86.148 22 open ssh 23 open telnet 443 open https 16113 open unknown 
+59.66.86.149 23 open telnet 
+59.66.86.150 23 open telnet 
+59.66.86.157 23 open telnet 
+59.66.86.158 23 open telnet 
+59.66.86.193 23 filtered telnet 161 filtered snmp 
+59.66.86.196 
+59.66.86.236 23 filtered telnet 161 filtered snmp 
+59.66.86.237 23 filtered telnet 161 filtered snmp 
+59.66.86.238 
+59.66.86.239 23 filtered telnet 161 filtered snmp 
+59.66.86.253 23 filtered telnet 161 filtered snmp 
+59.66.88.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.88.2 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.88.3 23 filtered telnet 161 filtered snmp 
+59.66.88.4 23 filtered telnet 161 filtered snmp 
+59.66.88.5 23 filtered telnet 161 filtered snmp 
+59.66.88.6 23 filtered telnet 161 filtered snmp 
+59.66.88.7 23 filtered telnet 161 filtered snmp 
+59.66.88.8 23 filtered telnet 161 filtered snmp 
+59.66.88.9 23 filtered telnet 80 open http 161 filtered snmp 900 open omginitialrefs 
+59.66.88.14 23 filtered telnet 161 filtered snmp 
+59.66.88.27 23 filtered telnet 161 filtered snmp 
+59.66.88.40 23 filtered telnet 161 filtered snmp 
+59.66.88.73 
+59.66.88.129 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.88.130 
+59.66.88.131 23 filtered telnet 161 filtered snmp 
+59.66.88.132 
+59.66.88.133 23 filtered telnet 161 filtered snmp 
+59.66.88.134 23 filtered telnet 161 filtered snmp 
+59.66.88.144 21 open ftp 80 open http 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 3389 open ms-wbt-server 5357 open wsdapi 10000 open snet-sensor-mgmt 10001 open scp-config 
+59.66.88.145 
+59.66.88.148 23 filtered telnet 161 filtered snmp 
+59.66.88.154 23 filtered telnet 161 filtered snmp 
+59.66.88.155 
+59.66.88.156 3 filtered compressnet 23 filtered telnet 80 open http 106 filtered pop3pw 161 filtered snmp 617 filtered sco-dtmgr 1028 filtered unknown 1033 filtered netinfo 1042 filtered afrog 1059 filtered nimreg 1086 filtered cplscrambler-lg 1234 filtered hotline 2008 filtered conf 3260 filtered iscsi 4445 filtered upnotifyp 5280 filtered xmpp-bosh 5825 filtered unknown 7106 filtered unknown 7200 filtered fodms 8087 filtered simplifymedia 8192 open sophos 8193 open sophos 8899 open ospf-lite 14000 filtered scotty-ft 32768 filtered filenet-tms 32769 filtered filenet-rpc 49156 filtered unknown 49400 filtered compaqdiag 
+59.66.88.157 23 filtered telnet 161 filtered snmp 
+59.66.88.164 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.89.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.89.11 23 filtered telnet 80 open http 161 filtered snmp 
+59.66.89.12 
+59.66.89.13 23 filtered telnet 161 filtered snmp 
+59.66.89.18 
+59.66.89.19 23 filtered telnet 161 filtered snmp 
+59.66.89.89 23 filtered telnet 161 filtered snmp 
+59.66.89.129 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.89.142 
+59.66.89.148 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1433 open ms-sql-s 2383 open ms-olap4 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.89.151 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 2869 open icslap 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 
+59.66.89.152 23 filtered telnet 80 open http 161 filtered snmp 
+59.66.89.190 23 filtered telnet 161 filtered snmp 
+59.66.89.195 23 filtered telnet 161 filtered snmp 
+59.66.89.203 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.90.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.90.2 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.90.3 23 filtered telnet 161 filtered snmp 
+59.66.90.4 
+59.66.90.5 
+59.66.90.6 
+59.66.90.7 
+59.66.90.8 
+59.66.90.9 
+59.66.90.10 
+59.66.90.11 
+59.66.90.12 
+59.66.90.65 
+59.66.90.76 
+59.66.90.77 
+59.66.90.83 
+59.66.90.89 
+59.66.90.92 
+59.66.90.100 
+59.66.90.104 
+59.66.90.111 
+59.66.90.114 
+59.66.90.128 
+59.66.92.1 
+59.66.94.1 
+59.66.94.8 
+59.66.94.11 
+59.66.94.14 
+59.66.94.16 
+59.66.94.20 
+59.66.94.22 
+59.66.94.25 
+59.66.94.31 
+59.66.94.35 
+59.66.94.38 
+59.66.94.48 
+59.66.94.61 
+59.66.94.82 
+59.66.95.1 
+59.66.95.129 
+59.66.95.132 
+59.66.95.133 
+59.66.95.140 
+59.66.95.143 
+59.66.95.146 
+59.66.95.151 
+59.66.95.153 
+59.66.95.157 
+59.66.95.163 
+59.66.95.167 
+59.66.95.169 
+59.66.95.170 
+59.66.95.172 
+59.66.95.177 
+59.66.95.182 
+59.66.95.184 
+59.66.95.187 
+59.66.95.191 
+59.66.95.201 
+59.66.95.207 
+59.66.95.209 
+59.66.95.215 
+59.66.95.223 
+59.66.95.229 
+59.66.95.238 
+59.66.95.245 
+59.66.95.247 
+59.66.95.251 
+59.66.95.252 
+59.66.96.1 
+59.66.96.7 
+59.66.96.11 
+59.66.96.39 
+59.66.96.48 
+59.66.96.58 
+59.66.96.86 
+59.66.96.98 
+59.66.96.110 
+59.66.98.1 
+59.66.98.11 
+59.66.98.19 
+59.66.98.25 
+59.66.98.38 
+59.66.98.45 
+59.66.98.47 
+59.66.98.53 
+59.66.98.55 
+59.66.98.59 
+59.66.98.68 
+59.66.99.245 
+59.66.99.246 
+59.66.100.1 
+59.66.100.3 
+59.66.100.6 
+59.66.100.24 
+59.66.101.1 
+59.66.101.3 
+59.66.101.5 
+59.66.101.6 
+59.66.101.24 
+59.66.101.29 
+59.66.101.32 
+59.66.101.37 
+59.66.101.40 
+59.66.101.41 
+59.66.101.47 
+59.66.101.48 
+59.66.101.50 
+59.66.101.54 
+59.66.101.56 
+59.66.102.1 
+59.66.102.8 
+59.66.102.30 
+59.66.102.39 
+59.66.103.1 
+59.66.103.2 
+59.66.103.3 
+59.66.103.13 
+59.66.103.17 
+59.66.103.23 
+59.66.103.35 
+59.66.103.38 
+59.66.103.39 
+59.66.103.40 
+59.66.103.47 
+59.66.103.55 
+59.66.104.1 
+59.66.104.129 
+59.66.104.139 
+59.66.104.168 
+59.66.105.1 
+59.66.106.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.106.6 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.106.8 
+59.66.106.9 
+59.66.106.10 
+59.66.106.11 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 49153 open unknown 49156 open unknown 49157 open unknown 49158 open unknown 
+59.66.106.13 23 filtered telnet 53 open domain 161 filtered snmp 625 open apple-xsrvr-admin 10000 open snet-sensor-mgmt 10001 open scp-config 
+59.66.106.15 23 filtered telnet 161 filtered snmp 
+59.66.106.18 23 filtered telnet 161 filtered snmp 
+59.66.106.31 
+59.66.106.32 
+59.66.106.56 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.107.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.107.129 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.108.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.109.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.109.5 23 filtered telnet 161 filtered snmp 
+59.66.109.9 3 open compressnet 4 open unknown 6 open unknown 7 open echo 9 open discard 13 open daytime 17 open qotd 19 open chargen 20 open ftp-data 21 open ftp 22 open ssh 23 filtered telnet 24 open priv-mail 25 open smtp 26 open rsftp 30 open unknown 32 open unknown 33 open dsp 37 open time 42 open nameserver 43 open whois 49 open tacacs 53 open domain 70 open gopher 79 open finger 80 open http 81 open hosts2-ns 82 open xfer 83 open mit-ml-dev 84 open ctf 85 open mit-ml-dev 88 open kerberos-sec 89 open su-mit-tg 90 open dnsix 99 open metagram 100 open newacct 106 open pop3pw 109 open pop2 110 open pop3 111 open rpcbind 113 open ident 119 open nntp 125 open locus-map 135 open msrpc 139 open netbios-ssn 143 open imap 144 open news 146 open iso-tp0 161 filtered snmp 163 open cmip-man 179 open bgp 199 open smux 211 open 914c-g 212 open anet 222 open rsh-spx 254 open unknown 255 open unknown 256 open fw1-secureremote 259 open esro-gen 264 open bgmp 280 open http-mgmt 301 open unknown 306 open unknown 311 open asip-webadmin 340 open unknown 366 open odmr 389 open ldap 406 open imsp 407 open timbuktu 416 open silverplatter 417 open onmux 425 open icad-el 427 open svrloc 443 open https 444 open snpp 445 open microsoft-ds 458 open appleqtc 464 open kpasswd5 465 open smtps 481 open dvs 497 open retrospect 500 open isakmp 512 open exec 513 open login 514 open shell 515 open printer 524 open ncp 541 open uucp-rlogin 543 open klogin 544 open kshell 545 open ekshell 548 open afp 554 open rtsp 555 open dsf 563 open snews 587 open submission 593 open http-rpc-epmap 616 open sco-sysmgr 617 open sco-dtmgr 625 open apple-xsrvr-admin 631 open ipp 636 open ldapssl 646 open ldp 648 open rrp 666 open doom 667 open disclose 668 open mecomm 683 open corba-iiop 687 open asipregistry 691 open resvc 700 open epp 705 open agentx 711 open cisco-tdp 714 open iris-xpcs 720 open unknown 722 open unknown 726 open unknown 749 open kerberos-adm 765 open webster 777 open multiling-http 783 open spamassassin 787 open qsc 800 open mdbs_daemon 801 open device 808 open ccproxy-http 843 open unknown 873 open rsync 880 open unknown 888 open accessbuilder 898 open sun-manageconsole 900 open omginitialrefs 901 open samba-swat 902 open iss-realsecure 903 open iss-console-mgr 911 open xact-backup 912 open apex-mesh 981 open unknown 987 open unknown 990 open ftps 992 open telnets 993 open imaps 995 open pop3s 999 open garcon 1000 open cadlock 1001 open webpush 1002 open windows-icfw 1007 open unknown 1009 open unknown 1010 open surf 1011 open unknown 1021 open exp1 1022 open exp2 1023 open netvenuechat 1024 open kdm 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1029 open ms-lsa 1030 open iad1 1031 open iad2 1032 open iad3 1033 open netinfo 1034 open zincite-a 1035 open multidropper 1036 open nsstp 1037 open ams 1038 open mtqp 1039 open sbl 1040 open netsaint 1041 open danf-ak2 1042 open afrog 1043 open boinc 1044 open dcutility 1045 open fpitp 1046 open wfremotertm 1047 open neod1 1048 open neod2 1049 open td-postman 1050 open java-or-OTGfileshare 1051 open optima-vnet 1052 open ddt 1053 open remote-as 1054 open brvread 1055 open ansyslmd 1056 open vfo 1057 open startron 1058 open nim 1059 open nimreg 1060 open polestar 1061 open kiosk 1062 open veracity 1063 open kyoceranetdev 1064 open jstel 1065 open syscomlan 1066 open fpo-fns 1067 open instl_boots 1068 open instl_bootc 1069 open cognex-insight 1070 open gmrupdateserv 1071 open bsquare-voip 1072 open cardax 1073 open bridgecontrol 1074 open warmspotMgmt 1075 open rdrmshc 1076 open sns_credit 1077 open imgames 1078 open avocent-proxy 1079 open asprovatalk 1080 open socks 1081 closed pvuniwien 1082 open amt-esd-prot 1083 open ansoft-lm-1 1084 open ansoft-lm-2 1085 open webobjects 1086 open cplscrambler-lg 1087 open cplscrambler-in 1088 open cplscrambler-al 1089 open ff-annunc 1090 open ff-fms 1091 open ff-sm 1092 open obrpd 1093 open proofd 1094 open rootd 1095 open nicelink 1096 open cnrprotocol 1097 open sunclustermgr 1098 open rmiactivation 1099 open rmiregistry 1100 open mctp 1102 open adobeserver-1 1104 open xrl 1105 open ftranhc 1106 open isoipsigport-1 1107 open isoipsigport-2 1108 open ratio-adp 1110 open nfsd-status 1111 open lmsocialserver 1112 open msql 1113 open ltp-deepspace 1114 open mini-sql 1117 open ardus-mtrns 1119 open bnetgame 1121 open rmpp 1122 open availant-mgr 1123 open murray 1124 open hpvmmcontrol 1126 open hpvmmdata 1130 open casp 1131 open caspssl 1132 open kvm-via-ip 1137 open trim 1138 open encrypted_admin 1141 open mxomss 1145 open x9-icue 1147 open capioverlan 1148 open elfiq-repl 1149 open bvtsonar 1151 open unizensus 1152 open winpoplanmess 1154 open resacommunity 1163 open sddp 1164 open qsm-proxy 1165 open qsm-gui 1166 open qsm-remote 1169 open tripwire 1174 open fnet-remote-ui 1175 open dossier 1183 open llsurfup-http 1185 open catchpole 1186 open mysql-cluster 1187 open alias 1192 open caids-sensor 1198 open cajo-discovery 1199 open dmidi 1201 open nucleus-sand 1213 open mpc-lifenet 1216 open etebac5 1217 open hpss-ndapi 1218 open aeroflight-ads 1233 open univ-appserver 1234 open hotline 1236 open bvcontrol 1244 open isbconference1 1247 open visionpyramid 1248 open hermes 1259 open opennl-voice 1271 open excw 1272 open cspmlockmgr 1277 open miva-mqs 1287 open routematch 1296 open dproxy 1300 open h323hostcallsc 1301 open ci3-software-1 1309 open jtag-server 1310 open husky 1311 open rxmon 1322 open novation 1328 open ewall 1334 open writesrv 1352 open lotusnotes 1417 open timbuktu-srv1 1433 open ms-sql-s 1434 open ms-sql-m 1443 open ies-lm 1455 open esl-lm 1461 open ibm_wrless_lan 1494 open citrix-ica 1500 open vlsi-lm 1501 open sas-3 1503 open imtc-mcs 1521 open oracle 1524 open ingreslock 1533 open virtual-places 1556 open veritas_pbx 1580 open tn-tl-r1 1583 open simbaexpress 1594 open sixtrak 1600 open issd 1641 open invision 1658 open sixnetudr 1666 open netview-aix-6 1687 open nsjtp-ctrl 1688 open nsjtp-data 1700 open mps-raft 1717 open fj-hdnet 1718 open h323gatedisc 1719 open h323gatestat 1720 open h323q931 1721 open caicci 1723 open pptp 1755 open wms 1761 open landesk-rc 1782 open hp-hcip 1783 open unknown 1801 open msmq 1805 open enl-name 1812 open radius 1839 open netopia-vo1 1840 open netopia-vo2 1862 open mysql-cm-agent 1863 open msnp 1864 open paradym-31 1875 open westell-stats 1900 open upnp 1914 open elm-momentum 1935 open rtmp 1947 open sentinelsrm 1971 open netop-school 1972 open intersys-cache 1974 open drp 1984 open bigbrother 1998 open x25-svc-port 1999 open tcp-id-port 2000 open cisco-sccp 2001 open dc 2002 open globe 2003 open finger 2004 open mailbox 2005 open deslogin 2006 open invokator 2007 open dectalk 2008 open conf 2009 open news 2010 open search 2013 open raid-am 2020 open xinupageserver 2021 open servexec 2022 open down 2030 open device2 2033 open glogger 2034 open scoremgr 2035 open imsldoc 2038 open objectmanager 2040 open lam 2041 open interbase 2042 open isis 2043 open isis-bcast 2045 open cdfunc 2046 open sdfunc 2047 open dls 2048 open dls-monitor 2049 open nfs 2065 open dlsrpn 2068 open avocentkvm 2099 open h2250-annex-g 2100 open amiganetfs 2103 open zephyr-clt 2105 open eklogin 2106 open ekshell 2107 open msmq-mgmt 2111 open kx 2119 open gsigatekeeper 2121 open ccproxy-ftp 2126 open pktcable-cops 2135 open gris 2144 open lv-ffx 2160 open apc-2160 2161 open apc-agent 2170 open eyetv 2179 open vmrdp 2190 open tivoconnect 2191 open tvbus 2196 open unknown 2200 open ici 2222 open EtherNetIP-1 2251 open dif-port 2260 open apc-2260 2288 open netml 2301 open compaqdiag 2323 open 3d-nfsd 2366 open qip-login 2381 open compaq-https 2382 open ms-olap3 2383 open ms-olap4 2393 open ms-olap1 2394 open ms-olap2 2399 open fmpro-fdal 2401 open cvspserver 2492 open groove 2500 open rtsserv 2522 open windb 2525 open ms-v-worlds 2557 open nicetec-mgmt 2601 open zebra 2602 open ripd 2604 open ospfd 2605 open bgpd 2607 open connection 2608 open wag-service 2638 open sybase 2701 open sms-rcinfo 2702 open sms-xfer 2710 open sso-service 2717 open pn-requester 2718 open pn-requester2 2725 open msolap-ptp2 2800 open acc-raid 2809 open corbaloc 2811 open gsiftp 2869 open icslap 2875 open dxmessagebase2 2909 open funk-dialout 2910 open tdaccess 2920 open roboeda 2967 open symantec-av 2968 open enpp 2998 open iss-realsec 3000 open ppp 3001 open nessus 3003 open cgms 3005 open deslogin 3006 open deslogind 3007 open lotusmtap 3011 open trusted-web 3013 open gilatskysurfer 3017 open event_listener 3030 open arepa-cas 3031 open eppc 3052 open powerchute 3071 open csd-mgmt-port 3077 open orbix-loc-ssl 3128 open squid-http 3168 open poweronnud 3211 open avsecuremgmt 3221 open xnm-clear-text 3260 open iscsi 3261 open winshadow 3268 open globalcatLDAP 3269 open globalcatLDAPssl 3283 open netassistant 3300 open ceph 3301 open unknown 3306 open mysql 3322 open active-net 3323 open active-net 3324 open active-net 3325 open active-net 3333 open dec-notes 3351 open btrieve 3367 open satvid-datalnk 3369 open satvid-datalnk 3370 open satvid-datalnk 3371 open satvid-datalnk 3372 open msdtc 3389 open ms-wbt-server 3390 open dsc 3404 open unknown 3476 open nppmp 3493 open nut 3517 open 802-11-iapp 3527 open beserver-msg-q 3546 open unknown 3551 open apcupsd 3580 open nati-svrloc 3659 open apple-sasl 3689 open rendezvous 3690 open svn 3703 open adobeserver-3 3737 open xpanel 3766 open sitewatch-s 3784 open bfd-control 3800 open pwgpsi 3801 open ibm-mgr 3809 open apocd 3814 open neto-dcs 3826 open wormux 3827 open netmpi 3828 open neteh 3851 open spectraport 3869 open ovsam-mgmt 3871 open avocent-adsap 3878 open fotogcad 3880 open igrs 3889 open dandv-tester 3905 open mupdate 3914 open listcrt-port-2 3918 open pktcablemmcops 3920 open exasoftport1 3945 open emcads 3971 open lanrevserver 3986 open mapper-ws_ethd 3995 open iss-mgmt-ssl 3998 open dnx 4000 open remoteanything 4001 open newoak 4002 open mlchat-proxy 4003 open pxc-splr-ft 4004 open pxc-roid 4005 open pxc-pin 4006 open pxc-spvr 4045 open lockd 4111 open xgrid 4125 open rww 4126 open ddrepl 4129 open nuauth 4224 open xtell 4242 open vrml-multi-use 4279 open vrml-multi-use 4321 open rwhois 4343 open unicall 4443 open pharos 4444 open krb524 4445 open upnotifyp 4446 open n1-fwp 4449 open privatewire 4550 open gds-adppiw-db 4567 open tram 4662 open edonkey 4848 open appserv-http 4899 open radmin 4900 open hfcs 4998 open maybe-veritas 5000 open upnp 5001 open commplex-link 5002 open rfe 5003 open filemaker 5004 open avt-profile-1 5009 open airport-admin 5030 open surfpass 5033 open jtnetd-server 5050 open mmcc 5051 open ida-agent 5054 open rlm-admin 5060 open sip 5061 open sip-tls 5080 open onscreen 5087 open biotic 5100 open admd 5101 open admdog 5102 open admeng 5120 open barracuda-bbs 5190 open aol 5200 open targus-getdata 5214 open unknown 5221 open 3exmp 5222 open xmpp-client 5225 open hp-server 5226 open hp-status 5269 open xmpp-server 5280 open xmpp-bosh 5298 filtered presence 5357 open wsdapi 5405 open pcduo 5414 open statusd 5431 open park-agent 5432 open postgresql 5440 open unknown 5500 open hotline 5510 open secureidprop 5544 open unknown 5550 open sdadmind 5555 open freeciv 5560 open isqlplus 5566 open westec-connect 5631 open pcanywheredata 5633 open beorl 5666 open nrpe 5678 open rrac 5679 open activesync 5718 open dpm 5730 open unieng 5800 open vnc-http 5801 open vnc-http-1 5802 open vnc-http-2 5810 open unknown 5811 open unknown 5815 open unknown 5822 open unknown 5825 open unknown 5850 open unknown 5859 open wherehoo 5862 open unknown 5877 open unknown 5900 open vnc 5901 open vnc-1 5902 open vnc-2 5903 open vnc-3 5904 open unknown 5906 open unknown 5907 open unknown 5910 open cm 5911 open cpdlc 5915 open unknown 5922 open unknown 5925 open unknown 5950 open unknown 5952 open unknown 5959 open unknown 5960 open unknown 5961 open unknown 5962 open unknown 5963 open indy 5987 open wbem-rmi 5988 open wbem-http 5989 open wbem-https 5998 open ncd-diag 5999 open ncd-conf 6000 open X11 6001 open X11:1 6002 open X11:2 6003 open X11:3 6004 open X11:4 6005 open X11:5 6006 open X11:6 6007 open X11:7 6009 open X11:9 6025 open x11 6059 open X11:59 6100 open synchronet-db 6101 open backupexec 6106 open isdninfo 6112 open dtspc 6123 open backup-express 6129 open unknown 6156 open unknown 6346 open gnutella 6389 open clariion-evr01 6502 open netop-rc 6510 open mcer-port 6543 open mythtv 6547 open powerchuteplus 6565 open unknown 6566 open sane-port 6567 open esp 6580 open parsec-master 6646 open unknown 6666 open irc 6667 open irc 6668 open irc 6669 open irc 6689 open tsa 6692 open unknown 6699 open napster 6779 open unknown 6788 open smc-http 6789 open ibm-db2-admin 6792 open unknown 6839 open unknown 6881 open bittorrent-tracker 6901 open jetstream 6969 open acmsoda 7000 open afs3-fileserver 7001 open afs3-callback 7002 open afs3-prserver 7004 open afs3-kaserver 7007 open afs3-bos 7019 open doceri-ctl 7025 open vmsvc-2 7070 open realserver 7100 open font-service 7103 open unknown 7106 open unknown 7200 open fodms 7201 open dlip 7402 open rtps-dd-mt 7435 open unknown 7443 open oracleas-https 7496 open unknown 7512 open unknown 7625 open unknown 7627 open soap-http 7676 open imqbrokerd 7741 open scriptview 7777 open cbt 7778 open interwise 7800 open asr 7911 open unknown 7920 open unknown 7921 open unknown 7937 open nsrexecd 7938 open lgtomapper 7999 open irdmi2 8000 open http-alt 8001 open vcom-tunnel 8002 open teradataordbms 8007 open ajp12 8008 open http 8009 open ajp13 8010 open xmpp 8011 open unknown 8021 open ftp-proxy 8022 open oa-system 8031 open unknown 8042 open fs-agent 8045 open unknown 8080 open http-proxy 8081 open blackice-icecap 8082 open blackice-alerts 8083 open us-srv 8084 open unknown 8085 open unknown 8086 open d-s-n 8087 open simplifymedia 8088 open radan-http 8089 open unknown 8090 open opsmessaging 8093 open unknown 8099 open unknown 8100 open xprint-server 8180 open unknown 8181 open intermapper 8192 open sophos 8193 open sophos 8194 open sophos 8200 open trivnet1 8222 open unknown 8254 open unknown 8290 open unknown 8291 open unknown 8292 open blp3 8300 open tmi 8333 open bitcoin 8383 open m2mservices 8400 open cvd 8402 open abarsd 8443 open https-alt 8500 open fmtp 8600 open asterix 8649 open unknown 8651 open unknown 8652 open unknown 8654 open unknown 8701 open unknown 8800 open sunwebadmin 8873 open dxspider 8888 open sun-answerbook 8899 open ospf-lite 8994 open unknown 9000 open cslistener 9001 open tor-orport 9002 open dynamid 9003 open unknown 9009 open pichat 9010 open sdr 9011 open unknown 9040 open tor-trans 9050 open tor-socks 9071 open unknown 9080 open glrpc 9081 open unknown 9090 open zeus-admin 9091 open xmltec-xmlmail 9099 open unknown 9100 open jetdirect 9101 open jetdirect 9102 open jetdirect 9103 open jetdirect 9110 open unknown 9111 open DragonIDSConsole 9200 open wap-wsp 9207 open wap-vcal-s 9220 open unknown 9290 open unknown 9415 open unknown 9418 open git 9485 open unknown 9500 open ismserver 9502 open unknown 9503 open unknown 9535 open man 9575 open unknown 9593 open cba8 9594 open msgsys 9595 open pds 9618 open condor 9666 open zoomcp 9876 open sd 9877 open unknown 9878 open kca-service 9898 open monkeycom 9900 open iua 9917 open unknown 9929 open nping-echo 9943 open unknown 9944 open unknown 9968 open unknown 9998 open distinct32 9999 open abyss 10000 open snet-sensor-mgmt 10001 open scp-config 10002 open documentum 10003 open documentum_s 10004 open emcrmirccd 10009 open swdtp-sv 10010 open rxapi 10012 open unknown 10024 open unknown 10025 open unknown 10082 open amandaidx 10180 open unknown 10215 open unknown 10243 open unknown 10566 open unknown 10616 open unknown 10617 open unknown 10621 open unknown 10626 open unknown 10628 open unknown 10629 open unknown 10778 open unknown 11110 open sgi-soap 11111 open vce 11967 open sysinfo-sp 12000 open cce4x 12174 open unknown 12265 open unknown 12345 open netbus 13456 open unknown 13722 open netbackup 13782 open netbackup 13783 open netbackup 14000 open scotty-ft 14238 open unknown 14441 open unknown 14442 open unknown 15000 open hydap 15002 open onep-tls 15003 open unknown 15004 open unknown 15660 open bex-xr 15742 open unknown 16000 open fmsas 16001 open fmsascon 16012 open unknown 16016 open unknown 16018 open unknown 16080 open osxwebadmin 16113 open unknown 16992 open amt-soap-http 16993 open amt-soap-https 17877 open unknown 17988 open unknown 18040 open unknown 18101 open unknown 18988 open unknown 19101 open unknown 19283 open keysrvr 19315 open keyshadow 19350 open unknown 19780 open unknown 19801 open unknown 19842 open unknown 20000 open dnp 20005 open btx 20031 open unknown 20221 open unknown 20222 open ipulse-ics 20828 open unknown 21571 open unknown 22939 open unknown 23502 open unknown 24444 open unknown 24800 open unknown 25734 open unknown 25735 open unknown 26214 open unknown 27000 open flexlm0 27352 open unknown 27353 open unknown 27355 open unknown 27356 open unknown 27715 open unknown 28201 open unknown 30000 open ndmps 30718 open unknown 30951 open unknown 31038 open unknown 31337 open Elite 32768 open filenet-tms 32769 open filenet-rpc 32770 open sometimes-rpc3 32771 open sometimes-rpc5 32772 open sometimes-rpc7 32773 open sometimes-rpc9 32774 open sometimes-rpc11 32775 open sometimes-rpc13 32776 open sometimes-rpc15 32777 open sometimes-rpc17 32778 open sometimes-rpc19 32779 open sometimes-rpc21 32780 open sometimes-rpc23 32781 open unknown 32782 open unknown 32783 open unknown 32784 open unknown 32785 open unknown 33354 open unknown 33899 open unknown 34571 open unknown 34572 open unknown 34573 open unknown 35500 open unknown 38292 open landesk-cba 40193 open unknown 40911 open unknown 41511 open unknown 42510 open caerpc 44176 open unknown 44442 open coldfusion-auth 44443 open coldfusion-auth 44501 open unknown 45100 open unknown 48080 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 49157 open unknown 49158 open unknown 49159 open unknown 49160 open unknown 49161 open unknown 49163 open unknown 49165 open unknown 49167 open unknown 49175 open unknown 49176 open unknown 49400 open compaqdiag 49999 open unknown 50000 open ibm-db2 50001 open unknown 50002 open iiimsf 50003 open unknown 50006 open unknown 50300 open unknown 50389 open unknown 50500 open unknown 50636 open unknown 50800 open unknown 51103 open unknown 51493 open unknown 52673 open unknown 52822 open unknown 52848 open unknown 52869 open unknown 54045 open unknown 54328 open unknown 55055 open unknown 55056 open unknown 55555 open unknown 55600 open unknown 56737 open unknown 56738 open unknown 57294 open unknown 57797 open unknown 58080 open unknown 60020 open unknown 60443 open unknown 61532 open unknown 61900 open unknown 62078 open iphone-sync 63331 open unknown 64623 open unknown 64680 open unknown 65000 open unknown 65129 open unknown 65389 open unknown 
+59.66.109.10 23 filtered telnet 161 filtered snmp 
+59.66.109.25 
+59.66.109.36 23 filtered telnet 161 filtered snmp 1039 open sbl 8090 open opsmessaging 
+59.66.109.46 23 filtered telnet 161 filtered snmp 3128 open squid-http 3389 open ms-wbt-server 3689 open rendezvous 5900 open vnc 
+59.66.110.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.110.129 
+59.66.110.132 
+59.66.110.133 23 filtered telnet 161 filtered snmp 
+59.66.110.134 23 filtered telnet 161 filtered snmp 
+59.66.110.137 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1029 open ms-lsa 1033 open netinfo 15000 open hydap 
+59.66.110.138 
+59.66.110.140 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1063 open kyoceranetdev 1064 open jstel 1072 open cardax 1947 open sentinelsrm 2869 open icslap 27000 open flexlm0 
+59.66.110.141 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1309 open jtag-server 3580 open nati-svrloc 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.110.146 
+59.66.110.151 23 filtered telnet 161 filtered snmp 
+59.66.110.152 23 filtered telnet 161 filtered snmp 
+59.66.110.155 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 
+59.66.110.157 23 filtered telnet 161 filtered snmp 
+59.66.110.158 23 filtered telnet 161 filtered snmp 
+59.66.110.162 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1309 open jtag-server 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 49159 open unknown 
+59.66.110.164 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1112 open msql 
+59.66.110.165 23 filtered telnet 161 filtered snmp 
+59.66.110.171 23 filtered telnet 161 filtered snmp 8080 open http-proxy 
+59.66.110.174 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 1309 open jtag-server 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 2869 open icslap 3580 open nati-svrloc 5357 open wsdapi 8080 open http-proxy 
+59.66.110.177 
+59.66.110.181 
+59.66.110.191 
+59.66.110.193 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 5357 open wsdapi 
+59.66.110.203 23 filtered telnet 161 filtered snmp 
+59.66.110.210 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 903 open iss-console-mgr 5357 open wsdapi 15000 open hydap 
+59.66.110.220 
+59.66.110.253 
+59.66.111.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.112.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.112.4 
+59.66.112.6 
+59.66.112.7 23 filtered telnet 161 filtered snmp 
+59.66.112.8 23 filtered telnet 161 filtered snmp 
+59.66.112.13 
+59.66.112.20 23 filtered telnet 161 filtered snmp 
+59.66.112.23 23 filtered telnet 161 filtered snmp 
+59.66.112.25 23 filtered telnet 161 filtered snmp 
+59.66.112.43 23 filtered telnet 161 filtered snmp 
+59.66.112.51 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 
+59.66.112.55 22 open ssh 23 filtered telnet 161 filtered snmp 3389 open ms-wbt-server 5901 open vnc-1 6001 open X11:1 
+59.66.112.57 23 filtered telnet 161 filtered snmp 
+59.66.112.74 
+59.66.112.87 
+59.66.112.92 
+59.66.112.95 
+59.66.112.118 
+59.66.112.124 
+59.66.112.133 
+59.66.112.137 
+59.66.112.153 
+59.66.114.1 
+59.66.114.5 
+59.66.114.13 
+59.66.114.15 
+59.66.114.18 
+59.66.114.19 
+59.66.114.21 
+59.66.114.23 
+59.66.114.29 
+59.66.114.31 
+59.66.114.34 
+59.66.114.35 
+59.66.114.39 
+59.66.114.43 
+59.66.114.44 
+59.66.114.58 
+59.66.114.59 
+59.66.114.85 
+59.66.114.89 
+59.66.114.105 
+59.66.114.130 
+59.66.114.136 
+59.66.114.153 
+59.66.114.163 
+59.66.114.180 
+59.66.114.254 
+59.66.116.1 
+59.66.116.4 
+59.66.116.7 
+59.66.116.9 
+59.66.116.21 
+59.66.116.30 
+59.66.116.32 
+59.66.116.33 
+59.66.116.64 
+59.66.116.81 
+59.66.116.83 
+59.66.116.101 
+59.66.116.112 
+59.66.116.122 
+59.66.118.1 
+59.66.118.6 
+59.66.118.8 
+59.66.118.9 
+59.66.118.11 
+59.66.118.12 
+59.66.118.13 
+59.66.118.14 
+59.66.118.15 
+59.66.118.16 
+59.66.118.18 
+59.66.118.19 
+59.66.118.27 
+59.66.118.33 
+59.66.118.40 
+59.66.118.48 
+59.66.118.61 
+59.66.118.64 
+59.66.118.74 
+59.66.118.98 
+59.66.118.112 
+59.66.118.116 
+59.66.120.1 
+59.66.121.1 
+59.66.121.6 
+59.66.121.7 
+59.66.121.10 
+59.66.121.15 
+59.66.121.18 
+59.66.121.20 
+59.66.121.32 
+59.66.121.33 
+59.66.121.43 
+59.66.121.52 
+59.66.121.54 
+59.66.121.70 
+59.66.121.74 
+59.66.122.1 
+59.66.122.3 
+59.66.122.4 
+59.66.122.5 
+59.66.122.6 
+59.66.122.7 
+59.66.122.9 
+59.66.122.10 
+59.66.122.11 
+59.66.122.12 
+59.66.122.19 
+59.66.122.24 
+59.66.122.29 
+59.66.122.31 
+59.66.122.35 
+59.66.122.36 
+59.66.122.39 
+59.66.122.40 
+59.66.122.42 
+59.66.122.43 
+59.66.122.50 
+59.66.122.51 
+59.66.122.54 
+59.66.122.59 
+59.66.122.61 
+59.66.122.66 
+59.66.122.69 
+59.66.122.71 
+59.66.122.73 
+59.66.122.76 
+59.66.122.87 
+59.66.122.92 
+59.66.122.104 
+59.66.122.123 
+59.66.122.130 
+59.66.122.135 
+59.66.122.136 
+59.66.122.139 
+59.66.122.148 
+59.66.122.155 
+59.66.122.167 
+59.66.122.172 
+59.66.122.173 
+59.66.122.209 
+59.66.122.222 
+59.66.124.1 
+59.66.124.7 
+59.66.124.8 
+59.66.124.9 
+59.66.124.16 
+59.66.124.21 
+59.66.124.26 
+59.66.124.33 
+59.66.124.35 
+59.66.124.37 
+59.66.124.41 
+59.66.124.47 
+59.66.124.49 
+59.66.124.51 
+59.66.124.53 
+59.66.124.58 
+59.66.124.64 
+59.66.124.79 
+59.66.124.87 
+59.66.124.89 
+59.66.124.165 
+59.66.124.180 
+59.66.124.188 
+59.66.124.205 
+59.66.124.213 
+59.66.125.12 
+59.66.126.1 
+59.66.126.129 
+59.66.126.142 
+59.66.126.145 
+59.66.126.146 
+59.66.126.147 
+59.66.126.148 
+59.66.126.159 
+59.66.126.207 
+59.66.127.1 
+59.66.130.1 
+59.66.130.2 
+59.66.130.3 
+59.66.130.4 
+59.66.130.5 
+59.66.130.6 
+59.66.130.7 
+59.66.130.8 
+59.66.130.9 
+59.66.130.10 
+59.66.130.11 
+59.66.130.14 
+59.66.130.19 
+59.66.130.22 
+59.66.130.23 
+59.66.130.24 
+59.66.130.27 
+59.66.130.28 
+59.66.130.29 
+59.66.130.30 
+59.66.130.32 
+59.66.130.36 
+59.66.130.37 
+59.66.130.41 
+59.66.130.51 
+59.66.130.56 
+59.66.130.57 
+59.66.130.64 22 open ssh 3689 open rendezvous 
+59.66.130.87 
+59.66.131.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.131.2 23 open telnet 
+59.66.131.3 23 open telnet 
+59.66.131.4 23 open telnet 
+59.66.131.5 23 open telnet 
+59.66.131.6 23 open telnet 
+59.66.131.7 23 open telnet 
+59.66.131.8 23 open telnet 
+59.66.131.9 23 open telnet 
+59.66.131.10 23 open telnet 
+59.66.131.11 23 open telnet 
+59.66.131.12 
+59.66.131.13 
+59.66.131.17 
+59.66.131.18 
+59.66.131.21 8080 open http-proxy 
+59.66.131.23 22 open ssh 53 open domain 80 open http 443 open https 8088 open radan-http 
+59.66.131.28 80 open http 8090 open opsmessaging 
+59.66.131.30 22 open ssh 80 open http 
+59.66.131.43 
+59.66.131.46 
+59.66.131.48 135 open msrpc 139 open netbios-ssn 
+59.66.131.72 22 open ssh 80 open http 3389 open ms-wbt-server 
+59.66.131.100 135 open msrpc 139 open netbios-ssn 1309 open jtag-server 
+59.66.131.104 17 filtered qotd 139 open netbios-ssn 445 open microsoft-ds 992 filtered telnets 1000 filtered cadlock 1110 filtered nfsd-status 1132 filtered kvm-via-ip 2809 filtered corbaloc 3322 filtered active-net 3905 filtered mupdate 5004 filtered avt-profile-1 6001 filtered X11:1 6112 filtered dtspc 9968 filtered unknown 15004 filtered unknown 27355 filtered unknown 
+59.66.131.241 53 open domain 
+59.66.131.242 22 open ssh 443 open https 444 open snpp 1000 closed cadlock 3128 closed squid-http 8080 closed http-proxy 16113 open unknown 
+59.66.131.244 21 open ftp 22 open ssh 25 open smtp 80 open http 111 open rpcbind 139 open netbios-ssn 443 open https 445 open microsoft-ds 993 open imaps 995 open pop3s 8888 open sun-answerbook 
+59.66.131.245 3000 open ppp 
+59.66.131.247 22 open ssh 25 open smtp 80 open http 443 open https 3000 open ppp 8000 open http-alt 
+59.66.131.248 
+59.66.132.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.132.2 23 open telnet 
+59.66.132.3 23 open telnet 
+59.66.132.4 23 open telnet 
+59.66.132.5 23 open telnet 
+59.66.132.6 23 open telnet 
+59.66.132.7 23 open telnet 
+59.66.132.8 23 open telnet 
+59.66.132.9 23 open telnet 
+59.66.132.10 23 open telnet 
+59.66.132.13 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 
+59.66.132.15 3306 open mysql 
+59.66.132.16 3306 open mysql 
+59.66.132.17 62078 open iphone-sync 
+59.66.132.23 
+59.66.132.24 
+59.66.132.27 
+59.66.132.28 
+59.66.132.29 80 open http 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 843 open unknown 1080 open socks 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 5357 open wsdapi 6001 open X11:1 16000 open fmsas 
+59.66.132.35 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 1183 open llsurfup-http 2869 open icslap 3580 open nati-svrloc 8080 open http-proxy 49152 open unknown 49153 open unknown 49154 open unknown 
+59.66.132.39 135 open msrpc 139 open netbios-ssn 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 1580 open tn-tl-r1 3580 open nati-svrloc 8080 open http-proxy 
+59.66.132.47 
+59.66.132.49 
+59.66.132.58 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 6000 open X11 
+59.66.132.70 
+59.66.132.82 80 open http 135 open msrpc 139 open netbios-ssn 445 open microsoft-ds 1600 open issd 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 5357 open wsdapi 49152 open unknown 
+59.66.132.89 22 open ssh 111 open rpcbind 139 open netbios-ssn 445 open microsoft-ds 
+59.66.133.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.133.2 23 filtered telnet 161 filtered snmp 
+59.66.133.3 23 filtered telnet 161 filtered snmp 
+59.66.133.4 23 filtered telnet 161 filtered snmp 
+59.66.133.5 23 filtered telnet 161 filtered snmp 
+59.66.133.6 23 filtered telnet 161 filtered snmp 
+59.66.133.7 23 filtered telnet 161 filtered snmp 
+59.66.133.8 23 filtered telnet 161 filtered snmp 
+59.66.133.9 23 filtered telnet 161 filtered snmp 
+59.66.133.10 23 filtered telnet 161 filtered snmp 
+59.66.133.11 
+59.66.133.18 23 filtered telnet 161 filtered snmp 
+59.66.133.22 23 filtered telnet 161 filtered snmp 
+59.66.133.29 80 open http 843 open unknown 7000 open afs3-fileserver 8000 open http-alt 
+59.66.133.39 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1309 open jtag-server 3580 open nati-svrloc 5357 open wsdapi 8080 open http-proxy 
+59.66.133.41 23 filtered telnet 161 filtered snmp 
+59.66.133.45 22 open ssh 23 filtered telnet 161 filtered snmp 2222 open EtherNetIP-1 
+59.66.133.83 
+59.66.133.254 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.134.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.134.2 23 filtered telnet 161 filtered snmp 
+59.66.134.3 23 filtered telnet 161 filtered snmp 
+59.66.134.4 23 filtered telnet 161 filtered snmp 
+59.66.134.5 23 filtered telnet 161 filtered snmp 
+59.66.134.6 23 filtered telnet 161 filtered snmp 
+59.66.134.7 23 filtered telnet 161 filtered snmp 
+59.66.134.8 23 filtered telnet 161 filtered snmp 
+59.66.134.9 23 filtered telnet 161 filtered snmp 
+59.66.134.10 23 filtered telnet 161 filtered snmp 
+59.66.134.11 23 filtered telnet 161 filtered snmp 
+59.66.134.12 23 filtered telnet 161 filtered snmp 
+59.66.134.15 23 filtered telnet 161 filtered snmp 
+59.66.134.17 23 filtered telnet 161 filtered snmp 
+59.66.134.19 23 filtered telnet 161 filtered snmp 
+59.66.134.23 23 filtered telnet 161 filtered snmp 
+59.66.134.38 22 open ssh 23 filtered telnet 80 open http 88 open kerberos-sec 161 filtered snmp 3306 open mysql 5900 open vnc 
+59.66.134.81 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 3580 open nati-svrloc 5357 open wsdapi 49152 open unknown 49153 open unknown 49155 open unknown 49156 open unknown 
+59.66.135.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.135.2 23 filtered telnet 161 filtered snmp 
+59.66.135.3 23 filtered telnet 161 filtered snmp 
+59.66.135.4 23 filtered telnet 161 filtered snmp 
+59.66.135.5 23 filtered telnet 161 filtered snmp 
+59.66.135.6 23 filtered telnet 161 filtered snmp 
+59.66.135.7 23 filtered telnet 161 filtered snmp 
+59.66.135.8 23 filtered telnet 161 filtered snmp 
+59.66.135.9 23 filtered telnet 161 filtered snmp 
+59.66.135.15 22 open ssh 
+59.66.135.16 
+59.66.135.17 23 filtered telnet 161 filtered snmp 
+59.66.135.18 23 filtered telnet 161 filtered snmp 
+59.66.135.19 23 filtered telnet 53 open domain 80 open http 161 filtered snmp 3333 open dec-notes 5555 open freeciv 
+59.66.135.22 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 
+59.66.136.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.136.2 23 filtered telnet 161 filtered snmp 
+59.66.136.3 23 filtered telnet 161 filtered snmp 
+59.66.136.4 23 filtered telnet 161 filtered snmp 
+59.66.136.5 23 filtered telnet 161 filtered snmp 
+59.66.136.6 23 filtered telnet 161 filtered snmp 
+59.66.136.7 23 filtered telnet 161 filtered snmp 
+59.66.136.8 23 filtered telnet 161 filtered snmp 
+59.66.136.9 23 filtered telnet 161 filtered snmp 
+59.66.136.10 23 filtered telnet 161 filtered snmp 
+59.66.136.11 23 filtered telnet 161 filtered snmp 
+59.66.136.18 23 filtered telnet 161 filtered snmp 
+59.66.136.25 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1309 open jtag-server 3580 open nati-svrloc 8080 open http-proxy 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.136.67 21 open ftp 22 open ssh 80 open http 443 open https 990 open ftps 3580 open nati-svrloc 8080 open http-proxy 
+59.66.137.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.137.2 23 filtered telnet 161 filtered snmp 
+59.66.137.3 23 filtered telnet 161 filtered snmp 
+59.66.137.4 23 filtered telnet 161 filtered snmp 
+59.66.137.5 23 filtered telnet 161 filtered snmp 
+59.66.137.6 23 filtered telnet 161 filtered snmp 
+59.66.137.7 23 filtered telnet 161 filtered snmp 
+59.66.137.8 23 filtered telnet 161 filtered snmp 
+59.66.137.9 23 filtered telnet 161 filtered snmp 
+59.66.137.10 23 filtered telnet 161 filtered snmp 
+59.66.137.11 23 filtered telnet 161 filtered snmp 
+59.66.137.15 21 open ftp 23 filtered telnet 53 open domain 80 open http 88 open kerberos-sec 161 filtered snmp 445 open microsoft-ds 548 open afp 
+59.66.137.16 22 open ssh 23 filtered telnet 53 open domain 80 open http 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5000 open upnp 8888 open sun-answerbook 
+59.66.137.19 22 open ssh 23 filtered telnet 53 open domain 80 open http 161 filtered snmp 3389 open ms-wbt-server 
+59.66.137.20 21 open ftp 23 filtered telnet 161 filtered snmp 
+59.66.137.27 23 filtered telnet 161 filtered snmp 
+59.66.137.38 23 filtered telnet 161 filtered snmp 
+59.66.137.50 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 554 open rtsp 2869 open icslap 5357 open wsdapi 6000 open X11 10243 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.137.55 23 filtered telnet 161 filtered snmp 443 open https 
+59.66.137.78 21 open ftp 22 open ssh 23 filtered telnet 80 open http 161 filtered snmp 
+59.66.137.119 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.137.147 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1029 open ms-lsa 1117 open ardus-mtrns 1309 open jtag-server 2869 open icslap 3580 open nati-svrloc 5357 open wsdapi 8080 open http-proxy 
+59.66.138.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.138.2 23 filtered telnet 161 filtered snmp 
+59.66.138.3 23 filtered telnet 161 filtered snmp 
+59.66.138.4 23 filtered telnet 161 filtered snmp 
+59.66.138.5 23 filtered telnet 161 filtered snmp 
+59.66.138.6 23 filtered telnet 161 filtered snmp 
+59.66.138.8 23 filtered telnet 161 filtered snmp 
+59.66.138.9 23 filtered telnet 161 filtered snmp 
+59.66.138.10 23 filtered telnet 161 filtered snmp 
+59.66.138.11 23 filtered telnet 161 filtered snmp 
+59.66.138.17 23 filtered telnet 80 filtered http 139 filtered netbios-ssn 161 filtered snmp 445 filtered microsoft-ds 1723 filtered pptp 
+59.66.138.21 23 filtered telnet 161 filtered snmp 
+59.66.138.23 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1947 open sentinelsrm 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.138.26 23 filtered telnet 161 filtered snmp 8090 open opsmessaging 
+59.66.138.36 23 filtered telnet 161 filtered snmp 
+59.66.138.42 23 filtered telnet 111 open rpcbind 161 filtered snmp 999 open garcon 1021 open exp1 1023 open netvenuechat 2049 open nfs 
+59.66.138.49 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1033 open netinfo 1034 open zincite-a 1035 open multidropper 1105 open ftranhc 
+59.66.138.59 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 5357 open wsdapi 6000 open X11 
+59.66.138.61 23 filtered telnet 80 open http 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1022 open exp2 8200 open trivnet1 
+59.66.138.63 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1309 open jtag-server 3580 open nati-svrloc 5357 open wsdapi 8080 open http-proxy 
+59.66.138.74 23 filtered telnet 161 filtered snmp 
+59.66.138.84 80 open http 3580 open nati-svrloc 8080 open http-proxy 
+59.66.139.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.139.2 23 filtered telnet 161 filtered snmp 
+59.66.139.3 23 filtered telnet 161 filtered snmp 
+59.66.139.5 23 filtered telnet 161 filtered snmp 
+59.66.139.6 23 filtered telnet 161 filtered snmp 
+59.66.139.7 23 filtered telnet 161 filtered snmp 
+59.66.139.8 23 filtered telnet 161 filtered snmp 
+59.66.139.9 23 filtered telnet 161 filtered snmp 
+59.66.139.10 23 filtered telnet 161 filtered snmp 
+59.66.139.15 23 filtered telnet 161 filtered snmp 
+59.66.139.23 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 636 filtered ldapssl 1058 filtered nim 1145 filtered x9-icue 2382 filtered ms-olap3 3071 filtered csd-mgmt-port 3580 open nati-svrloc 3971 filtered lanrevserver 4321 filtered rwhois 5800 filtered vnc-http 6004 filtered X11:4 20005 filtered btx 49152 open unknown 49153 open unknown 49154 filtered unknown 49155 open unknown 
+59.66.139.46 
+59.66.140.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.140.2 23 filtered telnet 161 filtered snmp 
+59.66.140.3 23 filtered telnet 161 filtered snmp 
+59.66.140.4 23 filtered telnet 161 filtered snmp 
+59.66.140.5 23 filtered telnet 161 filtered snmp 
+59.66.140.6 23 filtered telnet 161 filtered snmp 
+59.66.140.7 23 filtered telnet 161 filtered snmp 
+59.66.140.8 23 filtered telnet 161 filtered snmp 
+59.66.140.9 23 filtered telnet 161 filtered snmp 
+59.66.140.10 23 filtered telnet 161 filtered snmp 
+59.66.140.11 
+59.66.140.33 22 open ssh 23 filtered telnet 80 open http 161 filtered snmp 443 open https 902 open iss-realsecure 8080 open http-proxy 
+59.66.140.36 
+59.66.140.40 21 open ftp 22 open ssh 23 filtered telnet 80 open http 161 filtered snmp 5900 open vnc 9091 open xmltec-xmlmail 
+59.66.140.71 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 2869 open icslap 5357 open wsdapi 5678 open rrac 10000 open snet-sensor-mgmt 
+59.66.141.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.141.2 23 filtered telnet 161 filtered snmp 
+59.66.141.3 23 filtered telnet 161 filtered snmp 
+59.66.141.4 23 filtered telnet 161 filtered snmp 
+59.66.141.5 23 filtered telnet 161 filtered snmp 
+59.66.141.6 23 filtered telnet 161 filtered snmp 
+59.66.141.7 23 filtered telnet 161 filtered snmp 
+59.66.141.8 23 filtered telnet 161 filtered snmp 
+59.66.141.9 23 filtered telnet 161 filtered snmp 
+59.66.141.10 23 filtered telnet 161 filtered snmp 
+59.66.141.11 
+59.66.141.15 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.141.16 
+59.66.141.27 23 filtered telnet 161 filtered snmp 
+59.66.141.31 23 filtered telnet 161 filtered snmp 
+59.66.141.36 
+59.66.141.46 23 filtered telnet 80 open http 135 filtered msrpc 139 filtered netbios-ssn 144 filtered news 161 filtered snmp 445 filtered microsoft-ds 1053 filtered remote-as 1080 filtered socks 1110 filtered nfsd-status 1148 filtered elfiq-repl 1801 open msmq 1875 filtered westell-stats 1947 filtered sentinelsrm 2005 filtered deslogin 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 2869 filtered icslap 3370 filtered satvid-datalnk 3389 filtered ms-wbt-server 3659 filtered apple-sasl 6123 filtered backup-express 6502 filtered netop-rc 11111 filtered vce 19780 filtered unknown 20031 filtered unknown 55056 filtered unknown 
+59.66.141.48 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 
+59.66.141.55 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1080 open socks 3580 open nati-svrloc 5357 open wsdapi 8080 open http-proxy 
+59.66.142.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.142.2 23 filtered telnet 161 filtered snmp 
+59.66.142.3 23 filtered telnet 161 filtered snmp 
+59.66.142.4 23 filtered telnet 161 filtered snmp 
+59.66.142.5 23 filtered telnet 161 filtered snmp 
+59.66.142.6 
+59.66.142.7 23 filtered telnet 161 filtered snmp 
+59.66.142.8 23 filtered telnet 161 filtered snmp 
+59.66.142.9 23 filtered telnet 161 filtered snmp 
+59.66.142.10 23 filtered telnet 161 filtered snmp 
+59.66.142.11 23 filtered telnet 161 filtered snmp 
+59.66.142.24 22 open ssh 23 filtered telnet 88 open kerberos-sec 161 filtered snmp 445 open microsoft-ds 548 open afp 631 open ipp 3283 open netassistant 3306 open mysql 5900 open vnc 8090 open opsmessaging 
+59.66.142.33 23 filtered telnet 161 filtered snmp 
+59.66.142.34 
+59.66.142.35 23 filtered telnet 161 filtered snmp 
+59.66.143.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.143.2 23 filtered telnet 161 filtered snmp 
+59.66.143.3 23 filtered telnet 161 filtered snmp 
+59.66.143.4 23 filtered telnet 161 filtered snmp 
+59.66.143.5 23 filtered telnet 161 filtered snmp 
+59.66.143.6 
+59.66.143.16 23 filtered telnet 161 filtered snmp 
+59.66.143.17 
+59.66.143.25 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 20000 open dnp 30000 open ndmps 
+59.66.143.32 
+59.66.143.34 
+59.66.143.36 23 filtered telnet 161 filtered snmp 
+59.66.143.38 80 open http 1088 open cplscrambler-al 3389 open ms-wbt-server 8443 open https-alt 
+59.66.143.49 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 3306 open mysql 3389 open ms-wbt-server 5357 open wsdapi 8090 open opsmessaging 
+59.66.144.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.144.2 23 filtered telnet 161 filtered snmp 
+59.66.144.3 23 filtered telnet 161 filtered snmp 
+59.66.144.4 23 filtered telnet 161 filtered snmp 
+59.66.144.5 23 filtered telnet 161 filtered snmp 
+59.66.144.6 23 filtered telnet 161 filtered snmp 
+59.66.144.7 23 filtered telnet 161 filtered snmp 
+59.66.144.8 23 filtered telnet 161 filtered snmp 
+59.66.144.9 23 filtered telnet 161 filtered snmp 
+59.66.144.10 23 filtered telnet 161 filtered snmp 
+59.66.144.11 23 filtered telnet 161 filtered snmp 
+59.66.144.14 80 open http 8888 closed sun-answerbook 
+59.66.144.26 
+59.66.144.29 23 filtered telnet 161 filtered snmp 8090 open opsmessaging 
+59.66.144.31 23 filtered telnet 161 filtered snmp 
+59.66.144.36 80 open http 8888 closed sun-answerbook 
+59.66.144.45 80 open http 
+59.66.145.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.145.2 23 filtered telnet 161 filtered snmp 
+59.66.145.3 23 filtered telnet 161 filtered snmp 
+59.66.145.4 23 filtered telnet 161 filtered snmp 
+59.66.145.5 23 filtered telnet 161 filtered snmp 
+59.66.145.6 23 filtered telnet 161 filtered snmp 
+59.66.145.7 
+59.66.145.8 23 filtered telnet 161 filtered snmp 
+59.66.145.9 23 filtered telnet 161 filtered snmp 
+59.66.145.10 23 filtered telnet 161 filtered snmp 
+59.66.145.11 23 filtered telnet 161 filtered snmp 
+59.66.145.35 
+59.66.145.39 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 
+59.66.146.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.146.2 23 filtered telnet 161 filtered snmp 
+59.66.146.3 23 filtered telnet 161 filtered snmp 
+59.66.146.4 23 filtered telnet 161 filtered snmp 
+59.66.146.5 23 filtered telnet 161 filtered snmp 
+59.66.146.6 23 filtered telnet 161 filtered snmp 
+59.66.146.7 
+59.66.146.8 
+59.66.146.9 23 filtered telnet 161 filtered snmp 
+59.66.146.10 23 filtered telnet 161 filtered snmp 
+59.66.146.11 23 filtered telnet 161 filtered snmp 
+59.66.146.15 
+59.66.146.16 
+59.66.148.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.148.2 23 filtered telnet 161 filtered snmp 
+59.66.148.3 23 filtered telnet 161 filtered snmp 
+59.66.148.4 23 filtered telnet 161 filtered snmp 
+59.66.148.5 23 filtered telnet 161 filtered snmp 
+59.66.148.6 23 filtered telnet 161 filtered snmp 
+59.66.148.7 23 filtered telnet 161 filtered snmp 
+59.66.148.8 23 filtered telnet 161 filtered snmp 
+59.66.148.9 23 filtered telnet 161 filtered snmp 
+59.66.148.10 23 filtered telnet 161 filtered snmp 
+59.66.148.11 23 filtered telnet 161 filtered snmp 
+59.66.148.14 23 filtered telnet 161 filtered snmp 
+59.66.148.23 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 902 open iss-realsecure 912 open apex-mesh 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1051 open optima-vnet 
+59.66.148.27 23 filtered telnet 161 filtered snmp 
+59.66.148.28 23 filtered telnet 161 filtered snmp 
+59.66.149.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.149.2 23 filtered telnet 161 filtered snmp 
+59.66.149.3 23 filtered telnet 161 filtered snmp 
+59.66.149.4 23 filtered telnet 161 filtered snmp 
+59.66.149.5 23 filtered telnet 161 filtered snmp 
+59.66.149.6 23 filtered telnet 161 filtered snmp 
+59.66.149.7 23 filtered telnet 161 filtered snmp 
+59.66.149.8 23 filtered telnet 161 filtered snmp 
+59.66.149.9 23 filtered telnet 161 filtered snmp 
+59.66.149.10 23 filtered telnet 161 filtered snmp 
+59.66.149.11 23 filtered telnet 161 filtered snmp 
+59.66.149.12 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.149.14 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 
+59.66.150.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.150.2 23 filtered telnet 161 filtered snmp 
+59.66.150.3 
+59.66.150.4 
+59.66.150.5 
+59.66.150.6 
+59.66.150.7 
+59.66.150.8 
+59.66.150.9 
+59.66.150.10 
+59.66.150.11 
+59.66.150.14 
+59.66.151.1 
+59.66.151.2 
+59.66.151.3 
+59.66.151.4 
+59.66.151.5 
+59.66.151.6 
+59.66.151.7 
+59.66.151.8 
+59.66.151.16 
+59.66.151.17 
+59.66.151.18 
+59.66.151.22 
+59.66.151.28 
+59.66.152.1 
+59.66.152.2 
+59.66.152.3 
+59.66.152.4 
+59.66.152.5 
+59.66.152.6 
+59.66.152.7 
+59.66.152.8 
+59.66.152.9 
+59.66.152.10 
+59.66.152.11 
+59.66.152.16 
+59.66.152.18 
+59.66.152.20 
+59.66.152.27 
+59.66.152.29 
+59.66.152.30 
+59.66.152.33 
+59.66.152.35 
+59.66.152.39 
+59.66.152.77 23 filtered telnet 135 filtered msrpc 139 filtered netbios-ssn 161 filtered snmp 445 filtered microsoft-ds 843 open unknown 1666 open netview-aix-6 6002 open X11:2 7000 open afs3-fileserver 8000 open http-alt 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49158 open unknown 
+59.66.153.1 
+59.66.153.2 
+59.66.153.3 
+59.66.153.4 
+59.66.153.5 
+59.66.153.6 
+59.66.153.7 
+59.66.153.8 
+59.66.153.9 
+59.66.153.10 
+59.66.153.11 
+59.66.153.14 
+59.66.153.22 
+59.66.154.1 
+59.66.154.2 
+59.66.154.3 
+59.66.154.4 
+59.66.154.5 
+59.66.154.6 
+59.66.154.7 
+59.66.154.8 
+59.66.154.9 
+59.66.154.10 
+59.66.154.11 
+59.66.154.19 
+59.66.154.28 
+59.66.154.47 
+59.66.154.64 
+59.66.156.1 
+59.66.156.2 
+59.66.156.3 
+59.66.156.4 
+59.66.156.5 
+59.66.156.6 
+59.66.156.7 
+59.66.156.8 
+59.66.156.9 
+59.66.156.10 
+59.66.156.11 
+59.66.156.21 
+59.66.156.22 
+59.66.156.23 
+59.66.156.25 
+59.66.157.1 
+59.66.157.2 
+59.66.157.3 
+59.66.157.4 
+59.66.157.5 
+59.66.157.6 
+59.66.157.7 
+59.66.157.8 
+59.66.157.9 
+59.66.157.10 
+59.66.157.11 
+59.66.157.17 
+59.66.157.19 
+59.66.157.20 
+59.66.157.22 
+59.66.157.24 
+59.66.157.25 
+59.66.157.26 
+59.66.157.32 
+59.66.157.68 
+59.66.158.1 
+59.66.158.2 
+59.66.158.3 
+59.66.158.4 
+59.66.158.5 
+59.66.158.6 
+59.66.158.7 
+59.66.158.8 
+59.66.158.9 
+59.66.158.10 
+59.66.158.11 
+59.66.158.14 
+59.66.158.15 
+59.66.158.16 
+59.66.158.19 
+59.66.158.20 
+59.66.158.21 
+59.66.158.22 
+59.66.158.28 
+59.66.158.29 
+59.66.158.32 
+59.66.158.34 
+59.66.158.41 
+59.66.158.56 
+59.66.158.57 
+59.66.159.1 
+59.66.159.2 
+59.66.159.3 
+59.66.159.4 
+59.66.159.5 
+59.66.159.6 
+59.66.159.7 
+59.66.159.8 
+59.66.159.16 
+59.66.159.19 
+59.66.159.20 
+59.66.159.23 
+59.66.159.73 
+59.66.160.1 
+59.66.160.2 
+59.66.160.3 
+59.66.160.4 
+59.66.160.5 
+59.66.160.6 
+59.66.160.7 
+59.66.160.8 
+59.66.160.9 
+59.66.160.10 
+59.66.160.11 
+59.66.160.17 
+59.66.161.1 
+59.66.161.2 
+59.66.161.3 
+59.66.161.4 
+59.66.161.5 
+59.66.161.6 
+59.66.161.7 
+59.66.161.8 
+59.66.161.9 
+59.66.161.10 
+59.66.161.11 
+59.66.161.14 
+59.66.161.15 
+59.66.161.18 
+59.66.161.20 
+59.66.161.24 
+59.66.161.25 
+59.66.161.31 
+59.66.162.1 
+59.66.162.2 
+59.66.162.3 
+59.66.162.4 
+59.66.162.5 
+59.66.162.6 
+59.66.162.7 
+59.66.162.8 
+59.66.162.9 
+59.66.162.10 
+59.66.162.11 
+59.66.162.19 
+59.66.162.20 
+59.66.162.23 
+59.66.162.26 
+59.66.163.1 
+59.66.163.2 
+59.66.164.1 
+59.66.164.2 
+59.66.164.3 
+59.66.164.4 
+59.66.164.5 
+59.66.164.6 
+59.66.164.7 
+59.66.164.8 
+59.66.164.9 
+59.66.164.10 
+59.66.164.11 
+59.66.164.14 
+59.66.165.1 
+59.66.165.2 
+59.66.165.3 
+59.66.165.4 
+59.66.165.5 
+59.66.165.6 
+59.66.165.7 
+59.66.165.8 
+59.66.165.9 
+59.66.165.10 
+59.66.165.11 
+59.66.165.16 
+59.66.165.23 
+59.66.166.1 
+59.66.166.2 
+59.66.166.3 
+59.66.166.4 
+59.66.166.5 
+59.66.166.6 
+59.66.166.7 
+59.66.166.8 
+59.66.166.9 
+59.66.166.10 
+59.66.166.19 
+59.66.172.1 
+59.66.172.2 
+59.66.172.3 
+59.66.172.4 
+59.66.172.5 
+59.66.172.6 
+59.66.172.7 
+59.66.172.8 
+59.66.172.9 
+59.66.172.10 
+59.66.172.11 
+59.66.172.15 
+59.66.172.17 
+59.66.172.19 
+59.66.172.20 
+59.66.172.27 
+59.66.172.34 
+59.66.172.39 
+59.66.172.58 
+59.66.172.72 
+59.66.172.87 
+59.66.173.1 
+59.66.173.2 
+59.66.173.3 
+59.66.173.4 
+59.66.173.5 
+59.66.173.6 
+59.66.173.7 
+59.66.173.8 
+59.66.173.9 
+59.66.173.10 
+59.66.173.11 
+59.66.173.30 
+59.66.173.47 
+59.66.174.1 
+59.66.174.2 
+59.66.174.3 
+59.66.174.4 
+59.66.174.5 
+59.66.174.6 
+59.66.174.7 
+59.66.174.12 
+59.66.174.14 
+59.66.174.15 
+59.66.174.23 
+59.66.174.39 
+59.66.175.1 
+59.66.175.2 
+59.66.175.3 
+59.66.175.4 
+59.66.175.5 
+59.66.175.6 
+59.66.175.7 
+59.66.175.8 
+59.66.175.9 
+59.66.175.10 
+59.66.175.11 
+59.66.175.26 
+59.66.175.75 
+59.66.175.82 
+59.66.176.1 
+59.66.176.2 
+59.66.176.3 
+59.66.176.4 
+59.66.176.5 
+59.66.176.6 
+59.66.176.7 
+59.66.176.8 
+59.66.176.9 
+59.66.176.10 
+59.66.176.11 
+59.66.176.14 
+59.66.176.16 
+59.66.176.18 
+59.66.176.19 
+59.66.176.20 
+59.66.176.21 
+59.66.176.24 
+59.66.176.28 
+59.66.177.1 
+59.66.177.2 
+59.66.177.3 
+59.66.177.4 
+59.66.177.5 
+59.66.177.6 
+59.66.177.14 
+59.66.178.1 
+59.66.178.2 23 open telnet 
+59.66.178.3 23 open telnet 
+59.66.178.4 23 open telnet 
+59.66.178.5 23 open telnet 
+59.66.178.6 23 open telnet 
+59.66.178.7 23 open telnet 
+59.66.178.8 23 open telnet 
+59.66.178.9 23 open telnet 
+59.66.178.10 23 open telnet 
+59.66.178.11 23 open telnet 
+59.66.179.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.179.2 23 open telnet 
+59.66.179.3 23 open telnet 
+59.66.179.4 23 open telnet 
+59.66.179.5 23 open telnet 
+59.66.179.6 23 open telnet 
+59.66.179.7 23 open telnet 
+59.66.179.8 23 open telnet 
+59.66.179.9 23 open telnet 
+59.66.179.10 23 open telnet 
+59.66.179.11 23 open telnet 
+59.66.179.23 80 open http 3306 open mysql 10000 open snet-sensor-mgmt 
+59.66.179.24 88 open kerberos-sec 5900 open vnc 
+59.66.179.26 
+59.66.180.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.180.2 23 open telnet 
+59.66.180.16 
+59.66.181.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.181.2 23 filtered telnet 161 filtered snmp 
+59.66.181.3 23 filtered telnet 161 filtered snmp 
+59.66.181.4 23 filtered telnet 161 filtered snmp 
+59.66.181.5 23 filtered telnet 161 filtered snmp 
+59.66.181.6 23 filtered telnet 161 filtered snmp 
+59.66.181.7 23 filtered telnet 161 filtered snmp 
+59.66.181.8 23 filtered telnet 161 filtered snmp 
+59.66.181.9 23 filtered telnet 161 filtered snmp 
+59.66.181.10 23 filtered telnet 161 filtered snmp 
+59.66.181.11 23 filtered telnet 161 filtered snmp 
+59.66.181.12 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.181.15 23 filtered telnet 161 filtered snmp 
+59.66.181.17 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.181.19 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 27000 open flexlm0 49152 open unknown 49153 open unknown 49155 open unknown 49161 open unknown 
+59.66.182.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.182.2 23 filtered telnet 161 filtered snmp 
+59.66.182.3 23 filtered telnet 161 filtered snmp 
+59.66.182.4 23 filtered telnet 161 filtered snmp 
+59.66.182.5 23 filtered telnet 161 filtered snmp 
+59.66.182.6 23 filtered telnet 161 filtered snmp 
+59.66.182.7 23 filtered telnet 161 filtered snmp 
+59.66.182.8 23 filtered telnet 161 filtered snmp 
+59.66.182.9 23 filtered telnet 161 filtered snmp 
+59.66.182.10 23 filtered telnet 161 filtered snmp 
+59.66.182.11 23 filtered telnet 161 filtered snmp 
+59.66.182.15 23 filtered telnet 161 filtered snmp 
+59.66.182.24 23 filtered telnet 161 filtered snmp 62078 open iphone-sync 
+59.66.183.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.183.2 23 filtered telnet 161 filtered snmp 
+59.66.183.3 23 filtered telnet 161 filtered snmp 
+59.66.183.4 23 filtered telnet 161 filtered snmp 
+59.66.183.5 23 filtered telnet 161 filtered snmp 
+59.66.183.6 23 filtered telnet 161 filtered snmp 
+59.66.184.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.184.2 23 open telnet 
+59.66.184.3 23 open telnet 
+59.66.184.4 23 open telnet 
+59.66.184.5 23 open telnet 
+59.66.184.6 23 open telnet 
+59.66.184.7 23 open telnet 
+59.66.184.8 23 open telnet 
+59.66.184.9 23 open telnet 
+59.66.184.10 23 open telnet 
+59.66.184.11 23 open telnet 
+59.66.184.14 
+59.66.185.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.185.2 23 open telnet 
+59.66.185.3 23 open telnet 
+59.66.185.4 23 open telnet 
+59.66.185.5 23 open telnet 
+59.66.185.6 23 open telnet 
+59.66.185.7 23 open telnet 
+59.66.185.8 23 open telnet 
+59.66.185.9 23 open telnet 
+59.66.185.10 23 open telnet 
+59.66.185.11 23 open telnet 
+59.66.185.14 
+59.66.185.16 111 open rpcbind 1021 open exp1 1023 open netvenuechat 2049 open nfs 3306 open mysql 
+59.66.185.19 135 open msrpc 139 open netbios-ssn 
+59.66.185.22 
+59.66.185.24 1074 open warmspotMgmt 
+59.66.186.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.186.2 23 open telnet 
+59.66.186.3 23 open telnet 
+59.66.186.4 23 open telnet 
+59.66.186.5 23 open telnet 
+59.66.186.6 23 open telnet 
+59.66.186.7 23 open telnet 
+59.66.186.8 23 open telnet 
+59.66.186.9 23 open telnet 
+59.66.186.10 23 open telnet 
+59.66.186.11 23 open telnet 
+59.66.186.20 23 open telnet 53 open domain 80 filtered http 
+59.66.186.21 53 open domain 
+59.66.187.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.187.2 23 open telnet 
+59.66.187.3 23 open telnet 
+59.66.187.4 23 open telnet 
+59.66.187.5 23 open telnet 
+59.66.187.6 23 open telnet 
+59.66.187.14 
+59.66.188.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.188.2 23 filtered telnet 161 filtered snmp 
+59.66.188.3 23 filtered telnet 161 filtered snmp 
+59.66.188.4 23 filtered telnet 161 filtered snmp 
+59.66.188.5 23 filtered telnet 161 filtered snmp 
+59.66.188.6 23 filtered telnet 161 filtered snmp 
+59.66.188.7 23 filtered telnet 161 filtered snmp 
+59.66.188.8 23 filtered telnet 161 filtered snmp 
+59.66.188.9 23 filtered telnet 161 filtered snmp 
+59.66.188.10 23 filtered telnet 161 filtered snmp 
+59.66.188.11 23 filtered telnet 161 filtered snmp 
+59.66.188.17 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 49152 open unknown 49153 open unknown 49156 open unknown 49160 open unknown 
+59.66.188.18 23 filtered telnet 161 filtered snmp 
+59.66.188.20 23 filtered telnet 161 filtered snmp 
+59.66.188.24 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 554 open rtsp 902 open iss-realsecure 912 open apex-mesh 2869 open icslap 5357 open wsdapi 10243 open unknown 
+59.66.188.29 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 6646 open unknown 
+59.66.188.36 
+59.66.188.57 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 6000 open X11 
+59.66.189.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.189.2 23 filtered telnet 161 filtered snmp 
+59.66.189.3 23 filtered telnet 161 filtered snmp 
+59.66.189.4 23 filtered telnet 161 filtered snmp 
+59.66.189.5 23 filtered telnet 161 filtered snmp 
+59.66.189.6 23 filtered telnet 161 filtered snmp 
+59.66.189.7 
+59.66.189.8 
+59.66.189.9 
+59.66.189.10 
+59.66.189.11 
+59.66.189.16 
+59.66.189.18 
+59.66.189.27 
+59.66.189.28 
+59.66.189.29 
+59.66.189.33 
+59.66.189.54 
+59.66.189.93 
+59.66.190.1 
+59.66.190.2 
+59.66.190.3 
+59.66.190.4 
+59.66.190.5 
+59.66.190.6 
+59.66.190.7 
+59.66.190.8 
+59.66.190.9 
+59.66.190.10 
+59.66.190.11 
+59.66.190.16 
+59.66.190.18 
+59.66.190.20 
+59.66.190.26 
+59.66.190.28 
+59.66.190.34 
+59.66.191.1 
+59.66.191.2 
+59.66.192.1 
+59.66.192.2 
+59.66.192.3 
+59.66.192.4 
+59.66.192.5 
+59.66.192.6 
+59.66.192.7 
+59.66.192.8 
+59.66.192.9 
+59.66.192.10 
+59.66.192.11 
+59.66.192.17 
+59.66.192.26 
+59.66.192.34 
+59.66.192.35 
+59.66.192.56 
+59.66.193.1 
+59.66.193.2 
+59.66.193.3 
+59.66.193.4 
+59.66.193.5 
+59.66.193.6 
+59.66.193.7 
+59.66.193.8 
+59.66.193.9 
+59.66.193.10 
+59.66.193.11 
+59.66.193.16 
+59.66.193.25 
+59.66.193.27 
+59.66.193.28 
+59.66.193.57 
+59.66.194.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.194.2 23 filtered telnet 161 filtered snmp 
+59.66.194.9 23 filtered telnet 161 filtered snmp 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.195.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.195.2 23 filtered telnet 161 filtered snmp 
+59.66.195.3 23 filtered telnet 161 filtered snmp 
+59.66.195.4 23 filtered telnet 161 filtered snmp 
+59.66.195.5 23 filtered telnet 161 filtered snmp 
+59.66.195.6 23 filtered telnet 161 filtered snmp 
+59.66.195.7 23 filtered telnet 161 filtered snmp 
+59.66.195.8 23 filtered telnet 161 filtered snmp 
+59.66.195.9 23 filtered telnet 161 filtered snmp 
+59.66.195.10 23 filtered telnet 161 filtered snmp 
+59.66.195.11 23 filtered telnet 161 filtered snmp 
+59.66.195.15 23 filtered telnet 161 filtered snmp 
+59.66.195.42 22 open ssh 23 filtered telnet 161 filtered snmp 
+59.66.195.52 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 843 open unknown 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1131 open caspssl 5678 open rrac 16000 open fmsas 
+59.66.196.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.196.2 23 filtered telnet 161 filtered snmp 
+59.66.196.3 23 filtered telnet 161 filtered snmp 
+59.66.196.4 23 filtered telnet 161 filtered snmp 
+59.66.196.5 23 filtered telnet 161 filtered snmp 
+59.66.196.6 23 filtered telnet 161 filtered snmp 
+59.66.196.7 23 filtered telnet 161 filtered snmp 
+59.66.196.8 23 filtered telnet 161 filtered snmp 
+59.66.196.9 23 filtered telnet 161 filtered snmp 
+59.66.196.10 23 filtered telnet 161 filtered snmp 
+59.66.196.11 23 filtered telnet 161 filtered snmp 
+59.66.196.15 23 filtered telnet 161 filtered snmp 
+59.66.196.16 
+59.66.196.17 23 filtered telnet 161 filtered snmp 
+59.66.196.18 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.196.26 21 open ftp 443 open https 992 open telnets 1080 open socks 3389 open ms-wbt-server 3404 open unknown 5555 open freeciv 
+59.66.196.80 22 open ssh 23 filtered telnet 161 filtered snmp 5900 open vnc 9091 open xmltec-xmlmail 
+59.66.197.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.197.2 23 filtered telnet 161 filtered snmp 
+59.66.197.3 23 filtered telnet 161 filtered snmp 
+59.66.197.4 23 filtered telnet 161 filtered snmp 
+59.66.197.5 23 filtered telnet 161 filtered snmp 
+59.66.197.6 23 filtered telnet 161 filtered snmp 
+59.66.197.18 23 filtered telnet 161 filtered snmp 
+59.66.197.28 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 
+59.66.197.43 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 
+59.66.198.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.198.2 23 filtered telnet 161 filtered snmp 
+59.66.198.3 23 filtered telnet 161 filtered snmp 
+59.66.198.4 23 filtered telnet 161 filtered snmp 
+59.66.198.5 23 filtered telnet 161 filtered snmp 
+59.66.198.6 23 filtered telnet 161 filtered snmp 
+59.66.198.7 23 filtered telnet 161 filtered snmp 
+59.66.198.8 23 filtered telnet 161 filtered snmp 
+59.66.198.9 23 filtered telnet 161 filtered snmp 
+59.66.198.10 23 filtered telnet 161 filtered snmp 
+59.66.198.11 23 filtered telnet 161 filtered snmp 
+59.66.198.14 23 filtered telnet 161 filtered snmp 
+59.66.198.22 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 3389 open ms-wbt-server 
+59.66.198.24 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49157 open unknown 
+59.66.198.31 23 filtered telnet 135 open msrpc 161 filtered snmp 
+59.66.199.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.199.2 23 filtered telnet 161 filtered snmp 
+59.66.199.3 23 filtered telnet 161 filtered snmp 
+59.66.199.4 23 filtered telnet 161 filtered snmp 
+59.66.199.5 23 filtered telnet 161 filtered snmp 
+59.66.199.6 23 filtered telnet 161 filtered snmp 
+59.66.199.7 23 filtered telnet 161 filtered snmp 
+59.66.199.8 23 filtered telnet 161 filtered snmp 
+59.66.199.16 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 554 open rtsp 2869 open icslap 10243 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 
+59.66.199.17 23 filtered telnet 88 open kerberos-sec 161 filtered snmp 445 open microsoft-ds 548 open afp 10000 open snet-sensor-mgmt 
+59.66.199.18 23 filtered telnet 161 filtered snmp 
+59.66.199.20 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49159 open unknown 
+59.66.199.25 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49157 open unknown 
+59.66.199.26 80 open http 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 
+59.66.199.28 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49158 open unknown 
+59.66.199.30 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 15000 open hydap 49152 open unknown 49153 open unknown 49158 open unknown 
+59.66.200.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.200.2 23 filtered telnet 161 filtered snmp 
+59.66.200.3 23 filtered telnet 161 filtered snmp 
+59.66.200.4 23 filtered telnet 161 filtered snmp 
+59.66.200.5 23 filtered telnet 161 filtered snmp 
+59.66.200.6 23 filtered telnet 161 filtered snmp 
+59.66.200.7 23 filtered telnet 161 filtered snmp 
+59.66.200.8 23 filtered telnet 161 filtered snmp 
+59.66.200.9 23 filtered telnet 161 filtered snmp 
+59.66.200.10 23 filtered telnet 161 filtered snmp 
+59.66.200.11 23 filtered telnet 161 filtered snmp 
+59.66.200.22 23 filtered telnet 161 filtered snmp 
+59.66.200.23 23 filtered telnet 161 filtered snmp 
+59.66.200.24 
+59.66.200.28 23 filtered telnet 161 filtered snmp 
+59.66.200.31 21 open ftp 22 open ssh 23 filtered telnet 80 open http 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 548 open afp 1723 open pptp 3261 open winshadow 5000 open upnp 5001 open commplex-link 
+59.66.200.34 23 filtered telnet 161 filtered snmp 
+59.66.200.35 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.200.41 23 filtered telnet 161 filtered snmp 
+59.66.200.42 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.200.44 23 filtered telnet 161 filtered snmp 
+59.66.200.48 23 filtered telnet 161 filtered snmp 
+59.66.200.53 23 filtered telnet 161 filtered snmp 631 open ipp 10000 open snet-sensor-mgmt 
+59.66.200.62 23 filtered telnet 161 filtered snmp 
+59.66.200.76 3 open compressnet 4 open unknown 6 open unknown 7 open echo 9 open discard 13 open daytime 17 open qotd 19 open chargen 20 open ftp-data 21 open ftp 22 open ssh 23 filtered telnet 24 open priv-mail 25 open smtp 26 open rsftp 30 open unknown 32 open unknown 33 open dsp 37 open time 42 open nameserver 43 open whois 49 open tacacs 53 open domain 70 open gopher 79 open finger 80 open http 81 open hosts2-ns 82 open xfer 83 open mit-ml-dev 84 open ctf 85 open mit-ml-dev 88 open kerberos-sec 89 open su-mit-tg 90 open dnsix 99 open metagram 100 open newacct 106 open pop3pw 109 open pop2 110 open pop3 111 open rpcbind 113 open ident 119 open nntp 125 open locus-map 135 open msrpc 139 open netbios-ssn 143 open imap 144 open news 146 open iso-tp0 161 filtered snmp 163 open cmip-man 179 open bgp 199 open smux 211 open 914c-g 212 open anet 222 open rsh-spx 254 open unknown 255 open unknown 256 open fw1-secureremote 259 open esro-gen 264 open bgmp 280 open http-mgmt 301 open unknown 306 open unknown 311 open asip-webadmin 340 open unknown 366 open odmr 389 open ldap 406 open imsp 407 open timbuktu 416 open silverplatter 417 open onmux 425 open icad-el 427 open svrloc 443 open https 444 open snpp 445 open microsoft-ds 458 open appleqtc 464 open kpasswd5 465 open smtps 481 open dvs 497 open retrospect 500 open isakmp 512 open exec 513 open login 514 open shell 515 open printer 524 open ncp 541 open uucp-rlogin 543 open klogin 544 open kshell 545 open ekshell 548 open afp 554 open rtsp 555 open dsf 563 open snews 587 open submission 593 open http-rpc-epmap 616 open sco-sysmgr 617 open sco-dtmgr 625 open apple-xsrvr-admin 631 open ipp 636 open ldapssl 646 open ldp 648 open rrp 666 open doom 667 open disclose 668 open mecomm 683 open corba-iiop 687 open asipregistry 691 open resvc 700 open epp 705 open agentx 711 open cisco-tdp 714 open iris-xpcs 720 open unknown 722 open unknown 726 open unknown 749 open kerberos-adm 765 open webster 777 open multiling-http 783 open spamassassin 787 open qsc 800 open mdbs_daemon 801 open device 808 open ccproxy-http 843 open unknown 873 open rsync 880 open unknown 888 open accessbuilder 898 open sun-manageconsole 900 open omginitialrefs 901 open samba-swat 902 open iss-realsecure 903 open iss-console-mgr 911 open xact-backup 912 open apex-mesh 981 open unknown 987 open unknown 990 open ftps 992 open telnets 993 open imaps 995 open pop3s 999 open garcon 1000 open cadlock 1001 open webpush 1002 open windows-icfw 1007 open unknown 1009 open unknown 1010 open surf 1011 open unknown 1021 open exp1 1022 open exp2 1023 open netvenuechat 1024 open kdm 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1029 open ms-lsa 1030 open iad1 1031 open iad2 1032 open iad3 1033 open netinfo 1034 open zincite-a 1035 open multidropper 1036 open nsstp 1037 open ams 1038 open mtqp 1039 open sbl 1040 open netsaint 1041 open danf-ak2 1042 open afrog 1043 open boinc 1044 open dcutility 1045 open fpitp 1046 open wfremotertm 1047 open neod1 1048 open neod2 1049 open td-postman 1050 open java-or-OTGfileshare 1051 open optima-vnet 1052 open ddt 1053 open remote-as 1054 open brvread 1055 open ansyslmd 1056 open vfo 1057 open startron 1058 open nim 1059 open nimreg 1060 open polestar 1061 open kiosk 1062 open veracity 1063 open kyoceranetdev 1064 open jstel 1065 open syscomlan 1066 open fpo-fns 1067 open instl_boots 1068 open instl_bootc 1069 open cognex-insight 1070 open gmrupdateserv 1071 open bsquare-voip 1072 open cardax 1073 open bridgecontrol 1074 open warmspotMgmt 1075 open rdrmshc 1076 open sns_credit 1077 open imgames 1078 open avocent-proxy 1079 open asprovatalk 1080 open socks 1081 open pvuniwien 1082 open amt-esd-prot 1083 open ansoft-lm-1 1084 open ansoft-lm-2 1085 open webobjects 1086 open cplscrambler-lg 1087 open cplscrambler-in 1088 open cplscrambler-al 1089 open ff-annunc 1090 open ff-fms 1091 open ff-sm 1092 open obrpd 1093 open proofd 1094 open rootd 1095 open nicelink 1096 open cnrprotocol 1097 open sunclustermgr 1098 open rmiactivation 1099 open rmiregistry 1100 open mctp 1102 open adobeserver-1 1104 open xrl 1105 open ftranhc 1106 open isoipsigport-1 1107 open isoipsigport-2 1108 open ratio-adp 1110 open nfsd-status 1111 open lmsocialserver 1112 open msql 1113 open ltp-deepspace 1114 open mini-sql 1117 open ardus-mtrns 1119 open bnetgame 1121 open rmpp 1122 open availant-mgr 1123 open murray 1124 open hpvmmcontrol 1126 open hpvmmdata 1130 open casp 1131 open caspssl 1132 open kvm-via-ip 1137 open trim 1138 open encrypted_admin 1141 open mxomss 1145 open x9-icue 1147 open capioverlan 1148 open elfiq-repl 1149 open bvtsonar 1151 open unizensus 1152 open winpoplanmess 1154 open resacommunity 1163 open sddp 1164 open qsm-proxy 1165 open qsm-gui 1166 open qsm-remote 1169 open tripwire 1174 open fnet-remote-ui 1175 open dossier 1183 open llsurfup-http 1185 open catchpole 1186 open mysql-cluster 1187 open alias 1192 open caids-sensor 1198 open cajo-discovery 1199 open dmidi 1201 open nucleus-sand 1213 open mpc-lifenet 1216 open etebac5 1217 open hpss-ndapi 1218 open aeroflight-ads 1233 open univ-appserver 1234 closed hotline 1236 open bvcontrol 1244 open isbconference1 1247 open visionpyramid 1248 open hermes 1259 open opennl-voice 1271 open excw 1272 open cspmlockmgr 1277 open miva-mqs 1287 open routematch 1296 open dproxy 1300 open h323hostcallsc 1301 open ci3-software-1 1309 open jtag-server 1310 open husky 1311 open rxmon 1322 open novation 1328 open ewall 1334 open writesrv 1352 open lotusnotes 1417 open timbuktu-srv1 1433 open ms-sql-s 1434 open ms-sql-m 1443 open ies-lm 1455 open esl-lm 1461 open ibm_wrless_lan 1494 open citrix-ica 1500 open vlsi-lm 1501 open sas-3 1503 open imtc-mcs 1521 open oracle 1524 open ingreslock 1533 open virtual-places 1556 open veritas_pbx 1580 open tn-tl-r1 1583 open simbaexpress 1594 open sixtrak 1600 open issd 1641 open invision 1658 open sixnetudr 1666 open netview-aix-6 1687 open nsjtp-ctrl 1688 open nsjtp-data 1700 open mps-raft 1717 open fj-hdnet 1718 open h323gatedisc 1719 open h323gatestat 1720 open h323q931 1721 open caicci 1723 open pptp 1755 open wms 1761 open landesk-rc 1782 open hp-hcip 1783 open unknown 1801 open msmq 1805 open enl-name 1812 open radius 1839 open netopia-vo1 1840 open netopia-vo2 1862 open mysql-cm-agent 1863 open msnp 1864 open paradym-31 1875 open westell-stats 1900 open upnp 1914 open elm-momentum 1935 open rtmp 1947 open sentinelsrm 1971 open netop-school 1972 open intersys-cache 1974 open drp 1984 open bigbrother 1998 open x25-svc-port 1999 open tcp-id-port 2000 open cisco-sccp 2001 open dc 2002 open globe 2003 open finger 2004 open mailbox 2005 open deslogin 2006 open invokator 2007 open dectalk 2008 open conf 2009 open news 2010 open search 2013 open raid-am 2020 open xinupageserver 2021 open servexec 2022 open down 2030 open device2 2033 open glogger 2034 open scoremgr 2035 open imsldoc 2038 open objectmanager 2040 open lam 2041 open interbase 2042 open isis 2043 open isis-bcast 2045 open cdfunc 2046 open sdfunc 2047 open dls 2048 open dls-monitor 2049 open nfs 2065 open dlsrpn 2068 open avocentkvm 2099 open h2250-annex-g 2100 open amiganetfs 2103 open zephyr-clt 2105 open eklogin 2106 open ekshell 2107 open msmq-mgmt 2111 open kx 2119 open gsigatekeeper 2121 open ccproxy-ftp 2126 open pktcable-cops 2135 open gris 2144 open lv-ffx 2160 open apc-2160 2161 open apc-agent 2170 open eyetv 2179 open vmrdp 2190 open tivoconnect 2191 open tvbus 2196 open unknown 2200 open ici 2222 open EtherNetIP-1 2251 open dif-port 2260 open apc-2260 2288 open netml 2301 open compaqdiag 2323 open 3d-nfsd 2366 open qip-login 2381 open compaq-https 2382 open ms-olap3 2383 open ms-olap4 2393 open ms-olap1 2394 open ms-olap2 2399 open fmpro-fdal 2401 open cvspserver 2492 open groove 2500 open rtsserv 2522 open windb 2525 open ms-v-worlds 2557 open nicetec-mgmt 2601 open zebra 2602 open ripd 2604 open ospfd 2605 open bgpd 2607 open connection 2608 open wag-service 2638 open sybase 2701 open sms-rcinfo 2702 open sms-xfer 2710 open sso-service 2717 open pn-requester 2718 open pn-requester2 2725 open msolap-ptp2 2800 open acc-raid 2809 open corbaloc 2811 open gsiftp 2869 open icslap 2875 open dxmessagebase2 2909 open funk-dialout 2910 open tdaccess 2920 open roboeda 2967 open symantec-av 2968 open enpp 2998 open iss-realsec 3000 open ppp 3001 open nessus 3003 open cgms 3005 open deslogin 3006 open deslogind 3007 open lotusmtap 3011 open trusted-web 3013 open gilatskysurfer 3017 open event_listener 3030 open arepa-cas 3031 open eppc 3052 open powerchute 3071 open csd-mgmt-port 3077 open orbix-loc-ssl 3128 open squid-http 3168 open poweronnud 3211 open avsecuremgmt 3221 open xnm-clear-text 3260 open iscsi 3261 open winshadow 3268 open globalcatLDAP 3269 open globalcatLDAPssl 3283 open netassistant 3300 open ceph 3301 open unknown 3306 open mysql 3322 open active-net 3323 open active-net 3324 open active-net 3325 open active-net 3333 open dec-notes 3351 open btrieve 3367 open satvid-datalnk 3369 open satvid-datalnk 3370 open satvid-datalnk 3371 open satvid-datalnk 3372 open msdtc 3389 open ms-wbt-server 3390 open dsc 3404 open unknown 3476 open nppmp 3493 open nut 3517 open 802-11-iapp 3527 open beserver-msg-q 3546 open unknown 3551 open apcupsd 3580 open nati-svrloc 3659 open apple-sasl 3689 open rendezvous 3690 open svn 3703 open adobeserver-3 3737 open xpanel 3766 open sitewatch-s 3784 open bfd-control 3800 open pwgpsi 3801 open ibm-mgr 3809 open apocd 3814 open neto-dcs 3826 open wormux 3827 open netmpi 3828 open neteh 3851 open spectraport 3869 open ovsam-mgmt 3871 open avocent-adsap 3878 open fotogcad 3880 open igrs 3889 open dandv-tester 3905 open mupdate 3914 open listcrt-port-2 3918 open pktcablemmcops 3920 open exasoftport1 3945 open emcads 3971 open lanrevserver 3986 open mapper-ws_ethd 3995 open iss-mgmt-ssl 3998 open dnx 4000 open remoteanything 4001 open newoak 4002 open mlchat-proxy 4003 open pxc-splr-ft 4004 open pxc-roid 4005 open pxc-pin 4006 open pxc-spvr 4045 open lockd 4111 open xgrid 4125 open rww 4126 open ddrepl 4129 open nuauth 4224 open xtell 4242 open vrml-multi-use 4279 open vrml-multi-use 4321 open rwhois 4343 open unicall 4443 open pharos 4444 open krb524 4445 open upnotifyp 4446 open n1-fwp 4449 open privatewire 4550 open gds-adppiw-db 4567 open tram 4662 open edonkey 4848 open appserv-http 4899 open radmin 4900 open hfcs 4998 open maybe-veritas 5000 open upnp 5001 open commplex-link 5002 open rfe 5003 open filemaker 5004 open avt-profile-1 5009 open airport-admin 5030 open surfpass 5033 open jtnetd-server 5050 open mmcc 5051 open ida-agent 5054 open rlm-admin 5060 open sip 5061 open sip-tls 5080 open onscreen 5087 open biotic 5100 open admd 5101 open admdog 5102 open admeng 5120 open barracuda-bbs 5190 open aol 5200 open targus-getdata 5214 open unknown 5221 open 3exmp 5222 open xmpp-client 5225 open hp-server 5226 open hp-status 5269 open xmpp-server 5280 open xmpp-bosh 5298 open presence 5357 open wsdapi 5405 open pcduo 5414 open statusd 5431 open park-agent 5432 open postgresql 5440 open unknown 5500 open hotline 5510 open secureidprop 5544 open unknown 5550 open sdadmind 5555 open freeciv 5560 open isqlplus 5566 open westec-connect 5631 open pcanywheredata 5633 open beorl 5666 open nrpe 5678 open rrac 5679 open activesync 5718 open dpm 5730 open unieng 5800 open vnc-http 5801 open vnc-http-1 5802 open vnc-http-2 5810 open unknown 5811 open unknown 5815 open unknown 5822 open unknown 5825 open unknown 5850 open unknown 5859 open wherehoo 5862 open unknown 5877 open unknown 5900 open vnc 5901 open vnc-1 5902 open vnc-2 5903 open vnc-3 5904 open unknown 5906 open unknown 5907 open unknown 5910 open cm 5911 open cpdlc 5915 open unknown 5922 open unknown 5925 open unknown 5950 open unknown 5952 open unknown 5959 open unknown 5960 open unknown 5961 open unknown 5962 open unknown 5963 open indy 5987 open wbem-rmi 5988 open wbem-http 5989 open wbem-https 5998 open ncd-diag 5999 open ncd-conf 6000 open X11 6001 open X11:1 6002 open X11:2 6003 open X11:3 6004 open X11:4 6005 open X11:5 6006 open X11:6 6007 open X11:7 6009 open X11:9 6025 open x11 6059 open X11:59 6100 open synchronet-db 6101 open backupexec 6106 open isdninfo 6112 open dtspc 6123 open backup-express 6129 open unknown 6156 open unknown 6346 open gnutella 6389 open clariion-evr01 6502 open netop-rc 6510 open mcer-port 6543 open mythtv 6547 open powerchuteplus 6565 open unknown 6566 open sane-port 6567 open esp 6580 open parsec-master 6646 open unknown 6666 open irc 6667 open irc 6668 open irc 6669 open irc 6689 open tsa 6692 open unknown 6699 open napster 6779 open unknown 6788 open smc-http 6789 open ibm-db2-admin 6792 open unknown 6839 open unknown 6881 open bittorrent-tracker 6901 open jetstream 6969 open acmsoda 7000 open afs3-fileserver 7001 open afs3-callback 7002 open afs3-prserver 7004 open afs3-kaserver 7007 open afs3-bos 7019 open doceri-ctl 7025 open vmsvc-2 7070 open realserver 7100 open font-service 7103 open unknown 7106 open unknown 7200 open fodms 7201 open dlip 7402 open rtps-dd-mt 7435 open unknown 7443 open oracleas-https 7496 open unknown 7512 open unknown 7625 open unknown 7627 open soap-http 7676 open imqbrokerd 7741 open scriptview 7777 open cbt 7778 open interwise 7800 open asr 7911 open unknown 7920 open unknown 7921 open unknown 7937 open nsrexecd 7938 open lgtomapper 7999 open irdmi2 8000 open http-alt 8001 open vcom-tunnel 8002 open teradataordbms 8007 open ajp12 8008 open http 8009 open ajp13 8010 open xmpp 8011 open unknown 8021 open ftp-proxy 8022 open oa-system 8031 open unknown 8042 open fs-agent 8045 open unknown 8080 open http-proxy 8081 open blackice-icecap 8082 open blackice-alerts 8083 open us-srv 8084 open unknown 8085 open unknown 8086 open d-s-n 8087 open simplifymedia 8088 open radan-http 8089 open unknown 8090 open opsmessaging 8093 open unknown 8099 open unknown 8100 open xprint-server 8180 open unknown 8181 open intermapper 8192 open sophos 8193 open sophos 8194 open sophos 8200 open trivnet1 8222 open unknown 8254 open unknown 8290 open unknown 8291 open unknown 8292 open blp3 8300 open tmi 8333 open bitcoin 8383 open m2mservices 8400 open cvd 8402 open abarsd 8443 open https-alt 8500 open fmtp 8600 open asterix 8649 open unknown 8651 open unknown 8652 open unknown 8654 open unknown 8701 open unknown 8800 open sunwebadmin 8873 open dxspider 8888 open sun-answerbook 8899 open ospf-lite 8994 open unknown 9000 open cslistener 9001 open tor-orport 9002 open dynamid 9003 open unknown 9009 open pichat 9010 open sdr 9011 open unknown 9040 open tor-trans 9050 open tor-socks 9071 open unknown 9080 open glrpc 9081 open unknown 9090 open zeus-admin 9091 open xmltec-xmlmail 9099 open unknown 9100 open jetdirect 9101 open jetdirect 9102 open jetdirect 9103 open jetdirect 9110 open unknown 9111 open DragonIDSConsole 9200 open wap-wsp 9207 open wap-vcal-s 9220 open unknown 9290 open unknown 9415 open unknown 9418 open git 9485 open unknown 9500 open ismserver 9502 open unknown 9503 open unknown 9535 open man 9575 open unknown 9593 open cba8 9594 open msgsys 9595 open pds 9618 open condor 9666 open zoomcp 9876 open sd 9877 open unknown 9878 open kca-service 9898 open monkeycom 9900 open iua 9917 open unknown 9929 open nping-echo 9943 open unknown 9944 open unknown 9968 open unknown 9998 open distinct32 9999 open abyss 10000 open snet-sensor-mgmt 10001 open scp-config 10002 open documentum 10003 open documentum_s 10004 open emcrmirccd 10009 open swdtp-sv 10010 open rxapi 10012 open unknown 10024 open unknown 10025 open unknown 10082 open amandaidx 10180 open unknown 10215 open unknown 10243 open unknown 10566 open unknown 10616 open unknown 10617 open unknown 10621 open unknown 10626 open unknown 10628 open unknown 10629 open unknown 10778 open unknown 11110 open sgi-soap 11111 open vce 11967 open sysinfo-sp 12000 open cce4x 12174 open unknown 12265 open unknown 12345 open netbus 13456 open unknown 13722 open netbackup 13782 open netbackup 13783 open netbackup 14000 open scotty-ft 14238 open unknown 14441 open unknown 14442 open unknown 15000 open hydap 15002 open onep-tls 15003 open unknown 15004 open unknown 15660 open bex-xr 15742 open unknown 16000 open fmsas 16001 open fmsascon 16012 open unknown 16016 open unknown 16018 open unknown 16080 open osxwebadmin 16113 open unknown 16992 open amt-soap-http 16993 open amt-soap-https 17877 open unknown 17988 open unknown 18040 open unknown 18101 open unknown 18988 open unknown 19101 open unknown 19283 open keysrvr 19315 open keyshadow 19350 open unknown 19780 open unknown 19801 open unknown 19842 open unknown 20000 open dnp 20005 open btx 20031 open unknown 20221 open unknown 20222 open ipulse-ics 20828 open unknown 21571 open unknown 22939 open unknown 23502 open unknown 24444 open unknown 24800 open unknown 25734 open unknown 25735 open unknown 26214 open unknown 27000 open flexlm0 27352 open unknown 27353 open unknown 27355 open unknown 27356 open unknown 27715 open unknown 28201 open unknown 30000 open ndmps 30718 open unknown 30951 open unknown 31038 open unknown 31337 open Elite 32768 open filenet-tms 32769 open filenet-rpc 32770 open sometimes-rpc3 32771 open sometimes-rpc5 32772 open sometimes-rpc7 32773 open sometimes-rpc9 32774 open sometimes-rpc11 32775 open sometimes-rpc13 32776 open sometimes-rpc15 32777 open sometimes-rpc17 32778 open sometimes-rpc19 32779 open sometimes-rpc21 32780 open sometimes-rpc23 32781 open unknown 32782 open unknown 32783 open unknown 32784 open unknown 32785 open unknown 33354 open unknown 33899 open unknown 34571 open unknown 34572 open unknown 34573 open unknown 35500 open unknown 38292 open landesk-cba 40193 open unknown 40911 open unknown 41511 open unknown 42510 open caerpc 44176 open unknown 44442 open coldfusion-auth 44443 open coldfusion-auth 44501 open unknown 45100 open unknown 48080 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49156 open unknown 49157 open unknown 49158 open unknown 49159 open unknown 49160 open unknown 49161 open unknown 49163 open unknown 49165 open unknown 49167 open unknown 49175 open unknown 49176 open unknown 49400 open compaqdiag 49999 open unknown 50000 open ibm-db2 50001 open unknown 50002 open iiimsf 50003 open unknown 50006 open unknown 50300 open unknown 50389 open unknown 50500 open unknown 50636 open unknown 50800 open unknown 51103 open unknown 51493 open unknown 52673 open unknown 52822 open unknown 52848 open unknown 52869 open unknown 54045 open unknown 54328 open unknown 55055 open unknown 55056 open unknown 55555 open unknown 55600 open unknown 56737 open unknown 56738 open unknown 57294 open unknown 57797 open unknown 58080 open unknown 60020 open unknown 60443 open unknown 61532 open unknown 61900 open unknown 62078 open iphone-sync 63331 open unknown 64623 open unknown 64680 open unknown 65000 open unknown 65129 open unknown 65389 open unknown 
+59.66.200.90 
+59.66.200.92 23 filtered telnet 161 filtered snmp 
+59.66.201.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.201.2 23 filtered telnet 161 filtered snmp 
+59.66.201.3 23 filtered telnet 161 filtered snmp 
+59.66.201.4 23 filtered telnet 161 filtered snmp 
+59.66.201.5 23 filtered telnet 161 filtered snmp 
+59.66.201.6 23 filtered telnet 161 filtered snmp 
+59.66.201.7 23 filtered telnet 161 filtered snmp 
+59.66.201.8 23 filtered telnet 161 filtered snmp 
+59.66.201.9 23 filtered telnet 161 filtered snmp 
+59.66.201.10 23 filtered telnet 161 filtered snmp 
+59.66.201.11 23 filtered telnet 161 filtered snmp 
+59.66.201.22 23 filtered telnet 161 filtered snmp 
+59.66.201.24 23 filtered telnet 161 filtered snmp 8080 open http-proxy 
+59.66.201.27 23 filtered telnet 161 filtered snmp 62078 open iphone-sync 
+59.66.201.30 23 filtered telnet 161 filtered snmp 
+59.66.201.31 23 filtered telnet 80 open http 161 filtered snmp 443 open https 10000 open snet-sensor-mgmt 
+59.66.201.38 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.201.39 
+59.66.201.41 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 27000 open flexlm0 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49158 open unknown 49160 open unknown 49167 open unknown 
+59.66.201.44 23 filtered telnet 80 filtered http 161 filtered snmp 3389 filtered ms-wbt-server 
+59.66.201.47 23 filtered telnet 161 filtered snmp 
+59.66.201.52 23 filtered telnet 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 548 open afp 5009 open airport-admin 10000 open snet-sensor-mgmt 
+59.66.201.54 631 open ipp 9100 open jetdirect 9220 open unknown 
+59.66.201.82 23 filtered telnet 161 filtered snmp 
+59.66.202.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.202.2 23 filtered telnet 161 filtered snmp 
+59.66.202.3 23 filtered telnet 161 filtered snmp 
+59.66.202.4 
+59.66.202.5 
+59.66.202.6 
+59.66.202.7 
+59.66.202.8 
+59.66.202.9 
+59.66.202.10 
+59.66.202.11 
+59.66.202.22 
+59.66.202.24 
+59.66.202.26 
+59.66.202.28 
+59.66.202.33 
+59.66.202.34 
+59.66.202.35 
+59.66.202.39 
+59.66.202.44 
+59.66.202.47 
+59.66.202.68 
+59.66.202.70 
+59.66.202.71 
+59.66.202.75 
+59.66.202.77 
+59.66.202.79 
+59.66.202.82 
+59.66.202.84 
+59.66.202.92 
+59.66.202.119 
+59.66.202.121 
+59.66.203.1 
+59.66.203.2 
+59.66.203.3 
+59.66.203.4 
+59.66.203.5 
+59.66.203.6 
+59.66.203.7 
+59.66.203.8 
+59.66.203.9 
+59.66.203.10 
+59.66.203.11 
+59.66.203.22 
+59.66.203.24 
+59.66.203.27 
+59.66.203.30 
+59.66.203.34 
+59.66.203.36 
+59.66.203.37 
+59.66.203.38 
+59.66.203.45 
+59.66.203.53 
+59.66.203.66 
+59.66.203.75 
+59.66.203.83 
+59.66.204.1 
+59.66.204.2 
+59.66.204.3 
+59.66.204.4 
+59.66.204.5 
+59.66.204.6 
+59.66.204.7 
+59.66.204.8 
+59.66.204.9 
+59.66.204.10 
+59.66.204.11 
+59.66.204.22 
+59.66.204.27 23 filtered telnet 161 filtered snmp 
+59.66.204.28 23 filtered telnet 161 filtered snmp 
+59.66.204.36 23 filtered telnet 161 filtered snmp 
+59.66.204.37 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.204.42 23 filtered telnet 161 filtered snmp 
+59.66.204.46 23 filtered telnet 161 filtered snmp 
+59.66.204.49 23 filtered telnet 161 filtered snmp 
+59.66.205.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.205.2 23 filtered telnet 161 filtered snmp 
+59.66.205.3 23 filtered telnet 161 filtered snmp 
+59.66.205.4 23 filtered telnet 161 filtered snmp 
+59.66.205.5 23 filtered telnet 161 filtered snmp 
+59.66.205.6 23 filtered telnet 161 filtered snmp 
+59.66.205.7 23 filtered telnet 161 filtered snmp 
+59.66.205.8 23 filtered telnet 161 filtered snmp 
+59.66.205.9 23 filtered telnet 161 filtered snmp 
+59.66.205.10 23 filtered telnet 161 filtered snmp 
+59.66.205.11 23 filtered telnet 161 filtered snmp 
+59.66.205.25 23 filtered telnet 161 filtered snmp 
+59.66.205.28 23 filtered telnet 80 open http 111 open rpcbind 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 2525 open ms-v-worlds 8000 open http-alt 8383 open m2mservices 14000 open scotty-ft 
+59.66.205.30 23 filtered telnet 161 filtered snmp 
+59.66.205.32 23 filtered telnet 161 filtered snmp 
+59.66.205.41 23 filtered telnet 161 filtered snmp 
+59.66.205.46 
+59.66.205.49 23 filtered telnet 53 open domain 80 filtered http 161 filtered snmp 
+59.66.205.58 23 filtered telnet 161 filtered snmp 
+59.66.205.60 23 filtered telnet 161 filtered snmp 
+59.66.205.81 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 3389 open ms-wbt-server 5357 open wsdapi 
+59.66.205.91 
+59.66.206.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.206.2 23 filtered telnet 161 filtered snmp 
+59.66.206.3 23 filtered telnet 161 filtered snmp 
+59.66.206.4 23 filtered telnet 161 filtered snmp 
+59.66.206.5 23 filtered telnet 161 filtered snmp 
+59.66.206.6 23 filtered telnet 161 filtered snmp 
+59.66.206.7 23 filtered telnet 161 filtered snmp 
+59.66.206.8 23 filtered telnet 161 filtered snmp 
+59.66.206.9 23 filtered telnet 161 filtered snmp 
+59.66.206.10 23 filtered telnet 161 filtered snmp 
+59.66.206.11 23 filtered telnet 161 filtered snmp 
+59.66.206.27 23 filtered telnet 161 filtered snmp 
+59.66.206.28 23 filtered telnet 161 filtered snmp 
+59.66.206.29 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 
+59.66.206.31 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.206.35 23 filtered telnet 113 filtered ident 161 filtered snmp 
+59.66.206.40 
+59.66.206.44 23 filtered telnet 161 filtered snmp 
+59.66.206.46 23 filtered telnet 161 filtered snmp 8080 filtered http-proxy 
+59.66.206.47 23 filtered telnet 161 filtered snmp 
+59.66.206.51 23 filtered telnet 161 filtered snmp 
+59.66.206.52 23 filtered telnet 161 filtered snmp 
+59.66.206.80 23 filtered telnet 161 filtered snmp 
+59.66.207.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.207.2 23 filtered telnet 161 filtered snmp 
+59.66.207.3 23 filtered telnet 161 filtered snmp 
+59.66.207.4 23 filtered telnet 161 filtered snmp 
+59.66.207.5 23 filtered telnet 161 filtered snmp 
+59.66.207.6 23 filtered telnet 161 filtered snmp 
+59.66.207.7 23 filtered telnet 161 filtered snmp 
+59.66.207.8 23 filtered telnet 161 filtered snmp 
+59.66.207.25 23 filtered telnet 161 filtered snmp 
+59.66.207.28 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.207.36 23 filtered telnet 161 filtered snmp 8090 open opsmessaging 
+59.66.207.42 443 open https 
+59.66.207.43 80 open http 8888 closed sun-answerbook 
+59.66.207.47 
+59.66.207.48 23 filtered telnet 135 filtered msrpc 139 filtered netbios-ssn 161 filtered snmp 445 filtered microsoft-ds 465 open smtps 995 open pop3s 1025 open NFS-or-IIS 1026 open LSA-or-nterm 1027 open IIS 1028 open unknown 1036 open nsstp 1043 open boinc 1110 filtered nfsd-status 1113 open ltp-deepspace 2869 filtered icslap 3261 open winshadow 3389 filtered ms-wbt-server 7777 open cbt 19780 filtered unknown 
+59.66.207.53 22 open ssh 23 filtered telnet 80 open http 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 6881 open bittorrent-tracker 8000 open http-alt 8080 open http-proxy 8443 open https-alt 
+59.66.207.59 23 filtered telnet 161 filtered snmp 
+59.66.207.60 23 filtered telnet 80 open http 161 filtered snmp 1022 open exp2 8008 open http 
+59.66.207.67 
+59.66.207.70 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 
+59.66.208.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.208.2 23 filtered telnet 161 filtered snmp 
+59.66.208.3 23 filtered telnet 161 filtered snmp 
+59.66.208.4 23 filtered telnet 161 filtered snmp 
+59.66.208.5 23 filtered telnet 161 filtered snmp 
+59.66.208.6 23 filtered telnet 161 filtered snmp 
+59.66.208.7 23 filtered telnet 161 filtered snmp 
+59.66.208.8 23 filtered telnet 161 filtered snmp 
+59.66.208.9 
+59.66.208.10 23 filtered telnet 161 filtered snmp 
+59.66.208.11 23 filtered telnet 161 filtered snmp 
+59.66.208.26 23 filtered telnet 161 filtered snmp 
+59.66.208.33 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 27000 open flexlm0 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 49157 open unknown 49158 open unknown 
+59.66.208.40 23 filtered telnet 161 filtered snmp 3389 open ms-wbt-server 
+59.66.208.44 80 open http 6646 open unknown 
+59.66.208.45 
+59.66.208.51 23 filtered telnet 161 filtered snmp 
+59.66.208.67 
+59.66.208.71 23 filtered telnet 161 filtered snmp 
+59.66.208.74 23 filtered telnet 161 filtered snmp 
+59.66.209.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.209.2 23 filtered telnet 161 filtered snmp 
+59.66.209.3 23 filtered telnet 161 filtered snmp 
+59.66.209.4 23 filtered telnet 161 filtered snmp 
+59.66.209.5 23 filtered telnet 161 filtered snmp 
+59.66.209.6 23 filtered telnet 161 filtered snmp 
+59.66.209.7 23 filtered telnet 161 filtered snmp 
+59.66.209.8 23 filtered telnet 161 filtered snmp 
+59.66.209.9 23 filtered telnet 161 filtered snmp 
+59.66.209.10 23 filtered telnet 161 filtered snmp 
+59.66.209.11 23 filtered telnet 161 filtered snmp 
+59.66.209.28 23 filtered telnet 161 filtered snmp 
+59.66.209.33 631 open ipp 
+59.66.209.37 
+59.66.209.40 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49163 open unknown 
+59.66.209.42 23 filtered telnet 161 filtered snmp 
+59.66.209.44 
+59.66.209.57 
+59.66.209.60 23 filtered telnet 161 filtered snmp 4662 filtered edonkey 
+59.66.210.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.210.2 23 filtered telnet 161 filtered snmp 
+59.66.210.3 23 filtered telnet 161 filtered snmp 
+59.66.210.4 23 filtered telnet 161 filtered snmp 
+59.66.210.5 23 filtered telnet 161 filtered snmp 
+59.66.210.6 23 filtered telnet 161 filtered snmp 
+59.66.210.7 23 filtered telnet 161 filtered snmp 
+59.66.210.8 23 filtered telnet 161 filtered snmp 
+59.66.210.9 23 filtered telnet 161 filtered snmp 
+59.66.210.10 23 filtered telnet 161 filtered snmp 
+59.66.210.11 23 filtered telnet 161 filtered snmp 
+59.66.210.25 23 filtered telnet 161 filtered snmp 
+59.66.210.40 
+59.66.210.46 23 filtered telnet 53 open domain 80 open http 161 filtered snmp 3333 open dec-notes 5555 open freeciv 
+59.66.210.55 23 filtered telnet 161 filtered snmp 3389 filtered ms-wbt-server 55555 filtered unknown 
+59.66.210.61 62078 open iphone-sync 
+59.66.210.67 
+59.66.210.73 
+59.66.211.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.211.2 23 filtered telnet 161 filtered snmp 
+59.66.211.3 23 filtered telnet 161 filtered snmp 
+59.66.211.4 
+59.66.211.5 23 filtered telnet 161 filtered snmp 
+59.66.211.6 23 filtered telnet 161 filtered snmp 
+59.66.211.7 23 filtered telnet 161 filtered snmp 
+59.66.211.8 23 filtered telnet 161 filtered snmp 
+59.66.211.9 23 filtered telnet 161 filtered snmp 
+59.66.211.10 23 filtered telnet 161 filtered snmp 
+59.66.211.11 23 filtered telnet 161 filtered snmp 
+59.66.211.22 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49159 open unknown 
+59.66.211.26 23 filtered telnet 161 filtered snmp 
+59.66.211.29 23 filtered telnet 161 filtered snmp 
+59.66.211.31 
+59.66.211.43 23 filtered telnet 161 filtered snmp 
+59.66.211.51 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49157 open unknown 
+59.66.211.55 
+59.66.211.56 
+59.66.211.65 
+59.66.211.68 
+59.66.211.74 23 filtered telnet 161 filtered snmp 
+59.66.212.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.212.2 23 filtered telnet 161 filtered snmp 
+59.66.212.3 23 filtered telnet 161 filtered snmp 
+59.66.212.4 
+59.66.212.5 23 filtered telnet 161 filtered snmp 
+59.66.212.6 23 filtered telnet 161 filtered snmp 
+59.66.212.7 23 filtered telnet 161 filtered snmp 
+59.66.212.8 23 filtered telnet 161 filtered snmp 
+59.66.212.9 23 filtered telnet 161 filtered snmp 
+59.66.212.10 23 filtered telnet 161 filtered snmp 
+59.66.212.11 23 filtered telnet 161 filtered snmp 
+59.66.212.24 80 open http 443 open https 8080 open http-proxy 8081 open blackice-icecap 
+59.66.212.27 
+59.66.212.28 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 3306 open mysql 5678 open rrac 6001 open X11:1 10000 open snet-sensor-mgmt 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49160 open unknown 
+59.66.212.34 23 filtered telnet 161 filtered snmp 
+59.66.212.39 
+59.66.212.50 22 open ssh 23 filtered telnet 53 open domain 161 filtered snmp 8090 open opsmessaging 
+59.66.212.61 
+59.66.212.80 
+59.66.212.84 23 filtered telnet 161 filtered snmp 
+59.66.212.115 
+59.66.213.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.213.2 23 filtered telnet 161 filtered snmp 
+59.66.213.3 23 filtered telnet 161 filtered snmp 
+59.66.213.4 23 filtered telnet 161 filtered snmp 
+59.66.213.5 23 filtered telnet 161 filtered snmp 
+59.66.213.6 23 filtered telnet 161 filtered snmp 
+59.66.213.7 23 filtered telnet 161 filtered snmp 
+59.66.213.8 23 filtered telnet 161 filtered snmp 
+59.66.213.9 23 filtered telnet 161 filtered snmp 
+59.66.213.10 23 filtered telnet 161 filtered snmp 
+59.66.213.11 23 filtered telnet 161 filtered snmp 
+59.66.213.23 23 filtered telnet 161 filtered snmp 
+59.66.213.24 23 filtered telnet 161 filtered snmp 
+59.66.213.27 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 554 open rtsp 2869 open icslap 5357 open wsdapi 10243 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49176 open unknown 
+59.66.213.32 23 filtered telnet 161 filtered snmp 
+59.66.213.33 23 filtered telnet 161 filtered snmp 
+59.66.213.34 23 filtered telnet 161 filtered snmp 1080 open socks 4662 open edonkey 
+59.66.213.36 23 filtered telnet 161 filtered snmp 
+59.66.213.39 
+59.66.213.41 
+59.66.213.42 
+59.66.213.49 
+59.66.213.50 
+59.66.213.52 
+59.66.213.58 
+59.66.213.59 
+59.66.213.76 
+59.66.213.89 
+59.66.213.92 
+59.66.214.1 
+59.66.214.2 
+59.66.214.3 
+59.66.214.4 
+59.66.214.5 
+59.66.214.6 
+59.66.214.7 
+59.66.214.8 
+59.66.214.9 
+59.66.214.10 
+59.66.214.11 
+59.66.214.28 
+59.66.214.30 
+59.66.214.32 
+59.66.214.34 
+59.66.214.41 
+59.66.214.44 
+59.66.214.71 
+59.66.215.1 
+59.66.215.2 
+59.66.215.3 
+59.66.215.4 
+59.66.215.5 
+59.66.215.6 
+59.66.215.7 
+59.66.215.8 
+59.66.215.13 
+59.66.215.26 
+59.66.215.29 
+59.66.215.33 
+59.66.215.34 
+59.66.215.37 
+59.66.215.45 
+59.66.215.48 
+59.66.215.55 
+59.66.215.69 
+59.66.215.83 
+59.66.216.1 
+59.66.216.2 
+59.66.216.3 
+59.66.216.4 
+59.66.216.5 
+59.66.216.6 
+59.66.216.7 
+59.66.216.8 
+59.66.216.9 
+59.66.216.10 
+59.66.216.11 
+59.66.216.24 
+59.66.216.27 
+59.66.216.33 
+59.66.216.43 
+59.66.216.57 
+59.66.217.1 
+59.66.217.2 
+59.66.217.3 
+59.66.217.4 
+59.66.217.5 
+59.66.217.6 
+59.66.217.7 
+59.66.217.8 
+59.66.217.9 
+59.66.217.10 
+59.66.217.11 
+59.66.217.24 
+59.66.217.33 
+59.66.217.37 
+59.66.217.40 
+59.66.217.41 
+59.66.217.43 
+59.66.217.44 
+59.66.217.52 
+59.66.217.56 
+59.66.217.58 
+59.66.218.1 
+59.66.218.2 
+59.66.218.3 
+59.66.218.4 
+59.66.218.5 
+59.66.218.6 
+59.66.218.7 
+59.66.218.8 
+59.66.218.9 
+59.66.218.10 
+59.66.218.11 
+59.66.218.22 
+59.66.218.25 
+59.66.218.26 
+59.66.218.28 
+59.66.218.30 
+59.66.218.32 
+59.66.218.33 
+59.66.218.39 
+59.66.218.44 
+59.66.218.48 
+59.66.218.54 
+59.66.218.63 
+59.66.218.69 
+59.66.219.1 
+59.66.219.2 
+59.66.219.3 
+59.66.219.4 
+59.66.219.5 
+59.66.219.6 
+59.66.219.7 
+59.66.219.8 
+59.66.219.9 
+59.66.219.10 
+59.66.219.11 
+59.66.219.23 
+59.66.219.24 
+59.66.219.33 
+59.66.219.38 
+59.66.219.40 
+59.66.219.55 
+59.66.220.1 
+59.66.220.2 
+59.66.220.3 
+59.66.220.4 23 filtered telnet 161 filtered snmp 
+59.66.220.5 23 filtered telnet 161 filtered snmp 
+59.66.220.6 23 filtered telnet 161 filtered snmp 
+59.66.220.7 23 filtered telnet 161 filtered snmp 
+59.66.220.8 23 filtered telnet 161 filtered snmp 
+59.66.220.9 23 filtered telnet 161 filtered snmp 
+59.66.220.10 23 filtered telnet 161 filtered snmp 
+59.66.220.13 80 open http 8000 open http-alt 
+59.66.220.25 23 filtered telnet 161 filtered snmp 
+59.66.220.29 23 filtered telnet 161 filtered snmp 
+59.66.220.37 23 filtered telnet 161 filtered snmp 631 open ipp 10000 open snet-sensor-mgmt 
+59.66.220.45 23 filtered telnet 161 filtered snmp 
+59.66.220.54 23 filtered telnet 161 filtered snmp 62078 open iphone-sync 
+59.66.220.65 23 filtered telnet 80 open http 81 open hosts2-ns 161 filtered snmp 
+59.66.221.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.221.2 23 filtered telnet 161 filtered snmp 
+59.66.221.3 23 filtered telnet 161 filtered snmp 
+59.66.221.4 23 filtered telnet 161 filtered snmp 
+59.66.221.5 23 filtered telnet 161 filtered snmp 
+59.66.221.6 23 filtered telnet 161 filtered snmp 
+59.66.221.7 23 filtered telnet 161 filtered snmp 
+59.66.221.8 23 filtered telnet 161 filtered snmp 
+59.66.221.9 23 filtered telnet 161 filtered snmp 
+59.66.221.10 23 filtered telnet 161 filtered snmp 
+59.66.221.11 23 filtered telnet 161 filtered snmp 
+59.66.222.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.222.2 23 filtered telnet 161 filtered snmp 
+59.66.222.3 23 filtered telnet 161 filtered snmp 
+59.66.222.4 23 filtered telnet 161 filtered snmp 
+59.66.222.5 23 filtered telnet 161 filtered snmp 
+59.66.222.6 23 filtered telnet 161 filtered snmp 
+59.66.222.7 23 filtered telnet 161 filtered snmp 
+59.66.222.8 23 filtered telnet 161 filtered snmp 
+59.66.222.9 23 filtered telnet 161 filtered snmp 
+59.66.222.10 23 filtered telnet 161 filtered snmp 
+59.66.222.11 23 filtered telnet 161 filtered snmp 
+59.66.222.22 23 filtered telnet 161 filtered snmp 
+59.66.222.24 23 filtered telnet 161 filtered snmp 
+59.66.222.25 23 filtered telnet 161 filtered snmp 
+59.66.222.26 
+59.66.222.28 23 filtered telnet 161 filtered snmp 
+59.66.223.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.223.2 23 filtered telnet 161 filtered snmp 
+59.66.223.3 23 filtered telnet 161 filtered snmp 
+59.66.223.4 23 filtered telnet 161 filtered snmp 
+59.66.223.5 23 filtered telnet 161 filtered snmp 
+59.66.223.31 23 filtered telnet 88 open kerberos-sec 161 filtered snmp 445 open microsoft-ds 548 open afp 
+59.66.223.127 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.224.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.224.2 23 filtered telnet 161 filtered snmp 
+59.66.224.3 23 filtered telnet 161 filtered snmp 
+59.66.224.4 23 filtered telnet 161 filtered snmp 
+59.66.224.5 23 filtered telnet 161 filtered snmp 
+59.66.224.6 23 filtered telnet 161 filtered snmp 
+59.66.224.7 23 filtered telnet 161 filtered snmp 
+59.66.224.8 23 filtered telnet 161 filtered snmp 
+59.66.224.9 23 filtered telnet 161 filtered snmp 
+59.66.224.10 23 filtered telnet 161 filtered snmp 
+59.66.224.11 23 filtered telnet 161 filtered snmp 
+59.66.224.26 23 filtered telnet 53 open domain 161 filtered snmp 
+59.66.224.28 23 filtered telnet 53 open domain 80 open http 161 filtered snmp 3333 open dec-notes 
+59.66.224.30 23 filtered telnet 161 filtered snmp 2222 filtered EtherNetIP-1 
+59.66.224.32 
+59.66.224.37 23 filtered telnet 161 filtered snmp 
+59.66.224.45 23 filtered telnet 80 open http 161 filtered snmp 340 filtered unknown 783 filtered spamassassin 1007 filtered unknown 1056 filtered vfo 1076 filtered sns_credit 1213 filtered mpc-lifenet 1900 open upnp 2601 filtered zebra 3476 filtered nppmp 5003 filtered filemaker 5030 filtered surfpass 5050 filtered mmcc 5815 filtered unknown 5903 filtered vnc-3 5915 filtered unknown 5988 filtered wbem-http 7402 filtered rtps-dd-mt 8011 filtered unknown 14238 filtered unknown 41511 filtered unknown 
+59.66.224.48 23 filtered telnet 161 filtered snmp 
+59.66.224.49 23 filtered telnet 161 filtered snmp 
+59.66.224.57 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.224.60 23 filtered telnet 161 filtered snmp 
+59.66.224.64 23 filtered telnet 161 filtered snmp 
+59.66.225.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.225.2 23 filtered telnet 161 filtered snmp 
+59.66.225.3 23 filtered telnet 161 filtered snmp 
+59.66.225.4 23 filtered telnet 161 filtered snmp 
+59.66.225.5 23 filtered telnet 161 filtered snmp 
+59.66.225.6 23 filtered telnet 161 filtered snmp 
+59.66.225.7 23 filtered telnet 161 filtered snmp 
+59.66.225.8 
+59.66.225.9 23 filtered telnet 161 filtered snmp 
+59.66.225.10 23 filtered telnet 161 filtered snmp 
+59.66.225.11 23 filtered telnet 161 filtered snmp 
+59.66.225.22 23 filtered telnet 161 filtered snmp 
+59.66.225.28 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5357 open wsdapi 49152 open unknown 49153 open unknown 49156 open unknown 49157 open unknown 49163 open unknown 
+59.66.225.36 23 filtered telnet 161 filtered snmp 
+59.66.225.37 23 filtered telnet 161 filtered snmp 8000 filtered http-alt 
+59.66.225.51 23 filtered telnet 161 filtered snmp 
+59.66.226.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.226.2 23 filtered telnet 161 filtered snmp 
+59.66.226.3 23 filtered telnet 161 filtered snmp 
+59.66.226.4 23 filtered telnet 161 filtered snmp 
+59.66.226.5 23 filtered telnet 161 filtered snmp 
+59.66.226.6 23 filtered telnet 161 filtered snmp 
+59.66.226.7 23 filtered telnet 161 filtered snmp 
+59.66.226.8 23 filtered telnet 161 filtered snmp 
+59.66.226.9 23 filtered telnet 161 filtered snmp 
+59.66.226.10 23 filtered telnet 161 filtered snmp 
+59.66.226.11 23 filtered telnet 161 filtered snmp 
+59.66.226.24 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.226.39 
+59.66.226.41 23 filtered telnet 161 filtered snmp 1723 open pptp 
+59.66.226.43 80 open http 
+59.66.226.44 
+59.66.226.49 23 filtered telnet 161 filtered snmp 
+59.66.226.52 
+59.66.227.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.227.2 23 filtered telnet 161 filtered snmp 
+59.66.227.3 23 filtered telnet 161 filtered snmp 
+59.66.227.4 23 filtered telnet 161 filtered snmp 
+59.66.227.5 23 filtered telnet 161 filtered snmp 
+59.66.227.6 23 filtered telnet 161 filtered snmp 
+59.66.227.7 23 filtered telnet 161 filtered snmp 
+59.66.227.8 23 filtered telnet 161 filtered snmp 
+59.66.227.9 23 filtered telnet 161 filtered snmp 
+59.66.227.10 23 filtered telnet 161 filtered snmp 
+59.66.227.11 23 filtered telnet 161 filtered snmp 
+59.66.227.25 23 filtered telnet 161 filtered snmp 5500 open hotline 
+59.66.227.31 23 filtered telnet 161 filtered snmp 
+59.66.227.37 23 filtered telnet 161 filtered snmp 8080 open http-proxy 
+59.66.227.42 23 filtered telnet 161 filtered snmp 
+59.66.227.47 23 filtered telnet 161 filtered snmp 
+59.66.227.54 23 filtered telnet 161 filtered snmp 1500 filtered vlsi-lm 49155 open unknown 62078 open iphone-sync 
+59.66.227.59 23 filtered telnet 161 filtered snmp 
+59.66.227.71 23 filtered telnet 161 filtered snmp 
+59.66.227.78 
+59.66.228.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.228.2 23 filtered telnet 161 filtered snmp 
+59.66.228.3 23 filtered telnet 161 filtered snmp 
+59.66.228.4 23 filtered telnet 161 filtered snmp 
+59.66.228.5 23 filtered telnet 161 filtered snmp 
+59.66.228.6 23 filtered telnet 161 filtered snmp 
+59.66.228.7 23 filtered telnet 161 filtered snmp 
+59.66.228.8 23 filtered telnet 161 filtered snmp 
+59.66.228.9 23 filtered telnet 161 filtered snmp 
+59.66.228.10 23 filtered telnet 161 filtered snmp 
+59.66.228.26 23 filtered telnet 161 filtered snmp 3389 filtered ms-wbt-server 
+59.66.228.34 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1801 open msmq 2103 open zephyr-clt 2105 open eklogin 2107 open msmq-mgmt 5357 open wsdapi 
+59.66.228.38 23 filtered telnet 80 open http 161 filtered snmp 1900 filtered upnp 
+59.66.229.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.229.2 23 filtered telnet 161 filtered snmp 
+59.66.229.3 23 filtered telnet 161 filtered snmp 
+59.66.229.4 23 filtered telnet 161 filtered snmp 
+59.66.229.5 23 filtered telnet 161 filtered snmp 
+59.66.229.6 23 filtered telnet 161 filtered snmp 
+59.66.229.7 23 filtered telnet 161 filtered snmp 
+59.66.229.8 23 filtered telnet 161 filtered snmp 
+59.66.229.9 23 filtered telnet 161 filtered snmp 
+59.66.229.10 23 filtered telnet 161 filtered snmp 
+59.66.229.11 23 filtered telnet 161 filtered snmp 
+59.66.229.23 23 filtered telnet 161 filtered snmp 
+59.66.229.27 23 filtered telnet 161 filtered snmp 
+59.66.229.33 23 filtered telnet 161 filtered snmp 
+59.66.229.37 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1433 open ms-sql-s 2383 open ms-olap4 7070 open realserver 8089 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 
+59.66.229.38 23 filtered telnet 161 filtered snmp 211 filtered 914c-g 254 filtered unknown 500 filtered isakmp 616 filtered sco-sysmgr 1064 filtered jstel 1310 filtered husky 2068 filtered avocentkvm 5087 filtered biotic 5298 filtered presence 5679 filtered activesync 7512 filtered unknown 8222 filtered unknown 9080 filtered glrpc 9110 filtered unknown 12345 filtered netbus 50500 filtered unknown 62078 open iphone-sync 64680 filtered unknown 
+59.66.230.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.230.2 23 filtered telnet 161 filtered snmp 
+59.66.230.3 23 filtered telnet 161 filtered snmp 
+59.66.230.4 23 filtered telnet 161 filtered snmp 
+59.66.230.5 23 filtered telnet 161 filtered snmp 
+59.66.230.6 23 filtered telnet 161 filtered snmp 
+59.66.230.7 23 filtered telnet 161 filtered snmp 
+59.66.230.8 23 filtered telnet 161 filtered snmp 
+59.66.230.9 23 filtered telnet 161 filtered snmp 
+59.66.230.10 23 filtered telnet 161 filtered snmp 
+59.66.230.11 23 filtered telnet 161 filtered snmp 
+59.66.230.26 23 filtered telnet 161 filtered snmp 
+59.66.230.28 23 filtered telnet 161 filtered snmp 
+59.66.230.31 23 filtered telnet 161 filtered snmp 
+59.66.230.38 23 filtered telnet 161 filtered snmp 
+59.66.230.43 23 filtered telnet 161 filtered snmp 
+59.66.231.1 
+59.66.231.2 23 filtered telnet 161 filtered snmp 
+59.66.231.3 23 filtered telnet 161 filtered snmp 
+59.66.231.4 23 filtered telnet 161 filtered snmp 
+59.66.231.5 23 filtered telnet 161 filtered snmp 
+59.66.231.35 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 443 open https 445 open microsoft-ds 2869 open icslap 3800 open pwgpsi 5000 open upnp 49152 open unknown 49153 open unknown 49154 open unknown 49155 open unknown 49159 open unknown 
+59.66.231.147 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.232.1 
+59.66.232.2 23 filtered telnet 161 filtered snmp 
+59.66.232.3 23 filtered telnet 161 filtered snmp 
+59.66.232.4 23 filtered telnet 161 filtered snmp 
+59.66.232.5 23 filtered telnet 161 filtered snmp 
+59.66.232.6 23 filtered telnet 161 filtered snmp 
+59.66.232.7 23 filtered telnet 161 filtered snmp 
+59.66.232.8 23 filtered telnet 161 filtered snmp 
+59.66.232.9 23 filtered telnet 161 filtered snmp 
+59.66.232.10 23 filtered telnet 161 filtered snmp 
+59.66.232.11 23 filtered telnet 161 filtered snmp 
+59.66.232.22 23 filtered telnet 161 filtered snmp 
+59.66.232.23 23 filtered telnet 161 filtered snmp 
+59.66.232.26 
+59.66.233.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.233.2 23 filtered telnet 161 filtered snmp 
+59.66.233.3 23 filtered telnet 161 filtered snmp 
+59.66.233.4 23 filtered telnet 161 filtered snmp 
+59.66.233.5 23 filtered telnet 161 filtered snmp 
+59.66.233.6 23 filtered telnet 161 filtered snmp 
+59.66.233.7 23 filtered telnet 161 filtered snmp 
+59.66.233.8 23 filtered telnet 161 filtered snmp 
+59.66.233.9 23 filtered telnet 161 filtered snmp 
+59.66.233.10 23 filtered telnet 161 filtered snmp 
+59.66.233.11 23 filtered telnet 161 filtered snmp 
+59.66.233.22 23 filtered telnet 161 filtered snmp 
+59.66.233.24 23 filtered telnet 161 filtered snmp 5000 open upnp 5009 open airport-admin 10000 open snet-sensor-mgmt 
+59.66.233.27 
+59.66.234.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.234.2 23 filtered telnet 161 filtered snmp 
+59.66.234.3 23 filtered telnet 161 filtered snmp 
+59.66.234.4 23 filtered telnet 161 filtered snmp 
+59.66.234.5 23 filtered telnet 161 filtered snmp 
+59.66.234.6 23 filtered telnet 161 filtered snmp 
+59.66.234.7 23 filtered telnet 161 filtered snmp 
+59.66.234.8 23 filtered telnet 161 filtered snmp 
+59.66.234.9 23 filtered telnet 161 filtered snmp 
+59.66.234.10 23 filtered telnet 161 filtered snmp 
+59.66.234.11 23 filtered telnet 161 filtered snmp 
+59.66.235.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.235.2 23 filtered telnet 161 filtered snmp 
+59.66.235.13 80 open http 8000 open http-alt 
+59.66.235.111 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.236.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.236.2 23 filtered telnet 161 filtered snmp 
+59.66.236.3 23 filtered telnet 161 filtered snmp 
+59.66.236.4 23 filtered telnet 161 filtered snmp 
+59.66.236.5 23 filtered telnet 161 filtered snmp 
+59.66.236.6 23 filtered telnet 161 filtered snmp 
+59.66.236.7 23 filtered telnet 161 filtered snmp 
+59.66.236.8 23 filtered telnet 161 filtered snmp 
+59.66.236.9 23 filtered telnet 161 filtered snmp 
+59.66.236.10 23 filtered telnet 161 filtered snmp 
+59.66.236.11 23 filtered telnet 161 filtered snmp 
+59.66.236.24 23 filtered telnet 161 filtered snmp 
+59.66.236.38 
+59.66.236.42 
+59.66.236.48 23 filtered telnet 161 filtered snmp 8192 filtered sophos 
+59.66.237.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.237.2 23 filtered telnet 161 filtered snmp 
+59.66.237.3 23 filtered telnet 161 filtered snmp 
+59.66.237.4 23 filtered telnet 161 filtered snmp 
+59.66.237.5 23 filtered telnet 161 filtered snmp 
+59.66.237.6 23 filtered telnet 161 filtered snmp 
+59.66.237.7 23 filtered telnet 161 filtered snmp 
+59.66.237.8 23 filtered telnet 161 filtered snmp 
+59.66.237.9 23 filtered telnet 161 filtered snmp 
+59.66.237.10 23 filtered telnet 161 filtered snmp 
+59.66.237.11 23 filtered telnet 161 filtered snmp 
+59.66.237.28 23 filtered telnet 161 filtered snmp 
+59.66.237.31 23 filtered telnet 161 filtered snmp 
+59.66.237.33 23 filtered telnet 80 open http 161 filtered snmp 1900 open upnp 
+59.66.237.41 23 filtered telnet 161 filtered snmp 
+59.66.237.47 23 filtered telnet 161 filtered snmp 
+59.66.237.54 23 filtered telnet 161 filtered snmp 
+59.66.237.56 
+59.66.238.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.238.2 23 filtered telnet 161 filtered snmp 
+59.66.238.3 23 filtered telnet 161 filtered snmp 
+59.66.238.4 23 filtered telnet 161 filtered snmp 
+59.66.238.5 23 filtered telnet 161 filtered snmp 
+59.66.238.28 23 filtered telnet 161 filtered snmp 
+59.66.238.248 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.240.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.240.2 23 filtered telnet 161 filtered snmp 
+59.66.240.3 23 filtered telnet 161 filtered snmp 
+59.66.240.4 23 filtered telnet 161 filtered snmp 
+59.66.240.5 23 filtered telnet 161 filtered snmp 
+59.66.240.6 23 filtered telnet 161 filtered snmp 
+59.66.240.7 23 filtered telnet 161 filtered snmp 
+59.66.240.8 23 filtered telnet 161 filtered snmp 
+59.66.240.9 23 filtered telnet 161 filtered snmp 
+59.66.240.10 23 filtered telnet 161 filtered snmp 
+59.66.240.11 23 filtered telnet 161 filtered snmp 
+59.66.240.39 23 filtered telnet 161 filtered snmp 
+59.66.240.43 23 filtered telnet 161 filtered snmp 
+59.66.240.45 23 filtered telnet 161 filtered snmp 
+59.66.240.46 23 filtered telnet 161 filtered snmp 
+59.66.240.52 23 filtered telnet 161 filtered snmp 3071 filtered csd-mgmt-port 9900 filtered iua 
+59.66.240.55 22 open ssh 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1433 open ms-sql-s 2383 open ms-olap4 7070 open realserver 8089 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49156 open unknown 
+59.66.241.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.241.2 23 filtered telnet 161 filtered snmp 
+59.66.241.3 23 filtered telnet 161 filtered snmp 
+59.66.241.4 23 filtered telnet 161 filtered snmp 
+59.66.241.5 23 filtered telnet 161 filtered snmp 
+59.66.241.6 23 filtered telnet 161 filtered snmp 
+59.66.241.7 23 filtered telnet 161 filtered snmp 
+59.66.241.8 23 filtered telnet 161 filtered snmp 
+59.66.241.9 23 filtered telnet 161 filtered snmp 
+59.66.241.10 23 filtered telnet 161 filtered snmp 
+59.66.241.11 23 filtered telnet 161 filtered snmp 
+59.66.241.22 23 filtered telnet 161 filtered snmp 
+59.66.241.37 23 filtered telnet 161 filtered snmp 
+59.66.241.43 23 filtered telnet 161 filtered snmp 
+59.66.242.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.242.2 23 filtered telnet 161 filtered snmp 
+59.66.242.3 23 filtered telnet 161 filtered snmp 
+59.66.242.4 23 filtered telnet 161 filtered snmp 
+59.66.242.5 23 filtered telnet 161 filtered snmp 
+59.66.242.6 23 filtered telnet 161 filtered snmp 
+59.66.242.7 23 filtered telnet 161 filtered snmp 
+59.66.242.29 23 filtered telnet 161 filtered snmp 
+59.66.242.30 23 filtered telnet 161 filtered snmp 
+59.66.242.31 23 filtered telnet 161 filtered snmp 62078 open iphone-sync 
+59.66.242.32 23 filtered telnet 161 filtered snmp 
+59.66.242.37 23 filtered telnet 161 filtered snmp 
+59.66.242.40 23 filtered telnet 161 filtered snmp 
+59.66.242.150 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.244.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.244.2 23 filtered telnet 161 filtered snmp 
+59.66.244.3 23 filtered telnet 161 filtered snmp 
+59.66.244.4 23 filtered telnet 161 filtered snmp 
+59.66.244.5 23 filtered telnet 161 filtered snmp 
+59.66.244.6 23 filtered telnet 161 filtered snmp 
+59.66.244.7 23 filtered telnet 161 filtered snmp 
+59.66.244.8 23 filtered telnet 161 filtered snmp 
+59.66.244.9 23 filtered telnet 161 filtered snmp 
+59.66.244.10 23 filtered telnet 161 filtered snmp 
+59.66.244.11 23 filtered telnet 161 filtered snmp 
+59.66.244.26 23 filtered telnet 161 filtered snmp 
+59.66.244.30 23 filtered telnet 80 open http 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1433 open ms-sql-s 2301 open compaqdiag 2383 open ms-olap4 7070 open realserver 8089 open unknown 49152 open unknown 49153 open unknown 49154 open unknown 49159 open unknown 
+59.66.244.31 23 filtered telnet 161 filtered snmp 
+59.66.244.36 23 filtered telnet 161 filtered snmp 
+59.66.245.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.245.2 23 filtered telnet 161 filtered snmp 
+59.66.245.3 23 filtered telnet 161 filtered snmp 
+59.66.245.4 23 filtered telnet 161 filtered snmp 
+59.66.245.5 23 filtered telnet 161 filtered snmp 
+59.66.245.6 23 filtered telnet 161 filtered snmp 
+59.66.245.7 23 filtered telnet 161 filtered snmp 
+59.66.245.8 23 filtered telnet 161 filtered snmp 
+59.66.245.9 23 filtered telnet 161 filtered snmp 
+59.66.245.10 
+59.66.245.11 23 filtered telnet 161 filtered snmp 
+59.66.245.22 23 filtered telnet 161 filtered snmp 
+59.66.245.24 23 filtered telnet 161 filtered snmp 
+59.66.245.33 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 5678 open rrac 10000 open snet-sensor-mgmt 49152 open unknown 49153 open unknown 49154 open unknown 
+59.66.245.35 23 filtered telnet 135 open msrpc 139 open netbios-ssn 161 filtered snmp 445 open microsoft-ds 1947 open sentinelsrm 3306 open mysql 6002 open X11:2 7001 open afs3-callback 7002 open afs3-prserver 49152 open unknown 49153 open unknown 49154 open unknown 49160 open unknown 
+59.66.246.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.246.2 23 filtered telnet 161 filtered snmp 
+59.66.246.3 23 filtered telnet 161 filtered snmp 
+59.66.246.4 23 filtered telnet 161 filtered snmp 
+59.66.246.5 23 filtered telnet 161 filtered snmp 
+59.66.246.6 23 filtered telnet 161 filtered snmp 
+59.66.246.7 23 filtered telnet 161 filtered snmp 
+59.66.246.8 23 filtered telnet 161 filtered snmp 
+59.66.246.9 23 filtered telnet 161 filtered snmp 
+59.66.246.25 23 filtered telnet 161 filtered snmp 7000 open afs3-fileserver 
+59.66.246.32 80 open http 443 open https 
+59.66.246.151 7 open echo 13 open daytime 21 open ftp 23 filtered telnet 37 open time 161 filtered snmp 
+59.66.248.65 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.250.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.250.2 23 open telnet 50300 filtered unknown 50389 filtered unknown 50500 filtered unknown 
+59.66.250.3 23 open telnet 
+59.66.250.4 23 open telnet 
+59.66.250.5 23 open telnet 
+59.66.250.6 23 open telnet 
+59.66.250.7 23 open telnet 
+59.66.250.8 23 open telnet 
+59.66.250.9 23 open telnet 
+59.66.250.10 23 open telnet 
+59.66.250.15 
+59.66.250.23 80 open http 3306 open mysql 3389 open ms-wbt-server 8080 open http-proxy 
+59.66.250.24 21 open ftp 80 open http 135 open msrpc 443 open https 2179 open vmrdp 3389 open ms-wbt-server 49155 open unknown 
+59.66.250.32 8080 open http-proxy 8443 open https-alt 
+59.66.250.34 
+59.66.250.40 
+59.66.250.42 80 open http 
+59.66.250.48 21 open ftp 22 open ssh 80 open http 3306 open mysql 6000 open X11 8000 open http-alt 8082 open blackice-alerts 
+59.66.250.54 
+59.66.250.58 22 filtered ssh 
+59.66.250.61 80 open http 443 open https 515 open printer 631 open ipp 8080 open http-proxy 8291 open unknown 9100 open jetdirect 
+59.66.250.62 
+59.66.250.63 23 open telnet 
+59.66.250.64 49152 open unknown 62078 open iphone-sync 
+59.66.250.65 
+59.66.250.67 
+59.66.250.74 8022 open oa-system 8080 open http-proxy 8222 open unknown 
+59.66.250.86 80 open http 554 open rtsp 
+59.66.250.92 
+59.66.250.97 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.250.238 23 open telnet 80 open http 900 open omginitialrefs 
+59.66.250.240 
+59.66.250.253 23 open telnet 80 open http 
+59.66.251.1 20 filtered ftp-data 21 filtered ftp 22 filtered ssh 23 filtered telnet 161 filtered snmp 
+59.66.251.8 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.251.27 80 open http 8192 open sophos 8193 open sophos 8899 open ospf-lite 
+59.66.251.29 
+59.66.251.60 80 open http 135 open msrpc 139 open netbios-ssn 443 open https 445 open microsoft-ds 3306 open mysql 3389 open ms-wbt-server 8009 open ajp13 8090 open opsmessaging 8888 open sun-answerbook 9000 open cslistener 9001 open tor-orport 9003 open unknown 9999 open abyss 10004 open emcrmirccd 49152 open unknown 49153 open unknown 49155 open unknown 49156 open unknown 49159 open unknown 
+59.66.251.65 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.251.82 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.251.107 
+59.66.251.113 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.251.117 7 open echo 13 open daytime 21 open ftp 37 open time 
+59.66.251.120 7 open echo 13 open daytime 21 open ftp 23 open telnet 37 open time 80 open http 8000 open http-alt 9000 open cslistener 
+59.66.251.121 21 open ftp 22 open ssh 80 open http 5566 open westec-connect 8000 open http-alt 
+59.66.251.122 7 open echo 13 open daytime 21 open ftp 23 open telnet 37 open time 80 open http 8000 open http-alt 9000 open cslistener 

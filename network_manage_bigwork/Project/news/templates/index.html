@@ -2,16 +2,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style type="text/css">
+        <!--
+            body {  
+                    /* background-image:url(/static/login.jpg); */
+                    background-image:url(/static/app/black.jpg);
+                    background-repeat: repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    overflow: hidden;
+                }
+            #logo{
+	        	margin-top: 10px;
+	            }
+
+            .card {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+                text-align: center;
+                }
+            #search {
+                background-color:#FFF5EE;
+                height: 50px;
+                width:40%;
+                margin-left: 30%;
+                margin-top: 40px;
+                border-radius:10px;
+                font-family: 'Microsoft JhengHei','Microsoft YaHei','STHeiti Light';
+                font-size: 100%;
+                color: #5D478B;
+                font-weight:bold;
+            }
+
+            /* background-repeat:no-repeat;background-attachment:fixed;background-position:50% 50%} */
+        -->
+    </style>
 </head>
 <body>
-<form action = "{% url 's1' %}", method = "post">
-    {% csrf_token %}
-    <input type = "submit" value = "IP搜索">
-</form>
-<form action = "{% url 's2' %}", method = "post">
-    {% csrf_token %}
-    <input type = "submit" value = "资源搜索">
-</form>
+    <div id = 'logo'><img src ="{% static 'app/logo.png' %}"></img></div>
+    <form action = "{% url 's1' %}", method = "post">
+        {% csrf_token %}
+        <button class="btn btn-default" type="submit" id="search">I  P  搜  索</button>
+    </form>
+    <form action = "{% url 's2' %}", method = "post">
+        {% csrf_token %}
+        <button class="btn btn-default" type="submit" id="search">资  源  搜  索</button>
+    </form>
 </body>
 </html>

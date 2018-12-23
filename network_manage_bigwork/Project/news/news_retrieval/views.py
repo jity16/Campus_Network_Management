@@ -62,7 +62,7 @@ def r1(request):
         host = ip_dict[ip]
         return render(request, "r1.html", locals())
     else:
-        return render(request, "index.html")
+        return render(request, "notfound.html")
 
 def r2(request):
     return rendet(request, "index.html")

@@ -3,12 +3,60 @@
 <html>
 <head>
 <link rel="stylesheet" href="{% static 'style.css' %}">
+{% load staticfiles %}
+	<style type="text/css">
+	<!--
+		body {
+			background-image:url(/static/app/background.jpg);
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-position:50% 50%
+			}
+		input.pos_abs
+		{
+			position:relative;
+			left:200px;
+			top:0px;
+			width:800px;
+			height:40px;
+			background-color:#FFF5EE;
+			border-radius:10px;
+			font-family: 'Microsoft JhengHei','Microsoft YaHei','STHeiti Light';
+			font-size: 100%;
+			font-weight:bold;
+		}
+		#search_ip
+		{
+			background-color:#FFF5EE;
+			height: 40px;
+			width:30%;
+			margin-left: 400px;
+			margin-top: 40px;
+			border-radius:10px;
+			font-family: 'Microsoft JhengHei','Microsoft YaHei','STHeiti Light';
+			font-size: 100%;
+			color: #5D478B;
+			font-weight:bold;
+		}
+		h2
+		{
+			font-family:'Microsoft JhengHei', Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
+			font-size:30px;
+			color:white;
+			margin: 0%;
+			text-align:center;
+		}
+	-->
+    </style>
 </head>
 <body>
-<form action="{% url 'r1' %}" method="post" class="container">
-	{% csrf_token %}
-	IP &nbsp <input type = "text" name = "IP">
-    <input type = "submit" value = "search">
+<div id = 'logo'><img src ="{% static 'app/logo.png' %}"></img></div>
+<h2>I  P  搜  索</h2>
+<form action="{% url 'r1' %}" method="post">
+	{%csrf_token%}
+	<input type="text" class="pos_abs" name="IP" placeholder="请输入搜索内容">
+	<br>
+	<button type="submit" class="btn btn-default" id="search_ip">搜索</button>
 </form>
 </body>
 </html>

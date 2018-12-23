@@ -3,18 +3,53 @@
 <html>
 <head>
 <link rel="stylesheet" href="{% static 'mystyle.css' %}">
+<style type="text/css">
+    <!--
+        body {  
+                    /* background-image:url(/static/login.jpg); */
+                    background-image:url(/static/app/black.jpg);
+                    background-repeat: repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    overflow: hidden;
+                }
+        #table
+		    {
+		    	background-color: #FFFFFF;
+                text-align:center;
+		    }
+        h2
+		{
+			font-family:'Microsoft JhengHei', Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
+			font-size:30px;
+			color:white;
+			margin: 0%;
+			text-align:center;
+		}
+    -->
+</style>
 </head>
 <body>
-<ul>
-
-{% for port in host.portlist %}
-    服务: {{ port.name }}<br>
-    端口号: {{ port.id }}<br>
-    端口状态：{{ port.state }}<br>
-    <br><br>
-{% endfor %}
-</ul>
-
+<div id = 'logo'><img src ="{% static 'app/logo.png' %}"></img></div>
+<br><br>
+<h2>I  P  搜  索  结  果</h2>
+<table border="5px" style="background-color:#FFF5EE;width: 80%;margin-left: 100px;border-radius:3px;border-color:#FFFFFF" id="table">
+    <ul>
+        <tr>
+            <td><font face="Microsoft JhengHei" size="4"><strong>服务</strong></font></td>
+            <td><font face="Microsoft JhengHei" size="4"><strong>端口号</strong></font></td>
+            <td><font face="Microsoft JhengHei" size="4"><strong>端口状态</strong></font></td>
+        </tr>
+        <tr></tr>
+        {% for port in host.portlist %}
+        <tr>
+            <td><font face="Microsoft JhengHei" size="3"><p>{{ port.name }}</p></font></td>
+            <td><font face="Microsoft JhengHei" size = "3">{{ port.id }}</font></td>
+            <td><font face="Microsoft JhengHei" size = "3">{{ port.state }}</font></td>
+        </tr>
+        {% endfor %}
+    </ul>
+</table>
 </body>
 </html>
 

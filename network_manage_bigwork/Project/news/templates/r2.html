@@ -27,7 +27,7 @@
 </head>
 <body>
 <h2>资  源  查  询  结  果</h2>
-<table border="4px" style="background-color:#C6E2FF;width: 80%;height:15px;margin-left: 100px;border-radius:3px;border-color:#36648B" id="table">
+<table border="4px" style="background-color:#C6E2FF;width:60%;margin-left:20%;border-radius:3px;border-color:#36648B" id="table">
     <ul>
         <tr>
             <td><font face="Microsoft JhengHei" size="4"><strong>IP地址</strong></font></td>
@@ -35,10 +35,10 @@
         </tr>
         <tr></tr>
         {% for h in hosts %}
-        <tr>
-            <td><font face="Microsoft JhengHei" size="3"><a href="?ip={{ h.ip }}">{{ h.ip }}</a></font></td>
-            <td><font face="Microsoft JhengHei" size = "3">{{ h.portnum }}</font></td>
-        </tr>
+            <tr>
+                <td><font face="Microsoft JhengHei" size="3"><a href="?ip={{ h.ip }}">{{ h.ip }}</a></font></td>
+                <td><font face="Microsoft JhengHei" size = "3">{{ h.portnum }}</font></td>
+            </tr>
         {% endfor %}
     </ul>
 </table>

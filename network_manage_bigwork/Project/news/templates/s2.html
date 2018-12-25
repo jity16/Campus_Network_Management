@@ -5,27 +5,33 @@
 <link rel="stylesheet" href="{% static 'style.css' %}">
 <style type="text/css">
   <!--
+    body {
+			background-image:url(/static/app/white.jpg);
+			background-repeat:repeat;
+			background-attachment:fixed;
+			background-position:50% 50%;
+			}
     h2
 		{
 			font-family:'Microsoft JhengHei', Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
 			font-size:30px;
-			color:white;
+			color:black;
 			margin: 0%;
 			text-align:center;
 		}
   -->
 </style>
 </head>
-<body background="../static/app/background.jpg">
-<h2>资源搜索图</h2>
-<div align="center">
-<img src="{% static "resources.png" %}" width="824*2" height="734*2" alt="Planets" usemap="#planetmap"/>
-<map name="planetmap">
-  <area shape="circle" coords="164*2, 226*2, 5" alt="ssh" href="?rc=ssh">
-  <area shape="circle" coords="136*2, 291*2, 5" alt="ssh" href="?rc=http">
-  <area shape="circle" coords="140*2, 279*2, 5" alt="ssh" href="?rc=https">
-  <area shape="circle" coords="129*2, 314*2, 5" alt="ssh" href="?rc=snmp">
-</map>
-</div>
+<body>
+  <h2>资源搜索图</h2>
+  <div align="center">
+  <img src="{% static "resource.bmp" %}" width="824*2" height="734*2" alt="Planets" usemap="#planetmap"/>
+  <map name="planetmap">
+    <area shape="circle" coords="164*2, 226*2, 5" alt="ssh" href="?rc=ssh">
+    <area shape="circle" coords="136*2, 291*2, 5" alt="ssh" href="?rc=http">
+    <area shape="circle" coords="140*2, 279*2, 5" alt="ssh" href="?rc=https">
+    <area shape="circle" coords="129*2, 314*2, 5" alt="ssh" href="?rc=snmp">
+  </map>
+  </div>
 </body>
 </html>
